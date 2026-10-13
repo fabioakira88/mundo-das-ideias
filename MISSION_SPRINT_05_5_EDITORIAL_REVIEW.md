@@ -1,6 +1,6 @@
 # Resumo Executivo
 
-O Proceder Filosofico ja deixou de parecer um experimento pequeno. A arquitetura editorial existe, os artigos estao relacionados, categorias foram ativadas e os dossies ganharam um modelo funcional. A experiencia atual transmite mais claramente uma revista cultural digital do que antes.
+O Mundo das Ideias ja deixou de parecer um experimento pequeno. A arquitetura editorial existe, os artigos estao relacionados, categorias foram ativadas e os dossies ganharam um modelo funcional. A experiencia atual transmite mais claramente uma revista cultural digital do que antes.
 
 Ainda assim, a experiencia publica esta em uma fase intermediaria: ha uma base forte de revista, biblioteca e arquivo de ideias, mas alguns sinais ainda lembram um site gerado a partir de listagens de artigos. O principal risco nao e tecnico; e editorial/UX: excesso de blocos similares, repeticao de cards, hierarquia vertical longa na Home e paginas de dossie ainda com placeholders visiveis.
 
@@ -19,7 +19,7 @@ Veredito: pronto para hardening final antes de crescimento editorial, mas eu far
 # Pontos Fracos
 
 - A Home ficou muito longa e repetitiva: depois dos 8 artigos recentes, entram 6 trilhos editoriais com cards visualmente quase identicos.
-- A Home mistura sinais editoriais antigos e novos: "Ultimos Artigos", "Mapa editorial", "Biblioteca Proceder" e "Newsletter" competem sem uma narrativa vertical muito clara.
+- A Home mistura sinais editoriais antigos e novos: "Ultimos Artigos", "Mapa editorial", "Biblioteca Mundo das Ideias" e "Newsletter" competem sem uma narrativa vertical muito clara.
 - Os cards repetem muitas estruturas e alguns artigos aparecem mais de uma vez na mesma experiencia.
 - As paginas de categoria sao funcionais, mas ainda parecem listagens de acervo, nao paginas editoriais ricas.
 - A categoria Antropologia esta publica, mas vazia; isso revela maturidade de taxonomia, mas tambem pode parecer buraco editorial.
@@ -60,7 +60,7 @@ Pontos de atencao:
 
 # Consistência Visual
 
-A consistencia visual e boa: cards, bordas, dourado, fundos escuros e tipografia mantem a assinatura do Proceder. O site nao parece quebrado nem fragmentado.
+A consistencia visual e boa: cards, bordas, dourado, fundos escuros e tipografia mantem a assinatura do Mundo das Ideias. O site nao parece quebrado nem fragmentado.
 
 O ponto fraco e a monotonia por repeticao. Cards de Home, categoria, dossie e recomendacoes sao parentes visuais muito proximos. Isso cria coerencia, mas tambem reduz ritmo editorial. Uma revista precisa alternar densidade: destaque, lista, trilho, nota, chamada curta, acervo.
 
@@ -124,7 +124,7 @@ O dossie-modelo e excelente como infraestrutura, mas fraco como experiencia publ
 
 # Veredito Final
 
-O Proceder Filosofico ja transmite mais "revista cultural", "biblioteca digital" e "arquivo de ideias" do que "blog". A sensacao de blog aparece menos no conteudo e mais na repeticao estrutural de cards e na primazia de "Ultimos Artigos".
+O Mundo das Ideias ja transmite mais "revista cultural", "biblioteca digital" e "arquivo de ideias" do que "blog". A sensacao de blog aparece menos no conteudo e mais na repeticao estrutural de cards e na primazia de "Ultimos Artigos".
 
 O projeto esta pronto para uma primeira fase publica mais ambiciosa, desde que os dossies nao sejam apresentados como produto editorial completo antes de receber curadoria real. A prioridade agora deve ser lapidar a experiencia, reduzir sinais internos e fazer a Home parecer menos uma vitrine de posts e mais uma capa editorial.
 

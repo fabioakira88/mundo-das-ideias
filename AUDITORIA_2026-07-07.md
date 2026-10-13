@@ -1,22 +1,22 @@
 # Auditoria do Dia — 2026-07-07
 
-**Repositório:** `github.com/fabioakira88/proceder-filosofico`
+**Repositório:** `github.com/fabioakira88/mundo-das-ideias`
 **Working tree:** limpo (`git status --short` sem saída), branch `main` em sincronia com `origin/main`.
 
 ---
 
 ## 1. Missões concluídas e publicadas em produção hoje
 
-### PF-FRONT-01B — Remoção de peso morto + fix de sitemap da biblioteca
-- **PR:** [#38](https://github.com/fabioakira88/proceder-filosofico/pull/38) — mergeado `2026-07-06T23:49:34Z`
+### MI-FRONT-01B — Remoção de peso morto + fix de sitemap da biblioteca
+- **PR:** [#38](https://github.com/fabioakira88/mundo-das-ideias/pull/38) — mergeado `2026-07-06T23:49:34Z`
 - **Merge commit:** `7cad847d15416e40131fb6fec589dfc7c2e17d69`
-- **Deploy:** workflow "Proceder Filosofico Deploy (GitHub Pages)" → `success`
+- **Deploy:** workflow "Mundo das Ideias Deploy (GitHub Pages)" → `success`
 - **O que mudou:** remoção de ~300MB de assets órfãos não publicados (`assets/Filósofos/`, `public/images/hero/`, `src/data/philosophers.js`), correção do gap de sitemap da `biblioteca.html`.
 - **Validação em produção:** 8/8 URLs testadas via `curl` retornando 200 (`/`, `/filosofos/`, `/artigos/`, `/conceitos/`, `/enciclopedia/`, `/sobre/`, `/dossies/`, `/biblioteca.html`); pastas removidas confirmadas como 404 em produção; imagens curadas de `assets/filosofos/` confirmadas ainda servindo (200).
 - **Zero alteração visual** — nenhum header/footer/CSS tocado.
 
-### PF-FRONT-03 — Inclusão das páginas de conceito no sitemap
-- **PR:** [#39](https://github.com/fabioakira88/proceder-filosofico/pull/39) — mergeado `2026-07-07T00:15:15Z`
+### MI-FRONT-03 — Inclusão das páginas de conceito no sitemap
+- **PR:** [#39](https://github.com/fabioakira88/mundo-das-ideias/pull/39) — mergeado `2026-07-07T00:15:15Z`
 - **Merge commit:** `7489eaecc31ef4dc038a0ffdb45eb943b1b95d66`
 - **Deploy:** workflow → `success`
 - **O que mudou:** 8 páginas de conceito (`ontologia`, `existencialismo`, `estoicismo`, `dialetica`, `ceticismo`, `hermeneutica`, `estetica`, `logica`) adicionadas ao array `staticUrls` de `AUTOMATION/generate_seo.mjs` (gerador oficial, não edição manual do XML) e regeneradas via `node AUTOMATION/generate_seo.mjs`.
@@ -41,10 +41,10 @@ Ambos os merges dispararam o workflow de deploy automaticamente (não há CI con
 
 ## 3. Pendências conhecidas (não atacadas hoje, documentadas nos relatórios)
 
-- **PF-FRONT-04** — guerra de especificidade: 149 `!important` em `assets/css-shared/components.css`.
-- **PF-FRONT-05** — componentização visual (cards fragmentados em 5 variantes, `<style>` inline duplicado em páginas de conceito).
-- **PF-FRONT-06 / 07** — performance e padronização semântica (ainda não iniciadas).
-- Segunda cópia local do repositório (`PROCEDER_FILOSOFICO:/`, branch `sprint-01b-estabilizacao`, "ahead 3" de origin) — não tocada, risco de reintrodução de assets removidos se alguém commitar a partir dela.
+- **MI-FRONT-04** — guerra de especificidade: 149 `!important` em `assets/css-shared/components.css`.
+- **MI-FRONT-05** — componentização visual (cards fragmentados em 5 variantes, `<style>` inline duplicado em páginas de conceito).
+- **MI-FRONT-06 / 07** — performance e padronização semântica (ainda não iniciadas).
+- Segunda cópia local do repositório (`MUNDO_DAS_IDEIAS:/`, branch `sprint-01b-estabilizacao`, "ahead 3" de origin) — não tocada, risco de reintrodução de assets removidos se alguém commitar a partir dela.
 - Curadoria de imagens de `filosofos/index.html` (ver seção 2) — aguardando lote no formato correto.
 
 ---

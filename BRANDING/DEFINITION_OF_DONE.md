@@ -1,3 +1,5 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # DEFINITION OF DONE (DoD) — ECOSSISTEMA DIGITAL
 
 > Governança permanente, compartilhada com o Japão Relativo (ver `BRANDING/DEFINITION_OF_DONE.md` naquele repositório). Nenhuma tarefa é considerada concluída apenas porque "funciona" — só quando atende integralmente aos critérios abaixo.

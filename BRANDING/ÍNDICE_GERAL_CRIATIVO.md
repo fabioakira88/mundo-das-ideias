@@ -1,4 +1,6 @@
-# ÍNDICE GERAL DA DOCUMENTAÇÃO CRIATIVA — Proceder Filosófico
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# ÍNDICE GERAL DA DOCUMENTAÇÃO CRIATIVA — Mundo das Ideias
 
 ### Versão 1.0 — 2026-06-26
 
@@ -73,7 +75,7 @@
 | `MISSION_3_5_HOME_AUDIT_REPORT.md` | Auditoria comparativa Home publicada vs. Home local que motivou a Missão 6. |
 | `MISSION_ESPELHAMENTO_PRODUCAO_REPORT.md` | Relatório de execução do espelhamento da produção (gerou `PRODUCTION_SNAPSHOT.md`). |
 | `MISSION_HOME_RECONCILIATION_REPORT.md` | Relatório de execução da reconciliação da Home. |
-| `ECOSYSTEM_FINAL_AUDIT.md` | Auditoria de engenharia cobrindo Proceder + Japão Relativo: métricas, achados, aptidão para deploy. Contém errata registrada em 2026-06-26. |
+| `ECOSYSTEM_FINAL_AUDIT.md` | Auditoria de engenharia cobrindo Mundo das Ideias + Japão Relativo: métricas, achados, aptidão para deploy. Contém errata registrada em 2026-06-26. |
 | `ASSET_REGISTRY.md` | Inventário completo, arquivo-a-arquivo, dos assets do repositório. |
 | `ASSET_AUDIT_REPORT.md` | Subconjunto de `ASSET_REGISTRY.md` focado em quebras/duplicatas/peso — ver nota de redundância no próprio arquivo. |
 | `ENGINEERING_STRUCTURE.md` | Arquitetura física comparada dos dois projetos. |

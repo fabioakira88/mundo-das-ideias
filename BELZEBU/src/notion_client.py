@@ -279,7 +279,7 @@ def _read_date(prop: dict[str, Any] | None) -> str:
 def _site_to_notion_label(site: str) -> str:
     labels = {
         "japao-relativo": "Japão Relativo",
-        "proceder-filosofico": "Proceder Filosófico",
+        "mundo-das-ideias": "Mundo das Ideias",
     }
     return labels.get(site, site)
 
@@ -289,9 +289,9 @@ def _notion_label_to_site(label: str) -> str:
     if normalized in {"japão relativo", "japao relativo", "japao-relativo"}:
         return "japao-relativo"
     if normalized in {
-        "proceder filosófico",
-        "proceder filosofico",
-        "proceder-filosofico",
+        "mundo-das-ideias filosófico",
+        "mundo-das-ideias filosofico",
+        "mundo-das-ideias",
     }:
-        return "proceder-filosofico"
+        return "mundo-das-ideias"
     return normalized.replace(" ", "-")

@@ -20,7 +20,7 @@ JS_BLOCK = """<!-- wp:html -->
   function triggerDownload(url) {
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Manual-de-Epicteto-Proceder-Filosofico.pdf';
+    a.download = 'Relacoes-Leves-Mundo-das-Ideias.pdf';
     a.style.display = 'none';
     document.body.appendChild(a);
     a.click();
@@ -32,11 +32,11 @@ JS_BLOCK = """<!-- wp:html -->
   }
 
   function injectForm() {
-    const existing = document.getElementById('proceder-newsletter');
+    const existing = document.getElementById('mundo-das-ideias-newsletter');
     if (existing) return;
 
     const section = document.createElement('section');
-    section.id = 'proceder-newsletter';
+    section.id = 'mundo-das-ideias-newsletter';
     section.innerHTML = `
       <div style="
         background: linear-gradient(135deg, #060D1E 0%, #0d1930 100%);
@@ -61,7 +61,7 @@ JS_BLOCK = """<!-- wp:html -->
           color: #C9A84C;
           text-transform: uppercase;
           margin: 0 0 16px;
-        ">Biblioteca Proceder</p>
+        ">Biblioteca Mundo das Ideias</p>
         <h2 style="
           font-family: 'Playfair Display', serif;
           font-size: clamp(24px, 4vw, 34px);
@@ -131,7 +131,7 @@ JS_BLOCK = """<!-- wp:html -->
           <div style="font-size: 36px; margin-bottom: 12px;">✓</div>
           <p style="color: #C9A84C; font-size: 17px; font-weight: 600; margin: 0 0 6px;">Download iniciado!</p>
           <p style="color: rgba(255,255,255,0.55); font-size: 14px; margin: 0;">
-            Bem-vindo à biblioteca Proceder. O PDF abre em segundos.
+            Bem-vindo à biblioteca Mundo das Ideias. O PDF abre em segundos.
           </p>
         </div>
 
@@ -201,7 +201,7 @@ r0 = requests.get(f'{BASE}/pages/68', auth=AUTH, params={'context': 'edit'})
 current_raw = r0.json().get('content', {}).get('raw', '')
 print(f'  raw: {len(current_raw)} chars')
 
-if 'proceder-newsletter' in current_raw:
+if 'mundo-das-ideias-newsletter' in current_raw:
     print('  AVISO: formulário já injetado. Abortando.')
     exit(0)
 

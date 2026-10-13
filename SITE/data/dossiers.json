@@ -3,6 +3,259 @@
   "schemaVersion": 1,
   "dossiers": [
     {
+      "id": "a-crise-da-verdade",
+      "slug": "a-crise-da-verdade",
+      "title": "A crise da verdade: dos sofistas aos algoritmos",
+      "subtitle": "Um percurso sobre opiniao, conhecimento, propaganda, poder e julgamento critico.",
+      "category": "Filosofia",
+      "status": "active",
+      "isCanonicalModel": false,
+      "coverImage": "assets/dossiers/a-crise-da-verdade.jpg",
+      "keyQuestion": "Como a verdade passou de problema filosofico para campo de disputa politica, tecnologica e economica?",
+      "editorialIntroduction": "Este dossie acompanha a tensao entre verdade, opiniao e persuasao desde a Grecia antiga ate as plataformas digitais. A proposta nao e tratar a verdade como slogan moral, mas como problema historico: aquilo que uma sociedade reconhece como valido, confiavel e digno de orientar decisao publica.",
+      "intellectualObjective": "Oferecer uma trilha de estudo para distinguir investigacao racional, retorica, propaganda e fabricacao de realidade sem cair em relativismo facil nem em dogmatismo.",
+      "chapters": [
+        { "slug": "sofistas-retorica-persuasao", "title": "Sofistas, retorica e persuasao na Grecia", "summary": "A verdade entra na praca publica quando a palavra se torna instrumento de educacao, poder e disputa.", "relatedArticles": ["sofistas-primeiros-mestres-persuasao", "protagoras-medida-todas-coisas"] },
+        { "slug": "platao-opiniao-conhecimento", "title": "Platao e a diferenca entre opiniao e conhecimento", "summary": "A filosofia platonica nasce como resposta ao risco de confundir discurso convincente com saber verdadeiro.", "relatedArticles": ["platao-mundo-das-ideias", "o-que-e-a-metafisica"] },
+        { "slug": "descartes-certeza-segura", "title": "Descartes e a busca por uma certeza segura", "summary": "A duvida metodica procura um ponto de apoio quando tradicoes, sentidos e autoridades podem enganar.", "relatedArticles": ["descartes-cogito-ergo-sum", "provar-deus-kant"] },
+        { "slug": "nietzsche-genealogia-verdades", "title": "Nietzsche e a origem historica das verdades", "summary": "A pergunta muda: nao apenas se uma ideia e verdadeira, mas que forcas a fizeram valer como verdade.", "relatedArticles": ["nietzsche-obras-impacto-revolucionario", "kant-nietzsche-moral-dever-potencia"] },
+        { "slug": "arendt-mentira-politica", "title": "Hannah Arendt e a mentira na politica", "summary": "A mentira organizada destrói o solo comum em que fatos podem ser discutidos.", "relatedArticles": ["hannah-arendt-banalidade-do-mal", "propaganda-moldou-seculo-xx"] },
+        { "slug": "foucault-regimes-verdade", "title": "Foucault e os regimes de verdade", "summary": "A verdade tambem depende de instituicoes, procedimentos, arquivos, tecnicas e formas de autorizacao.", "relatedArticles": ["poder-simbolico-ideias-governam", "algoritmo-substituiu-verdade-pela-atencao"] },
+        { "slug": "propaganda-televisao-realidade", "title": "Propaganda, televisao e fabricacao da realidade", "summary": "Meios de massa transformam percepcao coletiva, linguagem politica e imaginario social.", "relatedArticles": ["propaganda-moldou-seculo-xx", "walter-benjamin-obra-de-arte-reprodutibilidade"] },
+        { "slug": "redes-sociais-deepfakes-ia", "title": "Redes sociais, deepfakes e inteligencia artificial", "summary": "A crise contemporanea desloca a disputa da opiniao para a infraestrutura tecnica da atencao.", "relatedArticles": ["internet-transformou-todos-em-espectadores", "algoritmo-substituiu-verdade-pela-atencao", "tecnologia-mais-rapida-que-sabedoria"] },
+        { "slug": "preservar-julgamento-critico", "title": "Como preservar o julgamento critico", "summary": "O desafio final e formar criterios de leitura, verificacao e prudencia intelectual.", "relatedArticles": ["vieses-cognitivos-atalhos-mentais", "sociedade-liquida-conteudo-liquido"] }
+      ],
+      "concepts": ["verdade", "opiniao", "retorica", "episteme", "doxa", "ideologia", "pos-verdade", "propaganda", "desinformacao", "julgamento critico"],
+      "glossary": [
+        { "term": "Episteme", "definition": "Conhecimento estruturado, capaz de justificar suas razoes e distinguir-se da simples opiniao." },
+        { "term": "Doxa", "definition": "Opiniao, aparencia ou crenca compartilhada sem garantia de conhecimento rigoroso." },
+        { "term": "Retorica", "definition": "Arte de persuadir por meio da linguagem, central na politica e ambigua diante da verdade." },
+        { "term": "Pos-verdade", "definition": "Ambiente em que pertencimento, emocao e repeticao passam a pesar mais que a verificacao factual." }
+      ],
+      "specialResources": ["linha historica da verdade", "glossario de conceitos", "quadro comparativo entre pensadores", "biblioteca essencial", "artigos relacionados do Mundo das Ideias"],
+      "mainArticle": "algoritmo-substituiu-verdade-pela-atencao",
+      "relatedArticles": ["sofistas-primeiros-mestres-persuasao", "protagoras-medida-todas-coisas", "platao-mundo-das-ideias", "descartes-cogito-ergo-sum", "nietzsche-obras-impacto-revolucionario", "hannah-arendt-banalidade-do-mal", "propaganda-moldou-seculo-xx", "internet-transformou-todos-em-espectadores"],
+      "recommendedArticles": ["vieses-cognitivos-atalhos-mentais", "poder-simbolico-ideias-governam", "walter-benjamin-obra-de-arte-reprodutibilidade"],
+      "relatedBooks": ["A Republica", "Meditacoes Metafisicas", "Genealogia da Moral", "Verdade e Politica", "A Ordem do Discurso"],
+      "relatedPhilosophers": ["Protagoras", "Platao", "Descartes", "Nietzsche", "Hannah Arendt", "Michel Foucault"],
+      "relatedAuthors": ["Edward Bernays", "Jacques Ellul", "Walter Lippmann"],
+      "relatedArtworks": [],
+      "historicalPeriods": ["Antiguidade", "Modernidade", "Seculo XX", "Contemporaneo"],
+      "civilizations": ["Grecia Antiga", "Europa Moderna", "Ocidente contemporaneo"],
+      "timeline": [
+        { "label": "Sofistas", "date": "Seculo V a.C.", "description": "A persuasao politica torna-se tema central da educacao grega." },
+        { "label": "Platao", "date": "Seculo IV a.C.", "description": "A distincao entre opiniao e conhecimento ganha forma filosofica sistematica." },
+        { "label": "Descartes", "date": "Seculo XVII", "description": "A certeza racional passa a responder a crise moderna da autoridade." },
+        { "label": "Propaganda de massa", "date": "Seculo XX", "description": "Radio, cinema, imprensa e televisao reorganizam a percepcao publica." },
+        { "label": "Plataformas digitais", "date": "Seculo XXI", "description": "Algoritmos, redes e inteligencia artificial deslocam a crise da verdade para a infraestrutura da atencao." }
+      ],
+      "bibliography": ["Platao, A Republica", "Rene Descartes, Meditacoes Metafisicas", "Friedrich Nietzsche, Sobre Verdade e Mentira no Sentido Extramoral", "Hannah Arendt, Entre o Passado e o Futuro", "Michel Foucault, A Ordem do Discurso"],
+      "futureReadings": ["Jacques Ellul, Propagandes", "Edward Bernays, Propaganda", "Walter Lippmann, Public Opinion"],
+      "continueStudying": ["algoritmo-substituiu-verdade-pela-atencao", "propaganda-moldou-seculo-xx", "internet-transformou-todos-em-espectadores"]
+    },
+    {
+      "id": "ser-humano-diante-da-maquina",
+      "slug": "ser-humano-diante-da-maquina",
+      "title": "O ser humano diante da maquina: trabalho, tecnica e alienacao",
+      "subtitle": "Da oficina artesanal a inteligencia artificial, um percurso sobre trabalho, tecnica e dignidade humana.",
+      "category": "Atualidade Filosófica",
+      "status": "active",
+      "isCanonicalModel": false,
+      "coverImage": "assets/dossiers/ser-humano-diante-da-maquina.jpg",
+      "keyQuestion": "O desenvolvimento tecnico libertou o trabalhador ou criou formas mais sofisticadas de dependencia?",
+      "editorialIntroduction": "Este dossie investiga a relacao entre atividade humana, maquina e organizacao social. A tecnica pode ampliar a potencia humana, mas tambem pode transformar pessoas em anexos de sistemas produtivos, metricas e rotinas automatizadas.",
+      "intellectualObjective": "Organizar um percurso sobre trabalho, alienacao, automacao e valor humano sem reduzir a tecnica a salvacao nem a ameaca absoluta.",
+      "chapters": [
+        { "slug": "trabalho-mundo-antigo", "title": "O trabalho no mundo antigo", "summary": "A tradicao antiga distinguia necessidade, ocio, artesanato e vida politica.", "relatedArticles": ["aristoteles-eudaimonia-vida-boa", "estoicismo-virtude-destino-acao"] },
+        { "slug": "oficina-artesao-materia", "title": "A oficina, o artesao e a transformacao da materia", "summary": "A tecnica aparece como saber incorporado, gesto, materia e finalidade.", "relatedArticles": ["arte-controle-humano", "watsuji-tetsuro-fudo-clima-espaco"] },
+        { "slug": "revolucao-industrial-tempo", "title": "Revolucao Industrial e disciplina do tempo", "summary": "A fabrica transforma a experiencia do tempo em rotina, controle e produtividade.", "relatedArticles": ["max-weber-jaula-de-ferro", "escala-6x1-trabalho-tempo-vida"] },
+        { "slug": "marx-trabalho-alienado", "title": "Marx e o trabalho alienado", "summary": "O trabalhador pode se separar do produto, do processo, de si mesmo e dos outros.", "relatedArticles": ["manifesto-comunista-ias-monopolio-informacao", "escala-6x1-trabalho-tempo-vida"] },
+        { "slug": "taylorismo-fordismo-fragmentacao", "title": "Taylorismo, fordismo e fragmentacao da atividade", "summary": "A eficiencia moderna divide o gesto humano em unidades mensuraveis.", "relatedArticles": ["max-weber-jaula-de-ferro", "tecnologia-mais-rapida-que-sabedoria"] },
+        { "slug": "arendt-labor-trabalho-acao", "title": "Hannah Arendt: labor, trabalho e acao", "summary": "A vida ativa nao se esgota na sobrevivencia biologica nem na producao de objetos.", "relatedArticles": ["hannah-arendt-banalidade-do-mal", "escala-6x1-trabalho-tempo-vida"] },
+        { "slug": "anders-vergonha-maquinas", "title": "Gunther Anders e a vergonha diante das maquinas", "summary": "A maquina moderna produz no humano a sensacao de estar atrasado diante de seus proprios artefatos.", "relatedArticles": ["gunther-anders-vergonha-maquinas", "tecnologia-mais-rapida-que-sabedoria"] },
+        { "slug": "automacao-robotica-ia", "title": "Automacao industrial, robotica e inteligencia artificial", "summary": "A automacao desloca a pergunta do esforco fisico para decisao, responsabilidade e valor social.", "relatedArticles": ["hegel-fenomenologia-inteligencias-artificiais", "manifesto-comunista-ias-monopolio-informacao", "transumanismo-limites-humanos-tecnica"] },
+        { "slug": "futuro-emprego-valor-humano", "title": "O futuro do emprego e o valor humano fora da produtividade", "summary": "A questao decisiva e imaginar uma vida humana que nao dependa apenas de rendimento economico.", "relatedArticles": ["escala-6x1-trabalho-tempo-vida", "excesso-de-conforto-civilizacoes-frageis"] }
+      ],
+      "concepts": ["tecnica", "trabalho", "alienacao", "automacao", "produtividade", "tempo livre", "dignidade", "acao"],
+      "glossary": [
+        { "term": "Alienacao", "definition": "Separacao entre o sujeito e aquilo que ele produz, faz, reconhece ou poderia ser." },
+        { "term": "Tecnica", "definition": "Conjunto de meios, saberes e sistemas pelos quais a acao humana transforma o mundo." },
+        { "term": "Automacao", "definition": "Transferencia de tarefas para sistemas capazes de operar com menor intervencao humana direta." }
+      ],
+      "specialResources": ["cronologia das revolucoes industriais", "mapa conceitual de alienacao", "comparacao entre Marx, Arendt, Heidegger e Anders", "secao sobre fabricas japonesas", "debate sobre renda, tempo livre e automacao"],
+      "mainArticle": "gunther-anders-vergonha-maquinas",
+      "relatedArticles": ["escala-6x1-trabalho-tempo-vida", "manifesto-comunista-ias-monopolio-informacao", "max-weber-jaula-de-ferro", "tecnologia-mais-rapida-que-sabedoria", "hegel-fenomenologia-inteligencias-artificiais", "transumanismo-limites-humanos-tecnica"],
+      "recommendedArticles": ["internet-transformou-todos-em-espectadores", "xenobots-anthrobots-organizacao-vida", "excesso-de-conforto-civilizacoes-frageis"],
+      "relatedBooks": ["O Capital", "A Condicao Humana", "A Obsolescencia do Homem", "A Questao da Tecnica"],
+      "relatedPhilosophers": ["Karl Marx", "Hannah Arendt", "Martin Heidegger", "Gunther Anders"],
+      "relatedAuthors": ["Frederick Taylor", "Henry Ford"],
+      "relatedArtworks": [],
+      "historicalPeriods": ["Antiguidade", "Modernidade industrial", "Seculo XX", "Era digital"],
+      "civilizations": ["Ocidente industrial", "Japao contemporaneo", "Economia global"],
+      "timeline": [
+        { "label": "Oficina artesanal", "date": "Antes da industria", "description": "O trabalho preserva maior unidade entre habilidade, materia e finalidade." },
+        { "label": "Revolucao Industrial", "date": "Seculos XVIII-XIX", "description": "A maquina reorganiza tempo, espaco e disciplina laboral." },
+        { "label": "Fordismo", "date": "Seculo XX", "description": "A linha de montagem torna a eficiencia uma forma de organizacao social." },
+        { "label": "Automacao digital", "date": "Seculo XXI", "description": "Sistemas inteligentes passam a disputar decisao, atencao e conhecimento." }
+      ],
+      "bibliography": ["Karl Marx, Manuscritos Economico-Filosoficos", "Hannah Arendt, A Condicao Humana", "Martin Heidegger, A Questao da Tecnica", "Gunther Anders, A Obsolescencia do Homem"],
+      "futureReadings": ["Simone Weil, A Condicao Operaria", "Richard Sennett, O Artifice"],
+      "continueStudying": ["gunther-anders-vergonha-maquinas", "escala-6x1-trabalho-tempo-vida", "manifesto-comunista-ias-monopolio-informacao"]
+    },
+    {
+      "id": "invencao-do-individuo",
+      "slug": "invencao-do-individuo",
+      "title": "Quem somos quando ninguem esta olhando? A invencao do individuo",
+      "subtitle": "Uma historia filosofica do eu, da interioridade, da memoria e da identidade digital.",
+      "category": "Filosofia",
+      "status": "active",
+      "isCanonicalModel": false,
+      "coverImage": "assets/dossiers/invencao-do-individuo.jpg",
+      "keyQuestion": "A ideia de um eu autonomo sempre existiu ou foi construida historicamente?",
+      "editorialIntroduction": "Este dossie acompanha a formacao do individuo moderno como problema filosofico, espiritual, juridico e tecnologico. O eu nao aparece de uma vez: ele se organiza por exame de si, memoria, culpa, consciencia, autenticidade, inconsciente e representacao publica.",
+      "intellectualObjective": "Mostrar que identidade pessoal e autonomia sao construcoes historicas complexas, nao evidencias simples da experiencia cotidiana.",
+      "chapters": [
+        { "slug": "socrates-exame-de-si", "title": "Socrates e o exame de si", "summary": "O eu se torna questao quando a vida precisa ser examinada e justificada.", "relatedArticles": ["socrates-metodo-maieutico"] },
+        { "slug": "platao-organizacao-alma", "title": "Platao e a organizacao da alma", "summary": "A pessoa aparece como conflito interno entre desejo, coragem e razao.", "relatedArticles": ["platao-mundo-das-ideias", "o-que-e-a-metafisica"] },
+        { "slug": "estoicismo-governo-interior", "title": "Estoicismo e governo interior", "summary": "A liberdade passa pela disciplina do juizo e pela relacao com o destino.", "relatedArticles": ["estoicismo-virtude-destino-acao"] },
+        { "slug": "agostinho-interioridade", "title": "Santo Agostinho e a descoberta da interioridade", "summary": "A confissao transforma memoria, culpa e desejo em caminho de autoconhecimento.", "relatedArticles": ["confissoes-santo-agostinho"] },
+        { "slug": "descartes-sujeito-pensante", "title": "Descartes e o sujeito pensante", "summary": "O eu moderno ganha forma na certeza reflexiva do pensamento.", "relatedArticles": ["descartes-cogito-ergo-sum"] },
+        { "slug": "locke-memoria-identidade", "title": "Locke, memoria e identidade pessoal", "summary": "A continuidade da pessoa passa a depender da memoria e da consciencia de si.", "relatedArticles": ["locke-tabula-rasa"] },
+        { "slug": "nietzsche-criacao-de-si", "title": "Nietzsche e a criacao de si", "summary": "A identidade deixa de ser substancia fixa e se aproxima de interpretacao, forca e estilo.", "relatedArticles": ["nietzsche-obras-impacto-revolucionario", "kant-nietzsche-moral-dever-potencia"] },
+        { "slug": "freud-inconsciente", "title": "Freud e o inconsciente", "summary": "O sujeito descobre que nao e completamente transparente para si mesmo.", "relatedArticles": ["vieses-cognitivos-atalhos-mentais"] },
+        { "slug": "foucault-tecnologias-eu", "title": "Foucault e as tecnologias do eu", "summary": "O eu tambem e produzido por praticas, instituicoes e exercicios de subjetivacao.", "relatedArticles": ["poder-simbolico-ideias-governam"] },
+        { "slug": "identidade-digital-redes", "title": "Identidade digital e representacao nas redes sociais", "summary": "A pessoa contemporanea se divide entre experiencia, performance e rastro algoritmico.", "relatedArticles": ["internet-transformou-todos-em-espectadores", "sociedade-liquida-conteudo-liquido"] }
+      ],
+      "concepts": ["sujeito", "pessoa", "consciência", "memoria", "autenticidade", "interioridade", "inconsciente", "identidade digital"],
+      "glossary": [
+        { "term": "Sujeito", "definition": "Centro de experiencia, pensamento e responsabilidade, entendido de modos diferentes ao longo da historia." },
+        { "term": "Interioridade", "definition": "Dimensao reflexiva em que alguem se percebe como vida interior, memoria e conflito." },
+        { "term": "Autenticidade", "definition": "Ideal moderno de coerencia entre vida, escolha e expressao de si." }
+      ],
+      "specialResources": ["linha historica do conceito de individuo", "experiencias filosoficas sobre memoria e identidade", "glossario sobre sujeito e consciencia", "quadro sobre permanencia e mudanca", "percurso de leitura por dificuldade"],
+      "mainArticle": "socrates-metodo-maieutico",
+      "relatedArticles": ["platao-mundo-das-ideias", "estoicismo-virtude-destino-acao", "confissoes-santo-agostinho", "descartes-cogito-ergo-sum", "locke-tabula-rasa", "nietzsche-obras-impacto-revolucionario", "simone-de-beauvoir-liberdade-situada"],
+      "recommendedArticles": ["sartre-liberdade-condenacao", "vieses-cognitivos-atalhos-mentais", "internet-transformou-todos-em-espectadores"],
+      "relatedBooks": ["Apologia de Socrates", "Confissoes", "Ensaio sobre o Entendimento Humano", "Genealogia da Moral", "Vigiar e Punir"],
+      "relatedPhilosophers": ["Socrates", "Platao", "Santo Agostinho", "Descartes", "Locke", "Nietzsche", "Foucault"],
+      "relatedAuthors": ["Sigmund Freud", "Jean-Jacques Rousseau"],
+      "relatedArtworks": [],
+      "historicalPeriods": ["Antiguidade", "Cristianismo antigo", "Modernidade", "Contemporaneo"],
+      "civilizations": ["Grecia Antiga", "Cristandade latina", "Ocidente moderno", "Cultura digital"],
+      "timeline": [
+        { "label": "Exame socratico", "date": "Seculo V a.C.", "description": "A vida humana passa a ser interrogada por criterios racionais." },
+        { "label": "Interioridade agostiniana", "date": "Seculos IV-V", "description": "Memoria, culpa e desejo entram no centro da reflexao sobre si." },
+        { "label": "Sujeito cartesiano", "date": "Seculo XVII", "description": "O pensamento torna-se fundamento da certeza moderna." },
+        { "label": "Identidade digital", "date": "Seculo XXI", "description": "O eu passa a circular como perfil, dado, imagem e performance." }
+      ],
+      "bibliography": ["Platao, Apologia de Socrates", "Santo Agostinho, Confissoes", "Rene Descartes, Meditacoes Metafisicas", "John Locke, Ensaio sobre o Entendimento Humano", "Michel Foucault, Historia da Sexualidade"],
+      "futureReadings": ["Jean-Jacques Rousseau, Confissoes", "Sigmund Freud, O Eu e o Id"],
+      "continueStudying": ["socrates-metodo-maieutico", "confissoes-santo-agostinho", "descartes-cogito-ergo-sum"]
+    },
+    {
+      "id": "vida-morte-consciencia",
+      "slug": "vida-morte-consciencia",
+      "title": "Onde termina a vida? Filosofia, consciencia e os limites da morte",
+      "subtitle": "Um dossie sobre alma, organismo, morte cerebral, identidade, celulas vivas e especulacao responsavel.",
+      "category": "Ciência",
+      "status": "active",
+      "isCanonicalModel": false,
+      "coverImage": "assets/dossiers/vida-morte-consciencia.jpg",
+      "keyQuestion": "O que define um ser vivo e em que momento podemos afirmar que uma vida terminou?",
+      "editorialIntroduction": "Este dossie separa tres planos que frequentemente se confundem: conceito filosofico de vida, evidencia cientifica sobre organismos e especulacao sobre consciencia. O objetivo e estudar a fronteira da morte sem transformar descobertas laboratoriais em promessa metafisica.",
+      "intellectualObjective": "Criar uma trilha que ajude o leitor a diferenciar organismo, celula, mente, identidade pessoal e continuidade material.",
+      "chapters": [
+        { "slug": "aristoteles-alma-principio-vida", "title": "Aristoteles e a alma como principio da vida", "summary": "A alma e entendida como forma do corpo vivo, nao como fantasma separado.", "relatedArticles": ["aristoteles-eudaimonia-vida-boa", "democrito-alma-corpo"] },
+        { "slug": "epicuro-medo-morte", "title": "Epicuro e o medo da morte", "summary": "A morte desafia a imaginacao porque parece atingir quem ja nao podera experimenta-la.", "relatedArticles": ["epicuro-pouco-suficiencia-desejo"] },
+        { "slug": "platao-imortalidade-alma", "title": "Platao e a imortalidade da alma", "summary": "A alma e pensada como principio que excede a simples aparencia corporal.", "relatedArticles": ["platao-mundo-das-ideias"] },
+        { "slug": "materialismo-continuidade-materia", "title": "Materialismo e continuidade da materia", "summary": "A morte do organismo nao elimina imediatamente toda atividade material ou celular.", "relatedArticles": ["democrito-alma-corpo", "leucipo-atomismo"] },
+        { "slug": "descartes-mente-corpo", "title": "Descartes e o problema mente-corpo", "summary": "A separacao moderna entre mente e corpo reabre a pergunta sobre consciencia e organismo.", "relatedArticles": ["descartes-cogito-ergo-sum"] },
+        { "slug": "biologia-moderna", "title": "O nascimento da biologia moderna", "summary": "A vida passa a ser descrita por organizacao, metabolismo, reproducao, regulacao e ambiente.", "relatedArticles": ["xenobots-anthrobots-organizacao-vida"] },
+        { "slug": "morte-cerebral-criterios-medicos", "title": "Morte cerebral e transformacao dos criterios medicos", "summary": "A definicao de morte acompanha mudancas tecnicas e institucionais da medicina.", "relatedArticles": ["xenobots-anthrobots-organizacao-vida"] },
+        { "slug": "consciencia-memoria-identidade", "title": "Consciencia, memoria e identidade", "summary": "Continuar vivo nao e o mesmo que preservar memoria, experiencia ou identidade pessoal.", "relatedArticles": ["locke-tabula-rasa", "vieses-cognitivos-atalhos-mentais"] },
+        { "slug": "xenobots-anthrobots-reorganizacao-celular", "title": "Xenobots, anthrobots e reorganizacao celular", "summary": "Experimentos laboratoriais mostram reorganizacao celular, mas nao autorizam conclusoes sobre ressurreicao.", "relatedArticles": ["xenobots-anthrobots-organizacao-vida"] },
+        { "slug": "ia-simulacao-consciencia", "title": "Inteligencia artificial e simulacao da consciencia", "summary": "Simular linguagem ou comportamento consciente nao equivale a resolver o problema da experiencia subjetiva.", "relatedArticles": ["hegel-fenomenologia-inteligencias-artificiais", "transumanismo-limites-humanos-tecnica"] },
+        { "slug": "bioetica-intervencao-vida", "title": "Limites eticos da intervencao sobre a vida", "summary": "A capacidade de intervir exige criterios publicos, prudencia e responsabilidade.", "relatedArticles": ["transumanismo-limites-humanos-tecnica", "tecnologia-mais-rapida-que-sabedoria"] }
+      ],
+      "concepts": ["vida", "morte", "alma", "organismo", "consciencia", "identidade", "bioetica", "materia", "forma"],
+      "glossary": [
+        { "term": "Viabilidade celular", "definition": "Capacidade temporaria de certas celulas manterem atividade biologica mesmo apos a morte do organismo." },
+        { "term": "Morte cerebral", "definition": "Criterio medico e juridico ligado a cessacao irreversivel das funcoes encefalicas." },
+        { "term": "Consciencia", "definition": "Experiencia subjetiva, memoria, percepcao ou reflexividade, dependendo do contexto filosofico e cientifico." }
+      ],
+      "specialResources": ["quadro comparativo dos conceitos de vida", "linha historica dos criterios de morte", "glossario cientifico e filosofico", "secao sobre bioetica", "ligacao direta com xenobots e anthrobots"],
+      "mainArticle": "xenobots-anthrobots-organizacao-vida",
+      "relatedArticles": ["aristoteles-eudaimonia-vida-boa", "epicuro-pouco-suficiencia-desejo", "platao-mundo-das-ideias", "democrito-alma-corpo", "descartes-cogito-ergo-sum", "locke-tabula-rasa", "transumanismo-limites-humanos-tecnica"],
+      "recommendedArticles": ["hegel-fenomenologia-inteligencias-artificiais", "tecnologia-mais-rapida-que-sabedoria", "vieses-cognitivos-atalhos-mentais"],
+      "relatedBooks": ["De Anima", "Fédon", "Meditacoes Metafisicas", "Ensaio sobre o Entendimento Humano"],
+      "relatedPhilosophers": ["Aristoteles", "Epicuro", "Platao", "Democrito", "Descartes", "Locke"],
+      "relatedAuthors": ["Michael Levin"],
+      "relatedArtworks": [],
+      "historicalPeriods": ["Antiguidade", "Modernidade", "Biologia moderna", "Contemporaneo"],
+      "civilizations": ["Grecia Antiga", "Europa Moderna", "Ciencia contemporanea"],
+      "timeline": [
+        { "label": "Aristoteles", "date": "Seculo IV a.C.", "description": "A vida e pensada por meio da relacao entre materia e forma." },
+        { "label": "Descartes", "date": "Seculo XVII", "description": "O problema mente-corpo ganha formula moderna." },
+        { "label": "Morte cerebral", "date": "Seculo XX", "description": "A medicina redefine criterios institucionais para a morte." },
+        { "label": "Xenobots e anthrobots", "date": "Seculo XXI", "description": "Experimentos revelam plasticidade celular em ambiente laboratorial controlado." }
+      ],
+      "bibliography": ["Aristoteles, De Anima", "Platao, Fedon", "Epicuro, Carta a Meneceu", "Rene Descartes, Meditacoes Metafisicas", "Advanced Science, estudos sobre xenobots e anthrobots"],
+      "futureReadings": ["Hans Jonas, O Principio Vida", "Thomas Nagel, What Is It Like to Be a Bat?"],
+      "continueStudying": ["xenobots-anthrobots-organizacao-vida", "transumanismo-limites-humanos-tecnica", "hegel-fenomenologia-inteligencias-artificiais"]
+    },
+    {
+      "id": "decadencia-e-colapso",
+      "slug": "decadencia-e-colapso",
+      "title": "Por que as civilizacoes entram em decadencia?",
+      "subtitle": "Um percurso sobre ciclos historicos, coesao social, instituicoes, ambiente e limites das teorias do colapso.",
+      "category": "História da Civilização",
+      "status": "active",
+      "isCanonicalModel": false,
+      "coverImage": "assets/dossiers/decadencia-e-colapso.jpg",
+      "keyQuestion": "Sociedades desaparecem por corrupcao moral, desigualdade, guerra, ambiente ou incapacidade institucional?",
+      "editorialIntroduction": "Este dossie investiga a ideia de decadencia sem romantizar passado nem aceitar teorias totalizantes. Civilizacoes mudam, entram em crise, se transformam ou colapsam por combinacoes complexas de valores, instituicoes, tecnica, guerra, ambiente e imaginario.",
+      "intellectualObjective": "Oferecer ferramentas para comparar teorias de decadencia e evitar explicacoes simplistas sobre o fim de sociedades.",
+      "chapters": [
+        { "slug": "problema-filosofico-decadencia", "title": "O problema filosofico da decadencia", "summary": "Decadencia e uma palavra carregada de juizo moral, teoria historica e ansiedade politica.", "relatedArticles": ["por-que-civilizacoes-entram-em-decadencia", "crise-contemporanea-nao-e-economica-e-espiritual"] },
+        { "slug": "platao-degeneracao-governo", "title": "Platao e a degeneracao das formas de governo", "summary": "A ordem politica se degrada quando desejos desordenados tomam o lugar da razao comum.", "relatedArticles": ["platao-mundo-das-ideias", "maquiavel-poder-politica-realismo"] },
+        { "slug": "polibio-ciclo-regimes", "title": "Polibio e o ciclo dos regimes politicos", "summary": "A anaciclose descreve transformacoes recorrentes entre monarquia, aristocracia, democracia e suas corrupcoes.", "relatedArticles": ["maquiavel-poder-politica-realismo"] },
+        { "slug": "agostinho-queda-roma", "title": "Santo Agostinho diante da queda de Roma", "summary": "A ruina politica nao esgota a pergunta sobre sentido, cidade terrena e cidade de Deus.", "relatedArticles": ["confissoes-santo-agostinho"] },
+        { "slug": "ibn-khaldun-coesao-social", "title": "Ibn Khaldun e a perda da coesao social", "summary": "A forca de um grupo depende de solidariedade, disciplina e capacidade de renovacao.", "relatedArticles": ["sociedade-contemporanea-perdeu-o-rito"] },
+        { "slug": "vico-ciclos-historicos", "title": "Vico e os ciclos historicos", "summary": "A historia humana alterna formas de imaginacao, instituicao e razao.", "relatedArticles": ["nostalgia-forma-consciencia-historica"] },
+        { "slug": "gibbon-imperio-romano", "title": "Gibbon e o declinio do Imperio Romano", "summary": "O colapso romano se torna laboratorio moderno para pensar instituicao, religiao e poder.", "relatedArticles": ["por-que-civilizacoes-entram-em-decadencia"] },
+        { "slug": "spengler-morfologia-civilizacoes", "title": "Spengler e a morfologia das civilizacoes", "summary": "Civilizacoes sao pensadas como organismos historicos com juventude, maturidade e esgotamento.", "relatedArticles": ["por-que-civilizacoes-entram-em-decadencia"] },
+        { "slug": "toynbee-desafio-resposta", "title": "Toynbee: desafio, resposta e desintegracao", "summary": "Sociedades sobrevivem quando respondem criativamente a pressoes internas e externas.", "relatedArticles": ["excesso-de-conforto-civilizacoes-frageis"] },
+        { "slug": "criticas-teorias-universais", "title": "Criticas as teorias universais da decadencia", "summary": "Toda teoria geral do colapso corre o risco de simplificar diferencas historicas.", "relatedArticles": ["nostalgia-forma-consciencia-historica", "poder-simbolico-ideias-governam"] },
+        { "slug": "ambiente-tecnologia-desigualdade", "title": "Ambiente, tecnologia, desigualdade e instituicoes", "summary": "Crises civilizacionais combinam fatores materiais, politicos e simbolicos.", "relatedArticles": ["excesso-de-conforto-civilizacoes-frageis", "tecnologia-mais-rapida-que-sabedoria"] },
+        { "slug": "colapso-seculo-xxi", "title": "O conceito de colapso aplicado ao seculo XXI", "summary": "O presente exige prudencia: diagnosticar risco sem transformar medo em mercadoria.", "relatedArticles": ["crise-contemporanea-nao-e-economica-e-espiritual", "sociedade-moderna-destruiu-o-silencio"] }
+      ],
+      "concepts": ["civilizacao", "decadencia", "colapso", "coesao social", "instituicoes", "ciclo historico", "desigualdade", "ambiente"],
+      "glossary": [
+        { "term": "Decadencia", "definition": "Ideia de perda de vigor cultural, politico ou moral, frequentemente controversa e carregada de avaliacao." },
+        { "term": "Colapso", "definition": "Reducao brusca de complexidade social, capacidade institucional ou continuidade politica." },
+        { "term": "Coesao social", "definition": "Forca de integracao entre grupos, normas, confianca e sentido comum." }
+      ],
+      "specialResources": ["cronologia das principais teorias", "comparacao entre causas morais, politicas, economicas e ambientais", "mapas historicos", "quadro critico sobre simplificacoes", "secao sobre aprendizado historico"],
+      "mainArticle": "por-que-civilizacoes-entram-em-decadencia",
+      "relatedArticles": ["crise-contemporanea-nao-e-economica-e-espiritual", "conforto-excessivo-enfraquece-civilizacoes", "excesso-de-conforto-civilizacoes-frageis", "sociedade-contemporanea-perdeu-o-rito", "nostalgia-forma-consciencia-historica", "maquiavel-poder-politica-realismo"],
+      "recommendedArticles": ["sociedade-moderna-destruiu-o-silencio", "poder-simbolico-ideias-governam", "tecnologia-mais-rapida-que-sabedoria"],
+      "relatedBooks": ["A Republica", "A Cidade de Deus", "Muqaddimah", "Decline and Fall of the Roman Empire", "A Study of History"],
+      "relatedPhilosophers": ["Platao", "Santo Agostinho", "Ibn Khaldun", "Giambattista Vico", "Oswald Spengler", "Arnold Toynbee"],
+      "relatedAuthors": ["Edward Gibbon", "Jared Diamond", "Joseph Tainter"],
+      "relatedArtworks": [],
+      "historicalPeriods": ["Antiguidade", "Idade Media", "Modernidade", "Seculo XX", "Seculo XXI"],
+      "civilizations": ["Grecia Antiga", "Roma", "Civilizacao islamica", "Ocidente moderno", "Mundo contemporaneo"],
+      "timeline": [
+        { "label": "Platao", "date": "Seculo IV a.C.", "description": "A degeneracao politica aparece como problema da alma e da cidade." },
+        { "label": "Queda de Roma", "date": "476", "description": "O fim do Imperio Romano do Ocidente torna-se matriz de reflexoes sobre colapso." },
+        { "label": "Ibn Khaldun", "date": "Seculo XIV", "description": "A coesao social passa a explicar ascensao e queda de dinastias." },
+        { "label": "Teorias do colapso", "date": "Seculos XX-XXI", "description": "Ambiente, energia, instituicoes e complexidade entram no diagnostico." }
+      ],
+      "bibliography": ["Platao, A Republica", "Santo Agostinho, A Cidade de Deus", "Ibn Khaldun, Muqaddimah", "Edward Gibbon, The History of the Decline and Fall of the Roman Empire", "Arnold Toynbee, A Study of History"],
+      "futureReadings": ["Joseph Tainter, The Collapse of Complex Societies", "Jared Diamond, Collapse"],
+      "continueStudying": ["por-que-civilizacoes-entram-em-decadencia", "excesso-de-conforto-civilizacoes-frageis", "sociedade-contemporanea-perdeu-o-rito"]
+    },
+    {
       "id": "a-questao-da-beleza",
       "slug": "a-questao-da-beleza",
       "title": "A Questão da Beleza",
@@ -10,40 +263,31 @@
       "category": "Arte",
       "status": "planned",
       "isCanonicalModel": true,
+      "coverImage": "assets/LQHqVnilFspwfHEy.png",
+      "keyQuestion": "Como transformar o problema da beleza em percurso editorial estruturado?",
       "editorialIntroduction": "Placeholder editorial: introdução a ser escrita quando o dossiê for aprovado para publicação.",
       "intellectualObjective": "Placeholder editorial: objetivo intelectual a ser definido pela curadoria antes da publicação.",
+      "chapters": [
+        { "slug": "modelo-capitulo", "title": "Modelo de capítulo", "summary": "Placeholder editorial para demonstrar a estrutura de capítulo dentro de um dossiê.", "relatedArticles": ["arte-controle-humano"] }
+      ],
+      "concepts": ["beleza", "estetica"],
+      "glossary": [
+        { "term": "Estetica", "definition": "Campo filosofico dedicado a experiencia do belo, da arte, do gosto e da sensibilidade." }
+      ],
+      "specialResources": ["modelo de pagina central", "modelo de capitulo", "modelo de bibliografia"],
       "mainArticle": null,
-      "relatedArticles": [
-        "arte-controle-humano",
-        "poetas-dramaturgos-educacao-grecia-antiga",
-        "platao-mundo-das-ideias"
-      ],
-      "recommendedArticles": [
-        "arte-controle-humano",
-        "poetas-dramaturgos-educacao-grecia-antiga"
-      ],
+      "relatedArticles": ["arte-controle-humano", "poetas-dramaturgos-educacao-grecia-antiga", "platao-mundo-das-ideias"],
+      "recommendedArticles": ["arte-controle-humano", "poetas-dramaturgos-educacao-grecia-antiga"],
       "relatedBooks": [],
-      "relatedPhilosophers": [
-        "Platão"
-      ],
+      "relatedPhilosophers": ["Platão"],
       "relatedAuthors": [],
       "relatedArtworks": [],
-      "historicalPeriods": [
-        "Antiguidade",
-        "Contemporâneo"
-      ],
-      "civilizations": [
-        "Grécia Antiga",
-        "Ocidente contemporâneo"
-      ],
+      "historicalPeriods": ["Antiguidade", "Contemporâneo"],
+      "civilizations": ["Grécia Antiga", "Ocidente contemporâneo"],
       "timeline": [],
       "bibliography": [],
       "futureReadings": [],
-      "continueStudying": [
-        "arte-controle-humano",
-        "poetas-dramaturgos-educacao-grecia-antiga",
-        "platao-mundo-das-ideias"
-      ]
+      "continueStudying": ["arte-controle-humano", "poetas-dramaturgos-educacao-grecia-antiga", "platao-mundo-das-ideias"]
     }
   ]
 }

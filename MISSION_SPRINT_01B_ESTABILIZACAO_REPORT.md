@@ -1,4 +1,4 @@
-# Proceder Filosofico — Sprint 01B — Estabilizacao P0
+# Mundo das Ideias — Sprint 01B — Estabilizacao P0
 
 Data: 2026-06-27
 
@@ -85,7 +85,7 @@ Scripts criados:
 ## Como testar localmente
 
 ```bash
-cd /Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/PROCEDER_FILOSOFICO:
+cd /Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/MUNDO_DAS_IDEIAS:
 node --check SITE/posts.js
 node --check VALIDATION/validate_links.mjs
 node --check VALIDATION/validate_assets.mjs

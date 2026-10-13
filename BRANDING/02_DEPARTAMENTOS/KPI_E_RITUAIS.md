@@ -1,3 +1,5 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # KPI E RITUAIS — DIRETORIA CRIATIVA
 
 ### Sob a ótica criativa · Versão 1.0 — 2026-06-26
@@ -61,7 +63,7 @@ estrutural, cobrindo toda a documentação, não apenas a semana corrente.
 1. Reler `BRANDING/README.md` de cada produto e confirmar que a ordem de leitura ainda reflete
    os documentos que de fato existem (nenhum arquivo novo fora do índice, nenhum arquivo do
    índice que não existe mais).
-2. Para cada documento marcado como "compartilhado, cópia idêntica" entre Proceder e Japão
+2. Para cada documento marcado como "compartilhado, cópia idêntica" entre Mundo das Ideias e Japão
    Relativo, comparar as duas cópias de fato (não assumir que permaneceram idênticas desde a
    última sincronização) — precedente: `BACKLOG_OFICIAL.md` divergiu silenciosamente entre as
    duas cópias por pelo menos um ciclo antes de ser detectado (2026-06-26).
@@ -89,7 +91,7 @@ sem omitir seção:
 7. **Definition of Done específica** da decisão — quando ela deixa de ser "PENDENTE DE
    EVIDÊNCIA"/"PENDENTE DE SANEAMENTO" e passa a ser "CONCLUÍDA".
 
-Precedente de formato: `BRANDING/DECISAO_HOME_OFICIAL.md` (Proceder Filosófico).
+Precedente de formato: `BRANDING/DECISAO_HOME_OFICIAL.md` (Mundo das Ideias).
 
 ## Integração nomeada com os demais departamentos
 

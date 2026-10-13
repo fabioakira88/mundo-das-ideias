@@ -1,4 +1,4 @@
-# PROCEDER FILOSOFICO — AUDITORIA FINAL DE PRODUCAO
+# MUNDO DAS IDEIAS — AUDITORIA FINAL DE PRODUCAO
 
 ## Pergunta
 
@@ -134,7 +134,7 @@ Impacto no site estatico:
 Risco:
 
 - nao apagar nem commitar deletados sem revisao separada;
-- `AUTOMATION/publicar_proceder.py` ainda referencia `CONTENT/posts/santo_agostinho.jpeg`, mas esse script nao faz parte do fluxo canonico de deploy atual.
+- `AUTOMATION/publicar_mundo_das_ideias.py` ainda referencia `CONTENT/posts/santo_agostinho.jpeg`, mas esse script nao faz parte do fluxo canonico de deploy atual.
 
 ## Menu e navegacao
 

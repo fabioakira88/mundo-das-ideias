@@ -17,5 +17,5 @@
       .replace(/^-|-$/g, '');
   }
 
-  window.ProcederArticleList = { route: route, image: image, tagAnchor: tagAnchor };
+  window.MundoDasIdeiasArticleList = { route: route, image: image, tagAnchor: tagAnchor };
 })();

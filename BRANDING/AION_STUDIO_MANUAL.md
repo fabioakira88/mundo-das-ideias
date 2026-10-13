@@ -1,10 +1,12 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # AION STUDIO — MANUAL OPERACIONAL DA EMPRESA
 
 ### Versão 1.0 — 2026-06-26
 
 > Documento compartilhado, cópia idêntica em `JAPAO_RELATIVO:/BRANDING/AION_STUDIO_MANUAL.md`.
 > Este é o nível 3 do ecossistema — a camada que governa os outros dois:
-> **Nível 1 (Produtos):** Proceder Filosófico, Japão Relativo, Akira (perfil pessoal de Fábio
+> **Nível 1 (Produtos):** Mundo das Ideias, Japão Relativo, Akira (perfil pessoal de Fábio
 > Akira), projetos futuros.
 > **Nível 2 (Equipe):** Claude, Codex, Manus, ChatGPT, Beelzebub — já formalizada em
 > `GOVERNANCE.md` de cada projeto.
@@ -52,7 +54,7 @@ processos, documentação e inteligência artificial.
 **Marca institucional:** AION Studio.
 
 **Projetos (Nível 1):**
-- Proceder Filosófico
+- Mundo das Ideias
 - Japão Relativo
 - Akira (perfil pessoal — ainda sem auditoria de identidade/governança própria; precisa do
   mesmo tratamento dado aos outros dois antes de ser tratado como produto maduro do ecossistema)
@@ -69,7 +71,7 @@ processos, documentação e inteligência artificial.
         |                                       |
   EQUIPE (Nível 2)                       PRODUTOS (Nível 1)
         |                                       |
-   Fábio Akira (CEO)                  Proceder Filosófico
+   Fábio Akira (CEO)                  Mundo das Ideias
    Claude (Diretor Criativo)           Japão Relativo
    ChatGPT (Arquiteto do Ecossistema)  Akira
    Codex (Engenheiro)                  Projetos futuros
@@ -129,7 +131,7 @@ Funções previstas:
 **Beelzebub nunca substitui decisão humana — executa os processos definidos pela AION Studio.**
 
 **Estado real verificado vs. visão (2026-06-26):** já existe implementação própria em
-`PROCEDER_FILOSOFICO:/BELZEBU/` — um orquestrador editorial real, hoje classificado como
+`MUNDO_DAS_IDEIAS:/BELZEBU/` — um orquestrador editorial real, hoje classificado como
 "MVP 0.5", que roda em quatro modos seguros (`dry-run`, `generate-only`, `review-only`,
 `publish-local-jr`), lê pautas reais do Notion, mas **explicitamente não altera os sites, não
 cria commits automaticamente e não executa deploy** (`BELZEBU/README.md`). Ou seja: a função de
@@ -172,7 +174,7 @@ Todo projeto deve possuir:
 - funil;
 - automações.
 
-**Estado real (2026-06-26):** Proceder Filosófico e Japão Relativo já têm documentação,
+**Estado real (2026-06-26):** Mundo das Ideias e Japão Relativo já têm documentação,
 backlog (`BACKLOG_OFICIAL.md`), changelog, Definition of Done e governança formalizados em
 `BRANDING/`. Sistema de assets, SEO, funil e automações têm graus de maturidade desiguais entre
 os dois projetos e ainda não foram auditados com o mesmo rigor — não assumir completos só

@@ -1,4 +1,4 @@
-# FRONTEND REPOSITORY AUDIT REPORT — Proceder Filosófico
+# FRONTEND REPOSITORY AUDIT REPORT — Mundo das Ideias
 
 **Data:** 2026-07-07
 **Tipo:** Auditoria somente-leitura. Nenhum arquivo foi alterado, commitado ou publicado nesta missão.
@@ -22,7 +22,7 @@ Remote: https://github.com/fabioakira88/proceder-filosofico.git
 Working tree: limpo (nothing to commit)
 ```
 
-- `.git` deste diretório é um **ponteiro de worktree** (`gitdir: .../PROCEDER_FILOSOFICO:/.git/worktrees/PROCEDER_FILOSOFICO_MAIN_CLEAN`), não um repositório independente. Existe uma segunda cópia de trabalho local em `PROCEDER_FILOSOFICO:/` (repo "pai"), que em auditorias anteriores desta sessão estava em branch `sprint-01b-estabilizacao` com dezenas de arquivos modificados não commitados. **Risco de confusão:** editar a pasta errada não reflete no site publicado.
+- `.git` deste diretório é um **ponteiro de worktree** (`gitdir: .../MUNDO_DAS_IDEIAS:/.git/worktrees/MUNDO_DAS_IDEIAS_MAIN_CLEAN`), não um repositório independente. Existe uma segunda cópia de trabalho local em `MUNDO_DAS_IDEIAS:/` (repo "pai"), que em auditorias anteriores desta sessão estava em branch `sprint-01b-estabilizacao` com dezenas de arquivos modificados não commitados. **Risco de confusão:** editar a pasta errada não reflete no site publicado.
 - `.gitignore` está correto e já tenta excluir `SITE/public/**/*` e `SITE/docs/backups/` — mas isso **não retroage** sobre arquivos já rastreados (ver seção 5).
 - Nenhum `.DS_Store` rastreado.
 - Arquivos com nome suspeito rastreados no git: `SITE/assets/css(1)` e `SITE/public/images/misc/css(1)` — texto CSS real (22 KB) salvo com nome de artefato de download duplicado ("Save As" que gerou "(1)"), não um nome semântico.
@@ -33,7 +33,7 @@ Working tree: limpo (nothing to commit)
 
 ## 3. Estado do Deploy
 
-Workflow ativo: `.github/workflows/proceder-pages-deploy.yml` (GitHub Pages, dispara em push para `main`/`production`).
+Workflow ativo: `.github/workflows/mundo-das-ideias-pages-deploy.yml` (GitHub Pages, dispara em push para `main`/`production`).
 
 ```yaml
 rsync -a --exclude='docs' --exclude='wp-content' --exclude='wp-includes' SITE/ PAGES_BUILD/
@@ -41,7 +41,7 @@ rsync -a --exclude='docs' --exclude='wp-content' --exclude='wp-includes' SITE/ P
 
 - Publica **toda a pasta `SITE/`**, exceto `docs/`, `wp-content/`, `wp-includes/`.
 - **Risco confirmado:** o rsync **não exclui `SITE/public/`** (185 MB, duplicata integral de `SITE/assets/`, sem nenhuma página do site referenciando esses caminhos) nem `SITE/src/` (código órfão). Ambos são publicados no GitHub Pages a cada deploy sem necessidade.
-- Workflow de fallback `proceder-deploy.yml` (FTP) está corretamente desativado como automático (`workflow_dispatch` apenas), com comentário explicando o motivo (Hostinger bloqueia FTP de runners do GitHub Actions). `AUTOMATION/deploy.py` (usado só se esse fallback for disparado manualmente) tem a mesma lacuna: `EXCLUDE_DIRS` não inclui `public/` nem `src/`.
+- Workflow de fallback `mundo-das-ideias-deploy.yml` (FTP) está corretamente desativado como automático (`workflow_dispatch` apenas), com comentário explicando o motivo (Hostinger bloqueia FTP de runners do GitHub Actions). `AUTOMATION/deploy.py` (usado só se esse fallback for disparado manualmente) tem a mesma lacuna: `EXCLUDE_DIRS` não inclui `public/` nem `src/`.
 - Pipeline de validação pré-deploy (`validate_editorial_metadata/architecture/links/deploy_manifest/assets/sitemap_robots.mjs`) está presente, é executado no workflow antes do build, e passou em todas as verificações desta sessão — **ponto forte real do projeto**.
 
 ---
@@ -103,7 +103,7 @@ Todas as 18 páginas em `conceitos/*/index.html` carregam um bloco `<style>` id�
 Arquivo com boa prática de acessibilidade (`aria-expanded`, `aria-controls`, `aria-label`) mas **sem nenhuma página incluindo-o**. Ou é código morto, ou a navegação mobile real está implementada de outra forma (não verificado nesta auditoria) e este arquivo é uma versão alternativa abandonada.
 
 ### M5 — Componente "card" fragmentado em variantes ad-hoc
-Pelo menos 4 nomes de classe diferentes implementam o mesmo padrão conceitual (título + descrição + meta + link): `.card` (usado com significados diferentes em `filosofos/` e `conceitos/`), `.article-card`, `.category-card`, `.concept-card`, `.hero-ed-card`. Nenhum deles compartilha uma base comum (`.pf-card`) com modificadores — cada um foi escrito do zero.
+Pelo menos 4 nomes de classe diferentes implementam o mesmo padrão conceitual (título + descrição + meta + link): `.card` (usado com significados diferentes em `filosofos/` e `conceitos/`), `.article-card`, `.category-card`, `.concept-card`, `.hero-ed-card`. Nenhum deles compartilha uma base comum (`.mi-card`) com modificadores — cada um foi escrito do zero.
 
 ### M6 — `biblioteca.html` ausente do sitemap
 Página real, com `<title>`/`meta description`/`canonical` corretos, **linkada em 113 das ~112 páginas do site** (todo header/footer), mas **não aparece em `sitemap.xml`**. Gap concreto e barato de corrigir.
@@ -140,7 +140,7 @@ A página tem `<h1>Artigos</h1>` (visível) e um segundo `<h1 id="readerTitle"><
 
 | Componente | Estado atual | Sugestão de nome de classe reutilizável |
 |---|---|---|
-| Cartão de conteúdo (artigo/conceito/categoria) | 5 implementações separadas | `.pf-card` + modificadores (`.pf-card--article`, `.pf-card--concept`) |
+| Cartão de conteúdo (artigo/conceito/categoria) | 5 implementações separadas | `.mi-card` + modificadores (`.mi-card--article`, `.mi-card--concept`) |
 | Bloco de estilo de página de verbete | Inline em 18 arquivos | `assets/css-shared/pages/concept.css` (extrair de `conceitos/razao/index.html`, já é o padrão usado por `editorial-index.css`) |
 | Busca/filtro client-side | 2 cópias inline + 1 utilitário órfão | Ativar `assets/js/filters.js` nas duas páginas, remover os inlines |
 | Header/nav mobile | `assets/js/navigation.js` (não usado) | Investigar se substitui a implementação ativa antes de decidir manter ou remover |
@@ -151,9 +151,9 @@ A página tem `<h1>Artigos</h1>` (visível) e um segundo `<h1 id="readerTitle"><
 ## 10. CSS/Tokens Recomendados
 
 O projeto **já tem** um sistema de tokens real em `assets/css-shared/tokens.css` (cor, tipografia, radius, sombra, foco) — não é necessário criar do zero. Pontos de atenção:
-- Existem dois conjuntos de nomes de variável coexistindo (`--pf-azul-profundo` canônico + alias legado `--azul-profundo` "usado por estilos inline atuais", conforme o próprio comentário do arquivo). Isso confirma que a inconsistência inline (M2) é conhecida e parcialmente contornada, não corrigida.
+- Existem dois conjuntos de nomes de variável coexistindo (`--mi-azul-profundo` canônico + alias legado `--azul-profundo` "usado por estilos inline atuais", conforme o próprio comentário do arquivo). Isso confirma que a inconsistência inline (M2) é conhecida e parcialmente contornada, não corrigida.
 - Não há token dedicado para breakpoints (cada página redeclara `@media (max-width: ...)` com valores levemente diferentes: 980, 900, 768, 720, 650, 420).
-- `:focus-visible` com `box-shadow: var(--pf-focus-ring)` está implementado corretamente (não é um problema — é boa prática, citado aqui só para registro positivo).
+- `:focus-visible` com `box-shadow: var(--mi-focus-ring)` está implementado corretamente (não é um problema — é boa prática, citado aqui só para registro positivo).
 
 ---
 

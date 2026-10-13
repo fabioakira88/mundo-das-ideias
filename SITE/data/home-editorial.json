@@ -28,7 +28,19 @@
       ]
     },
     { "id": "filosofos", "title": "Filósofos", "source": "manual", "enabled": true, "items": ["Sócrates", "Platão", "Friedrich Nietzsche"] },
-    { "id": "dossies", "title": "Dossiês", "source": "dossier", "enabled": true, "items": ["a-questao-da-beleza"] },
+    {
+      "id": "dossies",
+      "title": "Dossiês",
+      "source": "dossier",
+      "enabled": true,
+      "items": [
+        "a-crise-da-verdade",
+        "ser-humano-diante-da-maquina",
+        "invencao-do-individuo",
+        "vida-morte-consciencia",
+        "decadencia-e-colapso"
+      ]
+    },
     { "id": "biblioteca", "title": "Biblioteca", "source": "library", "enabled": true, "items": ["a-republica", "meditacoes", "assim-falou-zaratustra"] },
     { "id": "newsletter", "title": "Newsletter", "source": "manual", "enabled": true, "items": [] }
   ]

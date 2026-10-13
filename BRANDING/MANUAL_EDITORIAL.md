@@ -1,9 +1,11 @@
-# MANUAL EDITORIAL OFICIAL — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# MANUAL EDITORIAL OFICIAL — MUNDO DAS IDEIAS
 
 ### Diretoria Editorial Permanente (Claude) · Versão 1.0 — Sprint 02
 
 > Documento de governança editorial permanente. Toda pessoa ou IA que produza conteúdo para o
-> Proceder Filosófico — artigo, carrossel, ensaio, ou qualquer formato futuro — segue este
+> Mundo das Ideias — artigo, carrossel, ensaio, ou qualquer formato futuro — segue este
 > manual. Ele consolida e formaliza o que já está disperso em `DNA.md`, `BRAND_BOOK.md`,
 > `MANIFESTO.md`, `LEIS_DA_MARCA.md`, `EDITORIAL_GUIDELINES.md` e `ARQUITETURA_EDITORIAL.md`,
 > e estende essas decisões aos formatos e plataformas que ainda não tinham regra própria. Não
@@ -12,7 +14,7 @@
 
 ---
 
-## 1. Missão do Proceder Filosófico
+## 1. Missão do Mundo das Ideias
 
 Traduzir a evolução das ideias humanas — tendo a filosofia como eixo e a história, a
 antropologia, a sociologia, a literatura, a arte, a religião, a ciência, a política e a
@@ -20,7 +22,7 @@ psicologia como lentes de leitura da mesma matéria-prima — em ferramentas de 
 desconforto contemporâneo específico: atenção fragmentada, conforto que enfraquece, tecnologia
 mais rápida que sabedoria, silêncio destruído.
 
-O Proceder não gera pensamento original. Faz curadoria com voz: seleciona uma ideia, um
+O Mundo das Ideias não gera pensamento original. Faz curadoria com voz: seleciona uma ideia, um
 pensador, uma obra ou um momento civilizacional, contextualiza com precisão, e o religa a uma
 inquietação que ainda incomoda hoje. Esta é a missão herdada do `DNA.md` original, ampliada pela
 `ARQUITETURA_EDITORIAL.md` — a ampliação de escopo (de "história da filosofia" para
@@ -31,7 +33,7 @@ tendência.
 
 ## 2. Visão de longo prazo
 
-O Proceder Filosófico existe para se tornar, ao longo de uma década, um arquivo de referência
+O Mundo das Ideias existe para se tornar, ao longo de uma década, um arquivo de referência
 sobre a evolução do pensamento humano — civilizacionalmente amplo, intelectualmente rigoroso, e
 inteiramente independente de qualquer formato ou plataforma específica que o veicule num dado
 momento. Plataformas mudam; o acervo permanece. Cada peça publicada deve ser escrita como se
@@ -41,12 +43,12 @@ A visão de longo prazo se mede por três coisas, nesta ordem: (1) precisão his
 precisou de correção pública; (2) um acervo onde cada ideia tem uma porta de entrada simples e
 nenhuma porta de saída fácil — o leitor que entra por curiosidade permanece pela profundidade;
 (3) uma voz tão consistente que qualquer pessoa, lendo um trecho sem assinatura, reconheça que é
-do Proceder. Crescimento de audiência, alcance ou frequência de publicação nunca são, em si,
+do Mundo das Ideias. Crescimento de audiência, alcance ou frequência de publicação nunca são, em si,
 objetivos desta visão — são, na melhor das hipóteses, consequência dela.
 
 ---
 
-## 3. O que o Proceder Filosófico é
+## 3. O que o Mundo das Ideias é
 
 Uma publicação cultural que estuda a civilização — a evolução das ideias humanas através do
 tempo, das culturas e das formas de expressão —, com a filosofia como eixo estruturante e a
@@ -56,13 +58,13 @@ que recusa tanto o acadêmico hostil quanto o motivacional vazio: trata o leitor
 sustentar uma ideia até o fim, sem precisar simplificá-la para ele.
 
 Cada peça nasce de uma pergunta que ainda incomoda hoje, ancorada num pensador, numa obra ou num
-conceito específico — nunca de uma lista de dicas. O Proceder defende que pensar devagar, hoje, é
+conceito específico — nunca de uma lista de dicas. O Mundo das Ideias defende que pensar devagar, hoje, é
 um pequeno ato de desobediência contra um mundo que prefere a resposta rápida à pergunta bem
 feita.
 
 ---
 
-## 4. O que o Proceder Filosófico NÃO é
+## 4. O que o Mundo das Ideias NÃO é
 
 - **Não é** site de autoajuda disfarçado de filosofia ("3 lições estoicas para vencer na
   carreira").
@@ -85,7 +87,7 @@ feita.
 
 ## 5. Princípios editoriais
 
-1. **Curadoria, não originalidade.** O Proceder não inventa pensamento novo — religa pensamento
+1. **Curadoria, não originalidade.** O Mundo das Ideias não inventa pensamento novo — religa pensamento
    já existente a uma inquietação contemporânea nomeada com precisão.
 2. **Uma pergunta, um eixo.** Toda peça nasce de uma pergunta que ainda incomoda hoje, ancorada
    em um pensador, uma obra ou um conceito específico.
@@ -111,7 +113,7 @@ de dúvida sobre uma situação não coberta aqui, as 20 Leis continuam sendo a 
 
 ## 6. Tom de voz
 
-Um texto do Proceder abre com uma afirmação que provoca ou uma pergunta que incomoda, e só depois
+Um texto do Mundo das Ideias abre com uma afirmação que provoca ou uma pergunta que incomoda, e só depois
 desenvolve com cuidado — nunca o contrário. O narrador já pensou bastante sobre aquilo antes de
 escrever, e convida o leitor a pensar também, sem doutrinar.
 
@@ -194,7 +196,7 @@ alterar a voz nem simplificar a precisão até a falsidade. Estrutura fixa, inde
 real; acima disso, o formato compete com o artigo em vez de complementá-lo, e a pauta
 provavelmente deveria ser um artigo, não um carrossel.
 
-**O que nunca aparece em um carrossel do Proceder:** contador de curtidas como argumento,
+**O que nunca aparece em um carrossel do Mundo das Ideias:** contador de curtidas como argumento,
 pergunta de engajamento raso ("comenta aqui se você concorda!"), áudio em alta ou referência a
 tendência da plataforma, qualquer elemento de urgência. A identidade visual (paleta, tipografia)
 segue exatamente o já documentado em `DESIGN_SYSTEM.md` — este manual não propõe variação visual
@@ -229,7 +231,7 @@ uma ideia atravessando o tempo, não um único pensador:
 Uma pauta só é aceita se responder "sim" a todas as perguntas abaixo:
 
 1. **A pergunta de fundo ainda incomoda hoje?** Se a resposta é puramente histórica, sem eco na
-   vida contemporânea do leitor, não é pauta do Proceder.
+   vida contemporânea do leitor, não é pauta do Mundo das Ideias.
 2. **Há um pensador, obra ou conceito específico para ancorar?** Pauta genérica ("o que é a
    felicidade") sem ângulo específico não avança — precisa de um nome, um texto ou um conceito
    nomeado.
@@ -244,7 +246,7 @@ Uma pauta só é aceita se responder "sim" a todas as perguntas abaixo:
    um tema sobre Grécia ou Roma quando o acervo já tem fartura ali, avaliar se há uma tradição
    não-ocidental do mesmo eixo civilizacional ainda sem cobertura.
 6. **A pauta nasce de uma pergunta, ou de um gancho de atualidade/tendência?** Se nasce de
-   atualidade, não é pauta do Proceder — mesmo que o tema de fundo seja filosoficamente
+   atualidade, não é pauta do Mundo das Ideias — mesmo que o tema de fundo seja filosoficamente
    relevante, a entrada precisa ser pela pergunta atemporal, não pelo fato do dia.
 
 Prioridade permanente, já registrada em auditoria: figuras com lacuna de cobertura conhecida
@@ -310,7 +312,7 @@ prioridade sobre temas inéditos sem lacuna identificada.
    reafirmado aqui como regra editorial, não só de governança de produto.
 3. **Nenhuma plataforma, algoritmo ou tendência justifica abandonar uma Lei da Marca.** Se um
    formato de sucesso em outra plataforma depende de urgência, ranking social, gamificação de
-   leitura ou superlativo vazio, ele não é adotado pelo Proceder, mesmo que tecnicamente
+   leitura ou superlativo vazio, ele não é adotado pelo Mundo das Ideias, mesmo que tecnicamente
    disponível.
 4. **O teste final, para qualquer novidade de formato, tema ou plataforma:** "isso pareceria
    fora de lugar numa biblioteca à meia-noite?" Se sim, não existe — não importa o potencial de
@@ -336,14 +338,14 @@ uma versão resumida em carrossel, sempre apontando de volta ao texto completo.
 **Metadado consistente entre plataformas.** A categoria, a disciplina e o conceito-âncora de uma
 peça (`ARQUITETURA_EDITORIAL.md`, §6) são os mesmos onde quer que ela apareça — um carrossel
 sobre estoicismo no Instagram remete ao mesmo eixo civilizacional e à mesma disciplina que o
-artigo equivalente no site, permitindo que o leitor reconheça o Proceder como um sistema único,
+artigo equivalente no site, permitindo que o leitor reconheça o Mundo das Ideias como um sistema único,
 não como contas/canais desconectados.
 
 **Nenhuma plataforma nova é adotada sem passar pela mesma validação de identidade.** Antes de o
-Proceder publicar em qualquer plataforma futura, a pergunta não é "essa plataforma tem alcance?"
+Mundo das Ideias publicar em qualquer plataforma futura, a pergunta não é "essa plataforma tem alcance?"
 — é "essa plataforma permite manter a voz, o ritmo e a ausência de urgência que definem o
-Proceder, ou exige que o projeto se traduza para a lógica nativa dela?" Se a segunda, a
-plataforma é usada apenas como vitrine que aponta para o site, nunca como lugar onde o Proceder
+Mundo das Ideias, ou exige que o projeto se traduza para a lógica nativa dela?" Se a segunda, a
+plataforma é usada apenas como vitrine que aponta para o site, nunca como lugar onde o Mundo das Ideias
 escreve no idioma nativo daquela plataforma.
 
 **Hierarquia de verdade em caso de divergência.** Se uma peça precisar ser ajustada de forma

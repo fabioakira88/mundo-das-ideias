@@ -9,7 +9,7 @@ Escopo: restaurar somente a listagem da página `/artigos/`, sem alterar shell, 
 | Diagnóstico | OK | `SITE/artigos/index.html` | A página dependia de JavaScript para preencher `<section id="articlesGrid"></section>`. Se o JS falhasse no público, o miolo ficava vazio e sobrava o reader com “Voltar aos artigos”. |
 | Geração | OK | `AUTOMATION/generate_seo.mjs` | O gerador agora preenche uma listagem estática para `/artigos/` usando `SITE/posts.js`. |
 | Listagem | OK | `SITE/artigos/index.html` | A página agora contém título, descrição e 43 cards estáticos com links para os artigos. |
-| Shell | OK | `SITE/artigos/index.html` | `pf-header`, `pf-nav` e `pf-footer` foram preservados. |
+| Shell | OK | `SITE/artigos/index.html` | `mi-header`, `mi-nav` e `mi-footer` foram preservados. |
 | `#` solto | OK | `SITE/artigos/index.html` | Checagem local retornou `hasLooseHash: false`. |
 | Cards com link | OK | `SITE/artigos/index.html` | Checagem local retornou `gridHasLinks: true`. |
 | Conteúdo editorial | OK | `SITE/posts.js` | Nenhum conteúdo editorial foi alterado. |

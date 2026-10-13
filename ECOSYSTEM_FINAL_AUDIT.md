@@ -1,8 +1,8 @@
 # ECOSYSTEM FINAL AUDIT — AION STUDIO
 
-**Data:** 2026-06-26  
-**Executor:** Codex — Engenharia Permanente  
-**Escopo:** Proceder Filosófico + Japão Relativo  
+**Data:** 2026-06-26
+**Executor:** Codex — Engenharia Permanente
+**Escopo:** Mundo das Ideias + Japão Relativo
 **Tipo:** auditoria de engenharia, sem correção, sem deploy, sem remoção de arquivos.
 
 ## Boot Sequence
@@ -13,9 +13,9 @@ Documentos oficiais lidos antes da auditoria:
 - ~~`AION_STUDIO/01_GOVERNANCA/01_POLITICA_DE_DECISAO.md`~~
 - ~~`AION_STUDIO/04_OPERACOES/01_FLUXO_DE_PRODUCAO_DE_CONTEUDO.md`~~
 - ~~`AION_STUDIO/10_CHANGELOG/CHANGELOG.md`~~
-- `PROCEDER_FILOSOFICO:/BRANDING/DEFINITION_OF_DONE.md`
-- `PROCEDER_FILOSOFICO:/BRANDING/BACKLOG_OFICIAL.md`
-- `PROCEDER_FILOSOFICO:/BRANDING/CHANGELOG_DA_IDENTIDADE.md`
+- `MUNDO_DAS_IDEIAS:/BRANDING/DEFINITION_OF_DONE.md`
+- `MUNDO_DAS_IDEIAS:/BRANDING/BACKLOG_OFICIAL.md`
+- `MUNDO_DAS_IDEIAS:/BRANDING/CHANGELOG_DA_IDENTIDADE.md`
 - `JAPAO_RELATIVO:/BRANDING/DEFINITION_OF_DONE.md`
 - `JAPAO_RELATIVO:/BRANDING/BACKLOG_OFICIAL.md`
 - `JAPAO_RELATIVO:/BRANDING/CHANGELOG_DA_IDENTIDADE.md`
@@ -41,7 +41,7 @@ Observação de governança: o pacote AION lido não contém um manual específi
 
 | Projeto | Saúde | Status de deploy | Motivo |
 |---|---:|---|---|
-| Proceder Filosófico | 82/100 | Apto com ressalvas | Sem links/assets locais quebrados e SEO técnico completo nas páginas ativas auditadas; bloqueado para deploy pleno por dívida de performance, duplicação/órfãos e necessidade de evidência final em produção. |
+| Mundo das Ideias | 82/100 | Apto com ressalvas | Sem links/assets locais quebrados e SEO técnico completo nas páginas ativas auditadas; bloqueado para deploy pleno por dívida de performance, duplicação/órfãos e necessidade de evidência final em produção. |
 | Japão Relativo | 61/100 | Não apto | 42 referências usam `assets/` enquanto a pasta real é `ASSETS/`; em ambiente case-sensitive isso quebra CSS, JS, imagens, Survival e quizzes. Há também 5 canonicals ausentes. |
 | Ecossistema AION | 72/100 | Não apto | O Japão Relativo contém bloqueio crítico de deploy. |
 
@@ -49,7 +49,7 @@ Observação de governança: o pacote AION lido não contém um manual específi
 
 Auditoria estática local sobre `SITE/` de cada projeto, com leitura de HTML, CSS, imagens, scripts, PDFs, XML/JSON, referências internas, metadados sociais, JSON-LD, peso de imagens, duplicatas por SHA-256 e padrões de segurança. Links externos não foram validados via rede nesta missão, por restrição de escopo e por não haver autorização para probes externos/deploy.
 
-## Proceder Filosófico
+## Mundo das Ideias
 
 ### Métricas
 
@@ -80,7 +80,7 @@ Nenhum problema crítico ativo encontrado em `SITE/` pela auditoria estática lo
 
 1. **Performance: excesso de imagens pesadas.** Foram encontrados 338 arquivos de imagem acima de 500 KB. Exemplos: `SITE/assets/zBmXzIGbgLLlbNyh.jpg` (~7,9 MB), `SITE/assets/yPCECtiDBKjEdTjP.jpg` (~6,1 MB), `SITE/assets/wPdrfjjEMXEymTcc.jpg` (~5,9 MB). Impacto: LCP, tráfego mobile, cache e SEO técnico.
 
-2. **Duplicação estrutural de assets.** Foram encontrados 192 grupos de arquivos idênticos por SHA-256. Exemplo: `Manual-de-Epicteto-Proceder-Filosofico.pdf` duplicado em `SITE/wp-content/uploads/2026/05/manual-epicteto.pdf`; várias imagens existem simultaneamente em `SITE/assets/`, `SITE/assets/Filósofos/`, `SITE/public/images/` e backups. Impacto: risco de inconsistência, peso de deploy e manutenção frágil.
+2. **Duplicação estrutural de assets.** Foram encontrados 192 grupos de arquivos idênticos por SHA-256. Exemplo: `Relacoes-Leves-Mundo-das-Ideias.pdf` duplicado em `SITE/wp-content/uploads/2026/05/manual-epicteto.pdf`; várias imagens existem simultaneamente em `SITE/assets/`, `SITE/assets/Filósofos/`, `SITE/public/images/` e backups. Impacto: risco de inconsistência, peso de deploy e manutenção frágil.
 
 3. **Sinais de credenciais e endpoints legados em arquivos de documentação/configuração.** A varredura encontrou termos sensíveis em `.env`, `SITE/.env`, `DOCS/COMO_PUBLICAR.md`, `README.md` e documentação de backlog/governança. A auditoria não expôs valores, mas recomenda revisão manual e rotação caso qualquer credencial real esteja presente. Impacto: segurança operacional e governança.
 
@@ -101,7 +101,7 @@ Nenhum problema crítico ativo encontrado em `SITE/` pela auditoria estática lo
 ### Integridade por área
 
 - Estrutura: funcional, mas com duplicação e legados.
-- Performance: principal dívida técnica do Proceder.
+- Performance: principal dívida técnica do Mundo das Ideias.
 - SEO: completo nas páginas ativas auditadas; OG/Twitter/JSON-LD sem falhas estáticas.
 - Links/assets: zero referências locais quebradas.
 - UX/acessibilidade: `alt` presente; validação visual completa não foi executada nesta missão.
@@ -210,7 +210,7 @@ Nenhum problema crítico ativo encontrado em `SITE/` pela auditoria estática lo
 
 ## Aptidão Para Deploy
 
-**Proceder Filosófico:** apto com ressalvas técnicas. Não há bloqueio estático de integridade em `SITE/`, mas o deploy só deve ocorrer após revisão do worktree, confirmação de escopo e aceite explícito da dívida de performance/assets.
+**Mundo das Ideias:** apto com ressalvas técnicas. Não há bloqueio estático de integridade em `SITE/`, mas o deploy só deve ocorrer após revisão do worktree, confirmação de escopo e aceite explícito da dívida de performance/assets.
 
 **Japão Relativo:** não apto. O bloqueio de caixa `assets`/`ASSETS` deve ser corrigido antes de qualquer publicação.
 
@@ -220,7 +220,7 @@ Nenhum problema crítico ativo encontrado em `SITE/` pela auditoria estática lo
 
 **MISSÃO — SANEAMENTO CASE-SENSITIVE E SEO TÉCNICO DO JAPÃO RELATIVO**
 
-Prioridade: crítica.  
+Prioridade: crítica.
 Escopo proposto:
 
 1. Definir uma política única de caminhos (`ASSETS/` ou `assets/`) sem alterar identidade visual.

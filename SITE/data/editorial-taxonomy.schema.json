@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://procederfilosofico.com.br/schemas/editorial-taxonomy.schema.json",
-  "title": "Proceder Filosofico Editorial Taxonomy",
+  "title": "Mundo das Ideias Editorial Taxonomy",
   "type": "object",
   "required": ["schemaVersion", "categories", "relationshipFields"],
   "properties": {

@@ -1,10 +1,12 @@
-# EDITORIAL GUIDELINES — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
 
-> Guia prático de escrita, complementar ao tom de voz de `BRAND_BOOK.md` e ao `MANIFESTO.md`. Responde a uma pergunta estreita: como uma frase do Proceder Filosófico deve soar, frase a frase.
+# EDITORIAL GUIDELINES — MUNDO DAS IDEIAS
+
+> Guia prático de escrita, complementar ao tom de voz de `BRAND_BOOK.md` e ao `MANIFESTO.md`. Responde a uma pergunta estreita: como uma frase do Mundo das Ideias deve soar, frase a frase.
 
 ## Tom
 
-Um texto do Proceder abre com uma afirmação que provoca ou uma pergunta que incomoda, e só depois desenvolve com cuidado — nunca o contrário. O narrador já pensou bastante sobre aquilo antes de escrever, e convida o leitor a pensar também, sem doutrinar.
+Um texto do Mundo das Ideias abre com uma afirmação que provoca ou uma pergunta que incomoda, e só depois desenvolve com cuidado — nunca o contrário. O narrador já pensou bastante sobre aquilo antes de escrever, e convida o leitor a pensar também, sem doutrinar.
 
 ## Ritmo
 

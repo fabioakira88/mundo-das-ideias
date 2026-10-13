@@ -1,7 +1,7 @@
 # REPOSITORY_STANDARDS.md
 
-Data: 2026-06-26  
-Escopo: padrões técnicos para Proceder Filosófico e Japão Relativo  
+Data: 2026-06-26
+Escopo: padrões técnicos para Mundo das Ideias e Japão Relativo
 Status: padrão documental, sem migração automática
 
 ## Princípio

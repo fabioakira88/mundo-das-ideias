@@ -146,6 +146,6 @@ resp = requests.post(
 print(f'  Status: {resp.status_code}')
 if resp.ok:
     print(f'  Link: {resp.json().get("link", "N/A")}')
-    print('  ✓ Peter Pan publicado no Proceder Filosófico!')
+    print('  ✓ Peter Pan publicado no Mundo das Ideias!')
 else:
     print(resp.text[:400])

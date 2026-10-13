@@ -11,9 +11,9 @@
         "enabled": false
       }
     },
-    "proceder-filosofico": {
-      "name": "Proceder Filosofico",
-      "root": "/Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/PROCEDER_FILOSOFICO:",
+    "mundo-das-ideias": {
+      "name": "Mundo das Ideias",
+      "root": "/Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/MUNDO_DAS_IDEIAS:",
       "siteDir": "SITE",
       "contentMode": "posts-js",
       "sitemap": "SITE/sitemap.xml",

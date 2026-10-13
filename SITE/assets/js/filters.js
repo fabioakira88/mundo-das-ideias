@@ -14,5 +14,5 @@
     });
   }
 
-  window.ProcederFilters = { normalize: normalize, matchesText: matchesText };
+  window.MundoDasIdeiasFilters = { normalize: normalize, matchesText: matchesText };
 })();

@@ -1,4 +1,6 @@
-# GOVERNANCE — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# GOVERNANCE — MUNDO DAS IDEIAS
 
 Este documento descreve **como** as decisões sobre identidade, design, UX e conteúdo são tomadas neste projeto — não **o que** elas são (isso está nos demais documentos desta pasta).
 

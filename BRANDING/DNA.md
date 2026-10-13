@@ -1,10 +1,12 @@
-# DNA DO PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# DNA DO MUNDO DAS IDEIAS
 
 > Documento conceitual. Baseado em auditoria completa de `SITE/index.html`, das páginas `/filosofos/`, `/artigos/`, `/conteudo/`, `/sobre/`, `biblioteca.html`, dos artigos individuais, de `posts.js`, `philosophers.js`, `hubs.json`, dos hubs em Markdown e dos briefings editoriais em `CONTENT/briefings/`. Nenhum arquivo de código foi alterado para produzir este documento.
 
 ## Propósito
 
-O Proceder Filosófico existe para ocupar o vazio entre a filosofia acadêmica (rigorosa, mas fechada em vocabulário técnico) e a cultura de citação rasa (acessível, mas vazia — Nietzsche reduzido a frase de capa de caderno). Sua razão de existir é traduzir 2.500 anos de pensamento em ferramentas de leitura para o desconforto contemporâneo específico: atenção fragmentada, conforto que enfraquece, tecnologia mais rápida que sabedoria, silêncio destruído.
+O Mundo das Ideias existe para ocupar o vazio entre a filosofia acadêmica (rigorosa, mas fechada em vocabulário técnico) e a cultura de citação rasa (acessível, mas vazia — Nietzsche reduzido a frase de capa de caderno). Sua razão de existir é traduzir 2.500 anos de pensamento em ferramentas de leitura para o desconforto contemporâneo específico: atenção fragmentada, conforto que enfraquece, tecnologia mais rápida que sabedoria, silêncio destruído.
 
 ## Missão
 
@@ -12,7 +14,7 @@ Preservar a tradição filosófica com precisão histórica e devolvê-la à vid
 
 ## Razão de existir
 
-Numa cultura de aceleração, o Proceder é o contrapeso: o lugar que defende a lentidão como posição existencial, não como nostalgia decorativa. Não gera filosofia original — faz curadoria com voz, religando pensadores antigos a perguntas de hoje, com autoridade discreta.
+Numa cultura de aceleração, o Mundo das Ideias é o contrapeso: o lugar que defende a lentidão como posição existencial, não como nostalgia decorativa. Não gera filosofia original — faz curadoria com voz, religando pensadores antigos a perguntas de hoje, com autoridade discreta.
 
 ## Papel cultural
 

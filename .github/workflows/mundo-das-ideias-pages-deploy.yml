@@ -1,0 +1,97 @@
+name: Mundo das Ideias Deploy (GitHub Pages)
+
+# Substitui o deploy via FTP (mundo-das-ideias-deploy.yml) como caminho principal de publicacao.
+# Motivo: Hostinger nao responde a conexoes FTP originadas dos runners do GitHub Actions
+# (ver MISSION_DEVOPS_04 e MISSION_DEVOPS_03 Release Notes) — o site e 100% estatico, entao
+# publicar via GitHub Pages elimina essa dependencia de rede sem alterar UX/UI/conteudo.
+
+on:
+  push:
+    branches:
+      - main
+      - production
+  workflow_dispatch:
+
+concurrency:
+  group: mundo-das-ideias-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Validate and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Static checks
+        run: |
+          node --check AUTOMATION/generate_seo.mjs
+          node --check SITE/posts.js
+          python3 -m py_compile AUTOMATION/deploy.py
+
+      - name: Generate SEO artifacts
+        run: node AUTOMATION/generate_seo.mjs
+
+      - name: Validate site
+        run: |
+          node VALIDATION/validate_editorial_metadata.mjs
+          node VALIDATION/validate_editorial_architecture.mjs
+          node VALIDATION/validate_links.mjs
+          node VALIDATION/validate_deploy_manifest.mjs
+          node VALIDATION/validate_assets.mjs
+          node VALIDATION/validate_sitemap_robots.mjs
+
+      - name: Block unexpected generated drift
+        run: |
+          if ! git diff --quiet -- SITE/sitemap.xml SITE/robots.txt SITE/artigos SITE/categoria SITE/dossies SITE/conteudo SITE/index.html; then
+            echo "Generated files changed during the workflow."
+            echo "Run node AUTOMATION/generate_seo.mjs locally, review the diff, and commit the generated artifacts before deploying."
+            git diff --stat -- SITE/sitemap.xml SITE/robots.txt SITE/artigos SITE/categoria SITE/dossies SITE/conteudo SITE/index.html
+            exit 1
+          fi
+
+      - name: Stage publishable content
+        # Espelha as exclusoes de AUTOMATION/deploy.py (EXCLUDE_DIRS): docs/ guarda
+        # snapshots de backup arquivados, nunca publicados via FTP, e nao devem
+        # passar a ser publicados agora so porque o Pages publica a pasta inteira.
+        run: |
+          mkdir -p PAGES_BUILD
+          rsync -a --exclude='docs' --exclude='wp-content' --exclude='wp-includes' SITE/ PAGES_BUILD/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: PAGES_BUILD
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

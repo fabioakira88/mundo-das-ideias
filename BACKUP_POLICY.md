@@ -1,7 +1,7 @@
 # BACKUP_POLICY.md
 
-Data: 2026-06-26  
-Escopo: Proceder Filosófico e Japão Relativo  
+Data: 2026-06-26
+Escopo: Mundo das Ideias e Japão Relativo
 Status: política documental, sem movimentação automática de arquivos
 
 ## Objetivo
@@ -40,7 +40,7 @@ YYYY-MM-DD-projeto-escopo-origem/
 Exemplos:
 
 ```text
-2026-06-26-proceder-home-pre-reconciliacao/
+2026-06-26-mundo-das-ideias-home-pre-reconciliacao/
 2026-06-26-japao-relativo-assets-pre-otimizacao/
 ```
 
@@ -106,6 +106,6 @@ Revisar trimestralmente:
 
 ## Status Atual
 
-- Proceder Filosófico possui backups e snapshots relevantes, inclusive dentro de `SITE/docs/backups/`, que devem ser tratados como prioridade técnica antes de deploy estrutural.
+- Mundo das Ideias possui backups e snapshots relevantes, inclusive dentro de `SITE/docs/backups/`, que devem ser tratados como prioridade técnica antes de deploy estrutural.
 - Japão Relativo possui `ARCHIVE/` e `EXPORTS/` volumosos que precisam de classificação antes de limpeza.
 - Nenhuma movimentação foi realizada nesta missão.

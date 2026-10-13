@@ -1,4 +1,4 @@
-# Como publicar — Proceder Filosófico
+# Como publicar — Mundo das Ideias
 
 ## Arquivos ativos
 

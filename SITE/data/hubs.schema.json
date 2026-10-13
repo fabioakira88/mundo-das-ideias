@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://procederfilosofico.com.br/schemas/hubs.schema.json",
-  "title": "Proceder Filosófico HUB Registry",
+  "title": "Mundo das Ideias HUB Registry",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "hubs"],

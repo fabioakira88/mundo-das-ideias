@@ -9,8 +9,8 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--pf-azul-profundo);
-  color: var(--pf-branco);
+  background-color: var(--mi-azul-profundo);
+  color: var(--mi-branco);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +26,7 @@ input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
   outline: none;
-  box-shadow: var(--pf-focus-ring);
+  box-shadow: var(--mi-focus-ring);
 }
 
 img {
@@ -34,15 +34,15 @@ img {
 }
 
 .container,
-.pf-container {
+.mi-container {
   width: min(1180px, calc(100% - 40px));
   margin-inline: auto;
 }
 
-.pf-page-shell {
+.mi-page-shell {
   min-height: 100vh;
   background:
-    linear-gradient(180deg, var(--pf-azul-profundo), var(--pf-azul-escuro));
-  color: var(--pf-branco);
-  font-family: var(--pf-font-body);
+    linear-gradient(180deg, var(--mi-azul-profundo), var(--mi-azul-escuro));
+  color: var(--mi-branco);
+  font-family: var(--mi-font-body);
 }

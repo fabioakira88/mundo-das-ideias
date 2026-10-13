@@ -128,7 +128,7 @@ Sucesso.
 
 - Nenhuma chamada a API de geracao.
 - Nenhuma alteracao em Japao Relativo.
-- Nenhuma alteracao em Proceder Filosofico.
+- Nenhuma alteracao em Mundo das Ideias.
 - Nenhum commit automatico.
 - Nenhum deploy.
 

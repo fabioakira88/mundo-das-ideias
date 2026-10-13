@@ -466,7 +466,7 @@ if 'area-estudo' in current_raw:
     exit(0)
 
 # Injeta antes do bloco da newsletter (que já está no final)
-if 'proceder-newsletter' in current_raw:
+if 'mundo-das-ideias-newsletter' in current_raw:
     new_content = current_raw.replace(
         '<!-- wp:html -->\n<style>\n  /* ── Lead Magnet',
         JS_BLOCK + '\n\n<!-- wp:html -->\n<style>\n  /* ── Lead Magnet'

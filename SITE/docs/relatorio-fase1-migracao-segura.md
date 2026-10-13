@@ -1,14 +1,14 @@
 # Relatorio Fase 1 - Migracao Segura
 
-Data de execucao: 2026-06-01  
-Projeto: Proceder Filosofico  
+Data de execucao: 2026-06-01
+Projeto: Mundo das Ideias
 Escopo: criar base organizada sem alterar logica, HTML, CSS ou JS existentes.
 
 ## Backup criado
 
 Backup completo criado em:
 
-`docs/backups/proceder-fase1-20260601-110542/`
+`docs/backups/mundo-das-ideias-fase1-20260601-110542/`
 
 Conteudo copiado para o backup:
 
@@ -18,7 +18,7 @@ Conteudo copiado para o backup:
 - `.env`
 - `assets/`
 
-Tamanho aproximado do backup: `186M`  
+Tamanho aproximado do backup: `186M`
 Total de arquivos no backup: `208`
 
 Validacao de integridade dos arquivos principais:
@@ -94,7 +94,7 @@ Copias por categoria:
   - arquivos `css`, `css(1)`, `css(2)`, `css2`
   - destino: `public/images/misc/`
 
-Total de arquivos copiados para `public/`: `189`  
+Total de arquivos copiados para `public/`: `189`
 Tamanho aproximado de `public/`: `185M`
 
 ## Arquivos mantidos

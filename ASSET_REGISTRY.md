@@ -1,4 +1,4 @@
-# ASSET_REGISTRY.md — Proceder Filosófico
+# ASSET_REGISTRY.md — Mundo das Ideias
 
 Gerado em: 2026-06-25T17:48:19
 
@@ -97,23 +97,23 @@ Gerado em: 2026-06-25T17:48:19
 | `wPdrfjjEMXEymTcc.jpg` | `SITE/assets/wPdrfjjEMXEymTcc.jpg` | home | 1 | HEAVY | 5918.2 KB |
 | `yPCECtiDBKjEdTjP.jpg` | `SITE/assets/yPCECtiDBKjEdTjP.jpg` | home | 1 | HEAVY | 6131.4 KB |
 | `zBmXzIGbgLLlbNyh.jpg` | `SITE/assets/zBmXzIGbgLLlbNyh.jpg` | home | 1 | HEAVY | 7911.8 KB |
-| `AJPBTuUJaFhjwjvx.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/AJPBTuUJaFhjwjvx.jpg` | referenced | 1 | HEAVY | 5512.2 KB |
-| `FLaneKfrfyGYOgJd.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/FLaneKfrfyGYOgJd.jpg` | referenced | 1 | HEAVY | 5264.3 KB |
-| `Leucipo de Mileto.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Leucipo de Mileto.png` | referenced | 1 | HEAVY | 1805.7 KB |
-| `Talesdemileto.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Talesdemileto.png` | referenced | 1 | HEAVY | 2058.0 KB |
-| `democrito.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/democrito.png` | referenced | 1 | HEAVY | 1916.4 KB |
-| `frase-adorno.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-adorno.png` | referenced | 1 | HEAVY | 2056.4 KB |
-| `frase-epicuro.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-epicuro.png` | referenced | 1 | HEAVY | 3242.7 KB |
-| `frase-marco-aurelio.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-marco-aurelio.png` | referenced | 1 | HEAVY | 3105.3 KB |
-| `frase-protagoras.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-protagoras.png` | referenced | 1 | HEAVY | 1600.0 KB |
-| `frase-seneca.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-seneca.png` | referenced | 1 | HEAVY | 3550.3 KB |
-| `heraclito.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/heraclito.png` | referenced | 1 | HEAVY | 1539.9 KB |
-| `metafisica-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/metafisica-post.png` | referenced | 1 | HEAVY | 2575.3 KB |
-| `post2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/post2.png` | referenced | 1 | HEAVY | 2169.7 KB |
-| `wPdrfjjEMXEymTcc.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/wPdrfjjEMXEymTcc.jpg` | referenced | 2 | HEAVY | 5918.2 KB |
-| `wallpaper-filosofico.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/wallpaper-filosofico.png` | background | 1 | HEAVY | 1869.6 KB |
-| `yPCECtiDBKjEdTjP.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/yPCECtiDBKjEdTjP.jpg` | referenced | 1 | HEAVY | 6131.4 KB |
-| `zBmXzIGbgLLlbNyh.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/zBmXzIGbgLLlbNyh.jpg` | referenced | 1 | HEAVY | 7911.8 KB |
+| `AJPBTuUJaFhjwjvx.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/AJPBTuUJaFhjwjvx.jpg` | referenced | 1 | HEAVY | 5512.2 KB |
+| `FLaneKfrfyGYOgJd.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/FLaneKfrfyGYOgJd.jpg` | referenced | 1 | HEAVY | 5264.3 KB |
+| `Leucipo de Mileto.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Leucipo de Mileto.png` | referenced | 1 | HEAVY | 1805.7 KB |
+| `Talesdemileto.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Talesdemileto.png` | referenced | 1 | HEAVY | 2058.0 KB |
+| `democrito.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/democrito.png` | referenced | 1 | HEAVY | 1916.4 KB |
+| `frase-adorno.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-adorno.png` | referenced | 1 | HEAVY | 2056.4 KB |
+| `frase-epicuro.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-epicuro.png` | referenced | 1 | HEAVY | 3242.7 KB |
+| `frase-marco-aurelio.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-marco-aurelio.png` | referenced | 1 | HEAVY | 3105.3 KB |
+| `frase-protagoras.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-protagoras.png` | referenced | 1 | HEAVY | 1600.0 KB |
+| `frase-seneca.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-seneca.png` | referenced | 1 | HEAVY | 3550.3 KB |
+| `heraclito.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/heraclito.png` | referenced | 1 | HEAVY | 1539.9 KB |
+| `metafisica-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/metafisica-post.png` | referenced | 1 | HEAVY | 2575.3 KB |
+| `post2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/post2.png` | referenced | 1 | HEAVY | 2169.7 KB |
+| `wPdrfjjEMXEymTcc.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/wPdrfjjEMXEymTcc.jpg` | referenced | 2 | HEAVY | 5918.2 KB |
+| `wallpaper-filosofico.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/wallpaper-filosofico.png` | background | 1 | HEAVY | 1869.6 KB |
+| `yPCECtiDBKjEdTjP.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/yPCECtiDBKjEdTjP.jpg` | referenced | 1 | HEAVY | 6131.4 KB |
+| `zBmXzIGbgLLlbNyh.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/zBmXzIGbgLLlbNyh.jpg` | referenced | 1 | HEAVY | 7911.8 KB |
 | `1f3db.svg` | `SITE/assets/1f3db.svg` | home | 1 | OK | 1.5 KB |
 | `1f4a1.svg` | `SITE/assets/1f4a1.svg` | home | 1 | OK | 1.1 KB |
 | `1f52d.svg` | `SITE/assets/1f52d.svg` | home | 1 | OK | 1.2 KB |
@@ -142,32 +142,32 @@ Gerado em: 2026-06-25T17:48:19
 | `frase-platao.png` | `SITE/assets/frase-platao.png` | home | 1 | OK | 954.0 KB |
 | `frase-socrates-post.png` | `SITE/assets/frase-socrates-post.png` | home | 1 | OK | 871.2 KB |
 | `hubs.schema.json` | `SITE/data/hubs.schema.json` | referenced | 1 | OK | 1.9 KB |
-| `1f3db.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/1f3db.svg` | referenced | 1 | OK | 1.5 KB |
-| `1f4a1.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/1f4a1.svg` | referenced | 1 | OK | 1.1 KB |
-| `1f52d.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/1f52d.svg` | referenced | 1 | OK | 1.2 KB |
-| `1f9e0.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/1f9e0.svg` | referenced | 1 | OK | 5.2 KB |
-| `2696.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/2696.svg` | referenced | 1 | OK | 1.4 KB |
-| `26ea.svg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/26ea.svg` | referenced | 1 | OK | 1.1 KB |
-| `Agostinho.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Agostinho.JPG` | referenced | 1 | OK | 315.4 KB |
-| `Kant.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Kant.jpeg` | referenced | 1 | OK | 80.9 KB |
-| `jonh-locke.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/jonh-locke.JPG` | referenced | 1 | OK | 233.2 KB |
-| `sartre1.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/sartre1.JPG` | referenced | 1 | OK | 323.9 KB |
-| `LQHqVnilFspwfHEy.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/LQHqVnilFspwfHEy.png` | referenced | 2 | OK | 973.4 KB |
-| `aristoteles-mestre.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/aristoteles-mestre.jpeg` | referenced | 1 | OK | 122.3 KB |
-| `balzac.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/balzac.jpeg` | referenced | 1 | OK | 461.8 KB |
-| `bernini-proserpina.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/bernini-proserpina.jpeg` | referenced | 1 | OK | 218.3 KB |
-| `descartes-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/descartes-post.png` | referenced | 1 | OK | 775.3 KB |
-| `epicteto.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/epicteto.png` | referenced | 1 | OK | 174.6 KB |
-| `frase-jean-paul-sartrepost.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-jean-paul-sartrepost.png` | referenced | 1 | OK | 683.2 KB |
-| `frase-platao.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-platao.png` | referenced | 1 | OK | 954.0 KB |
-| `frase-socrates-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-socrates-post.png` | referenced | 1 | OK | 871.2 KB |
-| `hannah-arendt.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/hannah-arendt.jpg` | referenced | 1 | OK | 102.1 KB |
-| `laplace.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/laplace.jpeg` | referenced | 1 | OK | 493.6 KB |
-| `marco-aurelio.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/marco-aurelio.JPG` | referenced | 1 | OK | 195.7 KB |
-| `nietzsche-mestre.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/nietzsche-mestre.jpg` | referenced | 1 | OK | 141.4 KB |
-| `platao-mestre.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/platao-mestre.jpeg` | referenced | 1 | OK | 36.5 KB |
-| `seneca.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/seneca.png` | referenced | 1 | OK | 123.3 KB |
-| `soren-kierkegaard.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/soren-kierkegaard.jpeg` | referenced | 1 | OK | 48.1 KB |
+| `1f3db.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/1f3db.svg` | referenced | 1 | OK | 1.5 KB |
+| `1f4a1.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/1f4a1.svg` | referenced | 1 | OK | 1.1 KB |
+| `1f52d.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/1f52d.svg` | referenced | 1 | OK | 1.2 KB |
+| `1f9e0.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/1f9e0.svg` | referenced | 1 | OK | 5.2 KB |
+| `2696.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/2696.svg` | referenced | 1 | OK | 1.4 KB |
+| `26ea.svg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/26ea.svg` | referenced | 1 | OK | 1.1 KB |
+| `Agostinho.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Agostinho.JPG` | referenced | 1 | OK | 315.4 KB |
+| `Kant.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Kant.jpeg` | referenced | 1 | OK | 80.9 KB |
+| `jonh-locke.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/jonh-locke.JPG` | referenced | 1 | OK | 233.2 KB |
+| `sartre1.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/sartre1.JPG` | referenced | 1 | OK | 323.9 KB |
+| `LQHqVnilFspwfHEy.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/LQHqVnilFspwfHEy.png` | referenced | 2 | OK | 973.4 KB |
+| `aristoteles-mestre.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/aristoteles-mestre.jpeg` | referenced | 1 | OK | 122.3 KB |
+| `balzac.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/balzac.jpeg` | referenced | 1 | OK | 461.8 KB |
+| `bernini-proserpina.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/bernini-proserpina.jpeg` | referenced | 1 | OK | 218.3 KB |
+| `descartes-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/descartes-post.png` | referenced | 1 | OK | 775.3 KB |
+| `epicteto.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/epicteto.png` | referenced | 1 | OK | 174.6 KB |
+| `frase-jean-paul-sartrepost.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-jean-paul-sartrepost.png` | referenced | 1 | OK | 683.2 KB |
+| `frase-platao.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-platao.png` | referenced | 1 | OK | 954.0 KB |
+| `frase-socrates-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-socrates-post.png` | referenced | 1 | OK | 871.2 KB |
+| `hannah-arendt.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/hannah-arendt.jpg` | referenced | 1 | OK | 102.1 KB |
+| `laplace.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/laplace.jpeg` | referenced | 1 | OK | 493.6 KB |
+| `marco-aurelio.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/marco-aurelio.JPG` | referenced | 1 | OK | 195.7 KB |
+| `nietzsche-mestre.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/nietzsche-mestre.jpg` | referenced | 1 | OK | 141.4 KB |
+| `platao-mestre.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/platao-mestre.jpeg` | referenced | 1 | OK | 36.5 KB |
+| `seneca.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/seneca.png` | referenced | 1 | OK | 123.3 KB |
+| `soren-kierkegaard.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/soren-kierkegaard.jpeg` | referenced | 1 | OK | 48.1 KB |
 | `notion.example.json` | `BELZEBU/config/notion.example.json` | referenced | 0 | ORPHAN | 0.7 KB |
 | `projects.json` | `BELZEBU/config/projects.json` | referenced | 0 | ORPHAN | 0.7 KB |
 | `registry.json` | `BELZEBU/data/registry.json` | referenced | 0 | ORPHAN | 0.0 KB |
@@ -316,14 +316,14 @@ Gerado em: 2026-06-25T17:48:19
 | `voltaire.webp` | `BRANDING/Filósofos /voltaire.webp` | logo | 0 | ORPHAN | 16.0 KB |
 | `yuval noah harari.webp` | `BRANDING/Filósofos /yuval noah harari.webp` | logo | 0 | ORPHAN | 151.0 KB |
 | `7.png` | `BRANDING/LOGO/7.png` | logo | 0 | ORPHAN | 2051.2 KB |
-| `Procederlogo.svg` | `BRANDING/LOGO/Procederlogo.svg` | logo | 0 | ORPHAN | 1718.7 KB |
+| `mundo-das-ideias-legado-logo.svg` | `BRANDING/LOGO/mundo-das-ideias-legado-logo.svg` | logo | 0 | ORPHAN | 1718.7 KB |
 | `Untitled design 2.PNG` | `BRANDING/LOGO/Untitled design 2.PNG` | logo | 0 | ORPHAN | 133.7 KB |
 | `Untitled design.PNG` | `BRANDING/LOGO/Untitled design.PNG` | logo | 0 | ORPHAN | 329.8 KB |
 | `fabioakira_minimalist_logo_modern_style_but_being_intellectual_c07588a9-7ffa-4c63-b9bf-36dbb5b2f551.PNG` | `BRANDING/LOGO/fabioakira_minimalist_logo_modern_style_but_being_intellectual_c07588a9-7ffa-4c63-b9bf-36dbb5b2f551.PNG` | logo | 0 | ORPHAN | 973.4 KB |
 | `logo.png` | `BRANDING/LOGO/logo.png` | logo | 0 | ORPHAN | 14.9 KB |
 | `logo.transparente.png` | `BRANDING/LOGO/logo.transparente.png` | logo | 0 | ORPHAN | 309.7 KB |
-| `proceder.png` | `BRANDING/LOGO/proceder.png` | logo | 0 | ORPHAN | 125.4 KB |
-| `proceder.svg` | `BRANDING/LOGO/proceder.svg` | logo | 0 | ORPHAN | 571.5 KB |
+| `mundo-das-ideias-legado.png` | `BRANDING/LOGO/mundo-das-ideias-legado.png` | logo | 0 | ORPHAN | 125.4 KB |
+| `mundo-das-ideias-legado-simbolo.svg` | `BRANDING/LOGO/mundo-das-ideias-legado-simbolo.svg` | logo | 0 | ORPHAN | 571.5 KB |
 | `frase-Democritopost.png` | `BRANDING/frases/frase-Democritopost.png` | logo | 0 | ORPHAN | 1031.9 KB |
 | `frase-Sócratespost.png` | `BRANDING/frases/frase-Sócratespost.png` | logo | 0 | ORPHAN | 871.2 KB |
 | `frase-Zenão-eleiapost.png` | `BRANDING/frases/frase-Zenão-eleiapost.png` | logo | 0 | ORPHAN | 1181.0 KB |
@@ -649,148 +649,148 @@ Gerado em: 2026-06-25T17:48:19
 | `wallpaper-filosofico.png` | `SITE/assets/wallpaper-filosofico.png` | background | 0 | ORPHAN | 1869.6 KB |
 | `yuval noah harari.webp` | `SITE/assets/yuval noah harari.webp` | referenced | 0 | ORPHAN | 151.0 KB |
 | `hubs.json` | `SITE/data/hubs.json` | referenced | 0 | ORPHAN | 3.3 KB |
-| `(Lote 1) Citação.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/(Lote 1) Citação.png` | referenced | 0 | ORPHAN | 2395.6 KB |
-| `283023157808351638.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/283023157808351638.jpeg` | referenced | 0 | ORPHAN | 80.9 KB |
-| `Agatha Christie.webp` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Agatha Christie.webp` | referenced | 0 | ORPHAN | 248.7 KB |
-| `Albert.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Albert.JPG` | referenced | 0 | ORPHAN | 136.8 KB |
-| `Aldous Huxley.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Aldous Huxley.jpg` | referenced | 0 | ORPHAN | 44.5 KB |
-| `Anaximandro1.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Anaximandro1.png` | referenced | 0 | ORPHAN | 1586.5 KB |
-| `Anaximandro2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Anaximandro2.png` | referenced | 0 | ORPHAN | 1814.6 KB |
-| `Anaximenes.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Anaximenes.png` | referenced | 0 | ORPHAN | 1545.2 KB |
-| `Aristoteles.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Aristoteles.jpeg` | referenced | 0 | ORPHAN | 174.4 KB |
-| `Arthur-schopenhauer.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Arthur-schopenhauer.jpg` | referenced | 0 | ORPHAN | 112.6 KB |
-| `Author_Steven_Pressfield,_June_2011.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Author_Steven_Pressfield,_June_2011.jpeg` | referenced | 0 | ORPHAN | 1174.6 KB |
-| `Avicena.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Avicena.png` | referenced | 0 | ORPHAN | 2072.3 KB |
-| `BALZAK.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/BALZAK.JPG` | referenced | 0 | ORPHAN | 461.8 KB |
-| `Bernini - The Rape of Proserpina.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Bernini - The Rape of Proserpina.jpeg` | referenced | 0 | ORPHAN | 218.3 KB |
-| `Carl Gustav Jung.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Carl Gustav Jung.jpg` | referenced | 0 | ORPHAN | 62.6 KB |
-| `Cicero.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Cicero.png` | referenced | 0 | ORPHAN | 1674.7 KB |
-| `Confúcio.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Confúcio.jpeg` | referenced | 0 | ORPHAN | 88.5 KB |
-| `Confúcio2.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Confúcio2.jpeg` | referenced | 0 | ORPHAN | 108.4 KB |
-| `Eça_de_Queirós_c._1882.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Eça_de_Queirós_c._1882.jpg` | referenced | 0 | ORPHAN | 105.8 KB |
-| `Empédocles.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Empédocles.png` | referenced | 0 | ORPHAN | 1512.9 KB |
-| `Empédocles2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Empédocles2.png` | referenced | 0 | ORPHAN | 1594.6 KB |
-| `Epicteto.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Epicteto.png` | referenced | 0 | ORPHAN | 1904.9 KB |
-| `Ernest Hemingway.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Ernest Hemingway.png` | referenced | 0 | ORPHAN | 1848.0 KB |
-| `ErnestHemingway.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/ErnestHemingway.jpg` | referenced | 0 | ORPHAN | 501.2 KB |
-| `Escola-athenas.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Escola-athenas.jpg` | referenced | 0 | ORPHAN | 2411.0 KB |
-| `Euripides.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Euripides.png` | referenced | 0 | ORPHAN | 1748.9 KB |
-| `Euripides2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Euripides2.png` | referenced | 0 | ORPHAN | 2052.2 KB |
-| `FRIEDRICH NIETZSCHE.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/FRIEDRICH NIETZSCHE.jpeg` | referenced | 0 | ORPHAN | 117.7 KB |
-| `Friedrich Nietzsche - Wikipedia.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Friedrich Nietzsche - Wikipedia.jpeg` | referenced | 0 | ORPHAN | 58.0 KB |
-| `Friedrich Nietzsche(Filósofo_) Ultra-Realista.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Friedrich Nietzsche(Filósofo_) Ultra-Realista.jpeg` | referenced | 0 | ORPHAN | 82.9 KB |
-| `George Orwell.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/George Orwell.jpeg` | referenced | 0 | ORPHAN | 145.7 KB |
-| `Hesíodo3.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Hesíodo3.png` | referenced | 0 | ORPHAN | 1829.5 KB |
-| `IMG_2546 2.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_2546 2.JPG` | referenced | 0 | ORPHAN | 195.7 KB |
-| `IMG_2547.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_2547.JPG` | referenced | 0 | ORPHAN | 167.9 KB |
-| `IMG_7533.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7533.JPG` | referenced | 0 | ORPHAN | 63.6 KB |
-| `IMG_7617.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7617.JPG` | referenced | 0 | ORPHAN | 265.8 KB |
-| `IMG_7620.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7620.JPG` | referenced | 0 | ORPHAN | 373.4 KB |
-| `IMG_7621.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7621.JPG` | referenced | 0 | ORPHAN | 222.9 KB |
-| `IMG_7622.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7622.JPG` | referenced | 0 | ORPHAN | 237.2 KB |
-| `IMG_7623.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7623.JPG` | referenced | 0 | ORPHAN | 266.1 KB |
-| `IMG_7631.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7631.JPG` | referenced | 0 | ORPHAN | 109.8 KB |
-| `IMG_7632.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_7632.JPG` | referenced | 0 | ORPHAN | 229.7 KB |
-| `IMG_8043.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_8043.JPG` | referenced | 0 | ORPHAN | 68.7 KB |
-| `IMG_8121.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_8121.JPG` | referenced | 0 | ORPHAN | 480.3 KB |
-| `IMG_8122.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_8122.JPG` | referenced | 0 | ORPHAN | 103.0 KB |
-| `IMG_8237.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_8237.JPG` | referenced | 0 | ORPHAN | 337.0 KB |
-| `IMG_8782.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/IMG_8782.JPG` | referenced | 0 | ORPHAN | 347.9 KB |
-| `Jorge Luis Borges.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Jorge Luis Borges.jpeg` | referenced | 0 | ORPHAN | 355.0 KB |
-| `Ludwig Wittgenstein.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Ludwig Wittgenstein.jpg` | referenced | 0 | ORPHAN | 163.6 KB |
-| `Martin Luther king.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Martin Luther king.png` | referenced | 0 | ORPHAN | 1708.3 KB |
-| `Max weber.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Max weber.jpeg` | referenced | 0 | ORPHAN | 523.7 KB |
-| `Nicolaudecusa.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Nicolaudecusa.png` | referenced | 0 | ORPHAN | 1762.9 KB |
-| `Nietzsche_ _Culpabilidade_.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Nietzsche_ _Culpabilidade_.jpeg` | referenced | 0 | ORPHAN | 16.1 KB |
-| `Noam Chomsky.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Noam Chomsky.jpeg` | referenced | 0 | ORPHAN | 1120.8 KB |
-| `Pitágoras1.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Pitágoras1.png` | referenced | 0 | ORPHAN | 2129.1 KB |
-| `Platão.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Platão.png` | referenced | 0 | ORPHAN | 1782.9 KB |
-| `Sophocles.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Sophocles.png` | referenced | 0 | ORPHAN | 1748.7 KB |
-| `Sophocles2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Sophocles2.png` | referenced | 0 | ORPHAN | 1948.4 KB |
-| `Sócrates.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Sócrates.png` | referenced | 0 | ORPHAN | 1539.2 KB |
-| `Sólon.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Sólon.png` | referenced | 0 | ORPHAN | 2010.3 KB |
-| `Sólon2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Sólon2.png` | referenced | 0 | ORPHAN | 1679.4 KB |
-| `Steven Pressfield.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Steven Pressfield.jpeg` | referenced | 0 | ORPHAN | 65.2 KB |
-| `Søren Kierkegaard — Wikipédia.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Søren Kierkegaard — Wikipédia.jpeg` | referenced | 0 | ORPHAN | 48.1 KB |
-| `Tales de Mileto_ quem foi, contribuições, obras, resumo - Mundo Educação.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Tales de Mileto_ quem foi, contribuições, obras, resumo - Mundo Educação.jpeg` | referenced | 0 | ORPHAN | 80.4 KB |
-| `Thomas Paine.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Thomas Paine.jpeg` | referenced | 0 | ORPHAN | 130.1 KB |
-| `Zebão de citio 2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Zebão de citio 2.png` | referenced | 0 | ORPHAN | 1894.0 KB |
-| `Zenão de Eléia.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Zenão de Eléia.png` | referenced | 0 | ORPHAN | 1827.4 KB |
-| `Zenão.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Zenão.png` | referenced | 0 | ORPHAN | 1704.9 KB |
-| `Zenãodecitio1.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Zenãodecitio1.png` | referenced | 0 | ORPHAN | 1970.3 KB |
-| `Zygmunt Bauman.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/Zygmunt Bauman.jpg` | referenced | 0 | ORPHAN | 60.2 KB |
-| `agostinho1.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/agostinho1.JPG` | referenced | 0 | ORPHAN | 97.2 KB |
-| `albert-camus.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/albert-camus.jpg` | referenced | 0 | ORPHAN | 101.5 KB |
-| `cicero2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/cicero2.png` | referenced | 0 | ORPHAN | 1568.5 KB |
-| `cicero3.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/cicero3.png` | referenced | 0 | ORPHAN | 1682.4 KB |
-| `democrito2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/democrito2.png` | referenced | 0 | ORPHAN | 2077.5 KB |
-| `ésquilo 2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/ésquilo 2.png` | referenced | 0 | ORPHAN | 1654.2 KB |
-| `ésquilo.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/ésquilo.png` | referenced | 0 | ORPHAN | 1830.5 KB |
-| `fabioakira_Augustine_Aloysius_Joyce_1882_-_1941_was_an_Irish_wr_a62a3af7-ed41-4f2c-92af-bab97fecb1cf.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Augustine_Aloysius_Joyce_1882_-_1941_was_an_Irish_wr_a62a3af7-ed41-4f2c-92af-bab97fecb1cf.png` | referenced | 0 | ORPHAN | 1695.3 KB |
-| `fabioakira_Emily_Bronte_born_July_30_1818_Thornton_Yorkshire_En_e159e851-76f2-4904-8567-fff03818058c.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Emily_Bronte_born_July_30_1818_Thornton_Yorkshire_En_e159e851-76f2-4904-8567-fff03818058c.png` | referenced | 0 | ORPHAN | 1985.5 KB |
-| `fabioakira_George_Orwell_born_June_25_1903_Motihari_Bengal_Indi_6121b5fe-509a-4fa8-9243-560be57f0f0b.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_George_Orwell_born_June_25_1903_Motihari_Bengal_Indi_6121b5fe-509a-4fa8-9243-560be57f0f0b.png` | referenced | 0 | ORPHAN | 1581.6 KB |
-| `fabioakira_Jacques-Marie_Emile_Lacan_was_a_French_psychoanalyst_e78c0547-c2d9-4ccf-9ccf-8f336a9319db.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Jacques-Marie_Emile_Lacan_was_a_French_psychoanalyst_e78c0547-c2d9-4ccf-9ccf-8f336a9319db.png` | referenced | 0 | ORPHAN | 2059.0 KB |
-| `fabioakira_Max_Weber_born_April_21_1864_Erfurt_Prussia_Germany-_9e5efd54-dbff-4ecd-8d50-d94517a19696.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Max_Weber_born_April_21_1864_Erfurt_Prussia_Germany-_9e5efd54-dbff-4ecd-8d50-d94517a19696.png` | referenced | 0 | ORPHAN | 1653.6 KB |
-| `fabioakira_Sophocles_497406_BC_was_a_Greek_playwright._His_mast_eaa0a27a-ee7d-4a6b-b3f1-626f8b7fe65c.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Sophocles_497406_BC_was_a_Greek_playwright._His_mast_eaa0a27a-ee7d-4a6b-b3f1-626f8b7fe65c.png` | referenced | 0 | ORPHAN | 1877.9 KB |
-| `fabioakira_Yuval_Noah_Harari_is_an_Israeli_history_professor_an_a34327a0-935d-461b-ae97-558eb3b6e6a4.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Yuval_Noah_Harari_is_an_Israeli_history_professor_an_a34327a0-935d-461b-ae97-558eb3b6e6a4.png` | referenced | 0 | ORPHAN | 1296.2 KB |
-| `fabioakira_Zygmunt_Bauman_1925-2017_was_a_Polish-British_sociol_24ccd9d1-698d-4643-9761-aba6a55f2053.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fabioakira_Zygmunt_Bauman_1925-2017_was_a_Polish-British_sociol_24ccd9d1-698d-4643-9761-aba6a55f2053.png` | referenced | 0 | ORPHAN | 1454.9 KB |
-| `fiodor.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/fiodor.jpg` | referenced | 0 | ORPHAN | 164.4 KB |
-| `franz-kafka.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/franz-kafka.jpg` | referenced | 0 | ORPHAN | 44.6 KB |
-| `hannah-arendt.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/hannah-arendt.jpg` | referenced | 0 | ORPHAN | 102.1 KB |
-| `heraclito.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/heraclito.png` | referenced | 0 | ORPHAN | 1539.9 KB |
-| `hesíodo.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/hesíodo.png` | referenced | 0 | ORPHAN | 1987.4 KB |
-| `homero.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/homero.png` | referenced | 0 | ORPHAN | 1721.4 KB |
-| `homero2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/homero2.png` | referenced | 0 | ORPHAN | 1993.9 KB |
-| `immanuel-kant.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/immanuel-kant.JPG` | referenced | 0 | ORPHAN | 71.3 KB |
-| `immanuel.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/immanuel.JPG` | referenced | 0 | ORPHAN | 79.4 KB |
-| `kant-art.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/kant-art.JPG` | referenced | 0 | ORPHAN | 493.3 KB |
-| `kant.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/kant.jpg` | referenced | 0 | ORPHAN | 28.8 KB |
-| `kant__8_original.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/kant__8_original.jpg` | referenced | 0 | ORPHAN | 264.5 KB |
-| `lao Tsé.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/lao Tsé.png` | referenced | 0 | ORPHAN | 2068.6 KB |
-| `laplace.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/laplace.JPG` | referenced | 0 | ORPHAN | 493.6 KB |
-| `locke.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/locke.JPG` | referenced | 0 | ORPHAN | 153.0 KB |
-| `marco-aurelio.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/marco-aurelio.JPG` | referenced | 0 | ORPHAN | 195.7 KB |
-| `michel-de-montaigne.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/michel-de-montaigne.png` | referenced | 0 | ORPHAN | 1671.0 KB |
-| `nicolaudecusa2.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nicolaudecusa2.png` | referenced | 0 | ORPHAN | 1491.3 KB |
-| `nietzsche-art.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nietzsche-art.jpeg` | referenced | 0 | ORPHAN | 78.1 KB |
-| `nietzsche-ia.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nietzsche-ia.jpeg` | referenced | 0 | ORPHAN | 65.5 KB |
-| `nietzsche.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nietzsche.JPG` | referenced | 0 | ORPHAN | 283.0 KB |
-| `nietzsche.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nietzsche.jpeg` | referenced | 0 | ORPHAN | 72.2 KB |
-| `nietzsche1.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/nietzsche1.jpeg` | referenced | 0 | ORPHAN | 69.5 KB |
-| `paulo freire.jpg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/paulo freire.jpg` | referenced | 0 | ORPHAN | 147.0 KB |
-| `platao.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/platao.jpeg` | referenced | 0 | ORPHAN | 50.4 KB |
-| `plotino.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/plotino.png` | referenced | 0 | ORPHAN | 2208.5 KB |
-| `prometeu-aguia.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/prometeu-aguia.JPG` | referenced | 0 | ORPHAN | 70.2 KB |
-| `prometeu.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/prometeu.JPG` | referenced | 0 | ORPHAN | 255.3 KB |
-| `santo agostinho.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/santo agostinho.png` | referenced | 0 | ORPHAN | 1607.4 KB |
-| `santo_agostinho.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/santo_agostinho.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
-| `sartre2.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/sartre2.JPG` | referenced | 0 | ORPHAN | 74.3 KB |
-| `seneca.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/seneca.JPG` | referenced | 0 | ORPHAN | 239.6 KB |
-| `simone Weil.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/simone Weil.png` | referenced | 0 | ORPHAN | 1405.2 KB |
-| `soren.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/soren.JPG` | referenced | 0 | ORPHAN | 52.4 KB |
-| `sto-agostinho.JPG` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/sto-agostinho.JPG` | referenced | 0 | ORPHAN | 475.5 KB |
-| `tales de mileto.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/tales de mileto.png` | referenced | 0 | ORPHAN | 2139.3 KB |
-| `tolstoy.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/tolstoy.png` | referenced | 0 | ORPHAN | 1761.2 KB |
-| `voltaire.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/voltaire.png` | referenced | 0 | ORPHAN | 3680.2 KB |
-| `voltaire.webp` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/voltaire.webp` | referenced | 0 | ORPHAN | 16.0 KB |
-| `yuval noah harari.webp` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/Filósofos/yuval noah harari.webp` | referenced | 0 | ORPHAN | 151.0 KB |
-| `aristoteles.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/aristoteles.jpeg` | referenced | 0 | ORPHAN | 91.9 KB |
-| `existencialismo.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/existencialismo.jpeg` | referenced | 0 | ORPHAN | 111.6 KB |
-| `frase-confucio.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-confucio.png` | referenced | 0 | ORPHAN | 944.5 KB |
-| `frase-democrito-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-democrito-post.png` | referenced | 0 | ORPHAN | 1031.9 KB |
-| `frase-empedocles-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-empedocles-post.png` | referenced | 0 | ORPHAN | 971.0 KB |
-| `frase-leucipo-post.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-leucipo-post.png` | referenced | 0 | ORPHAN | 868.5 KB |
-| `frase-locke.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-locke.png` | referenced | 0 | ORPHAN | 2106.0 KB |
-| `frase-tales.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-tales.png` | referenced | 0 | ORPHAN | 3219.0 KB |
-| `frase-zenao-eleiapost.png` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/frase-zenao-eleiapost.png` | referenced | 0 | ORPHAN | 1181.0 KB |
-| `kant 2.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/kant 2.jpeg` | referenced | 0 | ORPHAN | 18.8 KB |
-| `kant.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/kant.jpeg` | referenced | 0 | ORPHAN | 80.9 KB |
-| `peter-pan.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/peter-pan.jpeg` | referenced | 0 | ORPHAN | 119.7 KB |
-| `religiao-e-filosofia.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/religiao-e-filosofia.jpeg` | referenced | 0 | ORPHAN | 158.1 KB |
-| `santo_agostinho 2.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/santo_agostinho 2.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
-| `santo_agostinho.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/santo_agostinho.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
-| `siegfried.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/siegfried.jpeg` | referenced | 0 | ORPHAN | 91.4 KB |
-| `sto-agostinho.jpeg` | `SITE/docs/backups/proceder-fase1-20260601-110542/assets/sto-agostinho.jpeg` | referenced | 0 | ORPHAN | 145.1 KB |
+| `(Lote 1) Citação.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/(Lote 1) Citação.png` | referenced | 0 | ORPHAN | 2395.6 KB |
+| `283023157808351638.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/283023157808351638.jpeg` | referenced | 0 | ORPHAN | 80.9 KB |
+| `Agatha Christie.webp` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Agatha Christie.webp` | referenced | 0 | ORPHAN | 248.7 KB |
+| `Albert.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Albert.JPG` | referenced | 0 | ORPHAN | 136.8 KB |
+| `Aldous Huxley.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Aldous Huxley.jpg` | referenced | 0 | ORPHAN | 44.5 KB |
+| `Anaximandro1.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Anaximandro1.png` | referenced | 0 | ORPHAN | 1586.5 KB |
+| `Anaximandro2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Anaximandro2.png` | referenced | 0 | ORPHAN | 1814.6 KB |
+| `Anaximenes.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Anaximenes.png` | referenced | 0 | ORPHAN | 1545.2 KB |
+| `Aristoteles.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Aristoteles.jpeg` | referenced | 0 | ORPHAN | 174.4 KB |
+| `Arthur-schopenhauer.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Arthur-schopenhauer.jpg` | referenced | 0 | ORPHAN | 112.6 KB |
+| `Author_Steven_Pressfield,_June_2011.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Author_Steven_Pressfield,_June_2011.jpeg` | referenced | 0 | ORPHAN | 1174.6 KB |
+| `Avicena.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Avicena.png` | referenced | 0 | ORPHAN | 2072.3 KB |
+| `BALZAK.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/BALZAK.JPG` | referenced | 0 | ORPHAN | 461.8 KB |
+| `Bernini - The Rape of Proserpina.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Bernini - The Rape of Proserpina.jpeg` | referenced | 0 | ORPHAN | 218.3 KB |
+| `Carl Gustav Jung.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Carl Gustav Jung.jpg` | referenced | 0 | ORPHAN | 62.6 KB |
+| `Cicero.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Cicero.png` | referenced | 0 | ORPHAN | 1674.7 KB |
+| `Confúcio.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Confúcio.jpeg` | referenced | 0 | ORPHAN | 88.5 KB |
+| `Confúcio2.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Confúcio2.jpeg` | referenced | 0 | ORPHAN | 108.4 KB |
+| `Eça_de_Queirós_c._1882.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Eça_de_Queirós_c._1882.jpg` | referenced | 0 | ORPHAN | 105.8 KB |
+| `Empédocles.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Empédocles.png` | referenced | 0 | ORPHAN | 1512.9 KB |
+| `Empédocles2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Empédocles2.png` | referenced | 0 | ORPHAN | 1594.6 KB |
+| `Epicteto.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Epicteto.png` | referenced | 0 | ORPHAN | 1904.9 KB |
+| `Ernest Hemingway.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Ernest Hemingway.png` | referenced | 0 | ORPHAN | 1848.0 KB |
+| `ErnestHemingway.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/ErnestHemingway.jpg` | referenced | 0 | ORPHAN | 501.2 KB |
+| `Escola-athenas.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Escola-athenas.jpg` | referenced | 0 | ORPHAN | 2411.0 KB |
+| `Euripides.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Euripides.png` | referenced | 0 | ORPHAN | 1748.9 KB |
+| `Euripides2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Euripides2.png` | referenced | 0 | ORPHAN | 2052.2 KB |
+| `FRIEDRICH NIETZSCHE.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/FRIEDRICH NIETZSCHE.jpeg` | referenced | 0 | ORPHAN | 117.7 KB |
+| `Friedrich Nietzsche - Wikipedia.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Friedrich Nietzsche - Wikipedia.jpeg` | referenced | 0 | ORPHAN | 58.0 KB |
+| `Friedrich Nietzsche(Filósofo_) Ultra-Realista.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Friedrich Nietzsche(Filósofo_) Ultra-Realista.jpeg` | referenced | 0 | ORPHAN | 82.9 KB |
+| `George Orwell.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/George Orwell.jpeg` | referenced | 0 | ORPHAN | 145.7 KB |
+| `Hesíodo3.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Hesíodo3.png` | referenced | 0 | ORPHAN | 1829.5 KB |
+| `IMG_2546 2.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_2546 2.JPG` | referenced | 0 | ORPHAN | 195.7 KB |
+| `IMG_2547.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_2547.JPG` | referenced | 0 | ORPHAN | 167.9 KB |
+| `IMG_7533.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7533.JPG` | referenced | 0 | ORPHAN | 63.6 KB |
+| `IMG_7617.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7617.JPG` | referenced | 0 | ORPHAN | 265.8 KB |
+| `IMG_7620.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7620.JPG` | referenced | 0 | ORPHAN | 373.4 KB |
+| `IMG_7621.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7621.JPG` | referenced | 0 | ORPHAN | 222.9 KB |
+| `IMG_7622.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7622.JPG` | referenced | 0 | ORPHAN | 237.2 KB |
+| `IMG_7623.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7623.JPG` | referenced | 0 | ORPHAN | 266.1 KB |
+| `IMG_7631.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7631.JPG` | referenced | 0 | ORPHAN | 109.8 KB |
+| `IMG_7632.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_7632.JPG` | referenced | 0 | ORPHAN | 229.7 KB |
+| `IMG_8043.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_8043.JPG` | referenced | 0 | ORPHAN | 68.7 KB |
+| `IMG_8121.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_8121.JPG` | referenced | 0 | ORPHAN | 480.3 KB |
+| `IMG_8122.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_8122.JPG` | referenced | 0 | ORPHAN | 103.0 KB |
+| `IMG_8237.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_8237.JPG` | referenced | 0 | ORPHAN | 337.0 KB |
+| `IMG_8782.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/IMG_8782.JPG` | referenced | 0 | ORPHAN | 347.9 KB |
+| `Jorge Luis Borges.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Jorge Luis Borges.jpeg` | referenced | 0 | ORPHAN | 355.0 KB |
+| `Ludwig Wittgenstein.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Ludwig Wittgenstein.jpg` | referenced | 0 | ORPHAN | 163.6 KB |
+| `Martin Luther king.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Martin Luther king.png` | referenced | 0 | ORPHAN | 1708.3 KB |
+| `Max weber.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Max weber.jpeg` | referenced | 0 | ORPHAN | 523.7 KB |
+| `Nicolaudecusa.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Nicolaudecusa.png` | referenced | 0 | ORPHAN | 1762.9 KB |
+| `Nietzsche_ _Culpabilidade_.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Nietzsche_ _Culpabilidade_.jpeg` | referenced | 0 | ORPHAN | 16.1 KB |
+| `Noam Chomsky.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Noam Chomsky.jpeg` | referenced | 0 | ORPHAN | 1120.8 KB |
+| `Pitágoras1.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Pitágoras1.png` | referenced | 0 | ORPHAN | 2129.1 KB |
+| `Platão.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Platão.png` | referenced | 0 | ORPHAN | 1782.9 KB |
+| `Sophocles.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Sophocles.png` | referenced | 0 | ORPHAN | 1748.7 KB |
+| `Sophocles2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Sophocles2.png` | referenced | 0 | ORPHAN | 1948.4 KB |
+| `Sócrates.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Sócrates.png` | referenced | 0 | ORPHAN | 1539.2 KB |
+| `Sólon.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Sólon.png` | referenced | 0 | ORPHAN | 2010.3 KB |
+| `Sólon2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Sólon2.png` | referenced | 0 | ORPHAN | 1679.4 KB |
+| `Steven Pressfield.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Steven Pressfield.jpeg` | referenced | 0 | ORPHAN | 65.2 KB |
+| `Søren Kierkegaard — Wikipédia.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Søren Kierkegaard — Wikipédia.jpeg` | referenced | 0 | ORPHAN | 48.1 KB |
+| `Tales de Mileto_ quem foi, contribuições, obras, resumo - Mundo Educação.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Tales de Mileto_ quem foi, contribuições, obras, resumo - Mundo Educação.jpeg` | referenced | 0 | ORPHAN | 80.4 KB |
+| `Thomas Paine.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Thomas Paine.jpeg` | referenced | 0 | ORPHAN | 130.1 KB |
+| `Zebão de citio 2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Zebão de citio 2.png` | referenced | 0 | ORPHAN | 1894.0 KB |
+| `Zenão de Eléia.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Zenão de Eléia.png` | referenced | 0 | ORPHAN | 1827.4 KB |
+| `Zenão.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Zenão.png` | referenced | 0 | ORPHAN | 1704.9 KB |
+| `Zenãodecitio1.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Zenãodecitio1.png` | referenced | 0 | ORPHAN | 1970.3 KB |
+| `Zygmunt Bauman.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/Zygmunt Bauman.jpg` | referenced | 0 | ORPHAN | 60.2 KB |
+| `agostinho1.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/agostinho1.JPG` | referenced | 0 | ORPHAN | 97.2 KB |
+| `albert-camus.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/albert-camus.jpg` | referenced | 0 | ORPHAN | 101.5 KB |
+| `cicero2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/cicero2.png` | referenced | 0 | ORPHAN | 1568.5 KB |
+| `cicero3.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/cicero3.png` | referenced | 0 | ORPHAN | 1682.4 KB |
+| `democrito2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/democrito2.png` | referenced | 0 | ORPHAN | 2077.5 KB |
+| `ésquilo 2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/ésquilo 2.png` | referenced | 0 | ORPHAN | 1654.2 KB |
+| `ésquilo.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/ésquilo.png` | referenced | 0 | ORPHAN | 1830.5 KB |
+| `fabioakira_Augustine_Aloysius_Joyce_1882_-_1941_was_an_Irish_wr_a62a3af7-ed41-4f2c-92af-bab97fecb1cf.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Augustine_Aloysius_Joyce_1882_-_1941_was_an_Irish_wr_a62a3af7-ed41-4f2c-92af-bab97fecb1cf.png` | referenced | 0 | ORPHAN | 1695.3 KB |
+| `fabioakira_Emily_Bronte_born_July_30_1818_Thornton_Yorkshire_En_e159e851-76f2-4904-8567-fff03818058c.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Emily_Bronte_born_July_30_1818_Thornton_Yorkshire_En_e159e851-76f2-4904-8567-fff03818058c.png` | referenced | 0 | ORPHAN | 1985.5 KB |
+| `fabioakira_George_Orwell_born_June_25_1903_Motihari_Bengal_Indi_6121b5fe-509a-4fa8-9243-560be57f0f0b.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_George_Orwell_born_June_25_1903_Motihari_Bengal_Indi_6121b5fe-509a-4fa8-9243-560be57f0f0b.png` | referenced | 0 | ORPHAN | 1581.6 KB |
+| `fabioakira_Jacques-Marie_Emile_Lacan_was_a_French_psychoanalyst_e78c0547-c2d9-4ccf-9ccf-8f336a9319db.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Jacques-Marie_Emile_Lacan_was_a_French_psychoanalyst_e78c0547-c2d9-4ccf-9ccf-8f336a9319db.png` | referenced | 0 | ORPHAN | 2059.0 KB |
+| `fabioakira_Max_Weber_born_April_21_1864_Erfurt_Prussia_Germany-_9e5efd54-dbff-4ecd-8d50-d94517a19696.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Max_Weber_born_April_21_1864_Erfurt_Prussia_Germany-_9e5efd54-dbff-4ecd-8d50-d94517a19696.png` | referenced | 0 | ORPHAN | 1653.6 KB |
+| `fabioakira_Sophocles_497406_BC_was_a_Greek_playwright._His_mast_eaa0a27a-ee7d-4a6b-b3f1-626f8b7fe65c.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Sophocles_497406_BC_was_a_Greek_playwright._His_mast_eaa0a27a-ee7d-4a6b-b3f1-626f8b7fe65c.png` | referenced | 0 | ORPHAN | 1877.9 KB |
+| `fabioakira_Yuval_Noah_Harari_is_an_Israeli_history_professor_an_a34327a0-935d-461b-ae97-558eb3b6e6a4.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Yuval_Noah_Harari_is_an_Israeli_history_professor_an_a34327a0-935d-461b-ae97-558eb3b6e6a4.png` | referenced | 0 | ORPHAN | 1296.2 KB |
+| `fabioakira_Zygmunt_Bauman_1925-2017_was_a_Polish-British_sociol_24ccd9d1-698d-4643-9761-aba6a55f2053.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fabioakira_Zygmunt_Bauman_1925-2017_was_a_Polish-British_sociol_24ccd9d1-698d-4643-9761-aba6a55f2053.png` | referenced | 0 | ORPHAN | 1454.9 KB |
+| `fiodor.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/fiodor.jpg` | referenced | 0 | ORPHAN | 164.4 KB |
+| `franz-kafka.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/franz-kafka.jpg` | referenced | 0 | ORPHAN | 44.6 KB |
+| `hannah-arendt.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/hannah-arendt.jpg` | referenced | 0 | ORPHAN | 102.1 KB |
+| `heraclito.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/heraclito.png` | referenced | 0 | ORPHAN | 1539.9 KB |
+| `hesíodo.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/hesíodo.png` | referenced | 0 | ORPHAN | 1987.4 KB |
+| `homero.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/homero.png` | referenced | 0 | ORPHAN | 1721.4 KB |
+| `homero2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/homero2.png` | referenced | 0 | ORPHAN | 1993.9 KB |
+| `immanuel-kant.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/immanuel-kant.JPG` | referenced | 0 | ORPHAN | 71.3 KB |
+| `immanuel.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/immanuel.JPG` | referenced | 0 | ORPHAN | 79.4 KB |
+| `kant-art.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/kant-art.JPG` | referenced | 0 | ORPHAN | 493.3 KB |
+| `kant.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/kant.jpg` | referenced | 0 | ORPHAN | 28.8 KB |
+| `kant__8_original.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/kant__8_original.jpg` | referenced | 0 | ORPHAN | 264.5 KB |
+| `lao Tsé.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/lao Tsé.png` | referenced | 0 | ORPHAN | 2068.6 KB |
+| `laplace.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/laplace.JPG` | referenced | 0 | ORPHAN | 493.6 KB |
+| `locke.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/locke.JPG` | referenced | 0 | ORPHAN | 153.0 KB |
+| `marco-aurelio.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/marco-aurelio.JPG` | referenced | 0 | ORPHAN | 195.7 KB |
+| `michel-de-montaigne.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/michel-de-montaigne.png` | referenced | 0 | ORPHAN | 1671.0 KB |
+| `nicolaudecusa2.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nicolaudecusa2.png` | referenced | 0 | ORPHAN | 1491.3 KB |
+| `nietzsche-art.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nietzsche-art.jpeg` | referenced | 0 | ORPHAN | 78.1 KB |
+| `nietzsche-ia.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nietzsche-ia.jpeg` | referenced | 0 | ORPHAN | 65.5 KB |
+| `nietzsche.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nietzsche.JPG` | referenced | 0 | ORPHAN | 283.0 KB |
+| `nietzsche.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nietzsche.jpeg` | referenced | 0 | ORPHAN | 72.2 KB |
+| `nietzsche1.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/nietzsche1.jpeg` | referenced | 0 | ORPHAN | 69.5 KB |
+| `paulo freire.jpg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/paulo freire.jpg` | referenced | 0 | ORPHAN | 147.0 KB |
+| `platao.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/platao.jpeg` | referenced | 0 | ORPHAN | 50.4 KB |
+| `plotino.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/plotino.png` | referenced | 0 | ORPHAN | 2208.5 KB |
+| `prometeu-aguia.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/prometeu-aguia.JPG` | referenced | 0 | ORPHAN | 70.2 KB |
+| `prometeu.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/prometeu.JPG` | referenced | 0 | ORPHAN | 255.3 KB |
+| `santo agostinho.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/santo agostinho.png` | referenced | 0 | ORPHAN | 1607.4 KB |
+| `santo_agostinho.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/santo_agostinho.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
+| `sartre2.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/sartre2.JPG` | referenced | 0 | ORPHAN | 74.3 KB |
+| `seneca.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/seneca.JPG` | referenced | 0 | ORPHAN | 239.6 KB |
+| `simone Weil.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/simone Weil.png` | referenced | 0 | ORPHAN | 1405.2 KB |
+| `soren.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/soren.JPG` | referenced | 0 | ORPHAN | 52.4 KB |
+| `sto-agostinho.JPG` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/sto-agostinho.JPG` | referenced | 0 | ORPHAN | 475.5 KB |
+| `tales de mileto.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/tales de mileto.png` | referenced | 0 | ORPHAN | 2139.3 KB |
+| `tolstoy.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/tolstoy.png` | referenced | 0 | ORPHAN | 1761.2 KB |
+| `voltaire.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/voltaire.png` | referenced | 0 | ORPHAN | 3680.2 KB |
+| `voltaire.webp` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/voltaire.webp` | referenced | 0 | ORPHAN | 16.0 KB |
+| `yuval noah harari.webp` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/Filósofos/yuval noah harari.webp` | referenced | 0 | ORPHAN | 151.0 KB |
+| `aristoteles.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/aristoteles.jpeg` | referenced | 0 | ORPHAN | 91.9 KB |
+| `existencialismo.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/existencialismo.jpeg` | referenced | 0 | ORPHAN | 111.6 KB |
+| `frase-confucio.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-confucio.png` | referenced | 0 | ORPHAN | 944.5 KB |
+| `frase-democrito-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-democrito-post.png` | referenced | 0 | ORPHAN | 1031.9 KB |
+| `frase-empedocles-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-empedocles-post.png` | referenced | 0 | ORPHAN | 971.0 KB |
+| `frase-leucipo-post.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-leucipo-post.png` | referenced | 0 | ORPHAN | 868.5 KB |
+| `frase-locke.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-locke.png` | referenced | 0 | ORPHAN | 2106.0 KB |
+| `frase-tales.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-tales.png` | referenced | 0 | ORPHAN | 3219.0 KB |
+| `frase-zenao-eleiapost.png` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/frase-zenao-eleiapost.png` | referenced | 0 | ORPHAN | 1181.0 KB |
+| `kant 2.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/kant 2.jpeg` | referenced | 0 | ORPHAN | 18.8 KB |
+| `kant.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/kant.jpeg` | referenced | 0 | ORPHAN | 80.9 KB |
+| `peter-pan.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/peter-pan.jpeg` | referenced | 0 | ORPHAN | 119.7 KB |
+| `religiao-e-filosofia.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/religiao-e-filosofia.jpeg` | referenced | 0 | ORPHAN | 158.1 KB |
+| `santo_agostinho 2.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/santo_agostinho 2.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
+| `santo_agostinho.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/santo_agostinho.jpeg` | referenced | 0 | ORPHAN | 146.1 KB |
+| `siegfried.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/siegfried.jpeg` | referenced | 0 | ORPHAN | 91.4 KB |
+| `sto-agostinho.jpeg` | `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/assets/sto-agostinho.jpeg` | referenced | 0 | ORPHAN | 145.1 KB |
 | `LQHqVnilFspwfHEy.png` | `SITE/public/branding/LQHqVnilFspwfHEy.png` | logo | 0 | ORPHAN | 973.4 KB |
 | `AJPBTuUJaFhjwjvx.jpg` | `SITE/public/images/hero/AJPBTuUJaFhjwjvx.jpg` | referenced | 0 | ORPHAN | 5512.2 KB |
 | `FLaneKfrfyGYOgJd.jpg` | `SITE/public/images/hero/FLaneKfrfyGYOgJd.jpg` | referenced | 0 | ORPHAN | 5264.3 KB |
@@ -978,7 +978,7 @@ Gerado em: 2026-06-25T17:48:19
 
 ## Snapshot de Produção — 2026-06-25
 
-Registro não destrutivo criado durante a missão de espelhamento da produção do Proceder.
+Registro não destrutivo criado durante a missão de espelhamento da produção do Mundo das Ideias.
 
 - Fonte: `https://procederfilosofico.com.br/`
 - Diretório: `VALIDATION/PRODUCTION_SNAPSHOT/`
@@ -992,7 +992,7 @@ Status: `PRODUCTION_SNAPSHOT_ONLY`. Estes assets representam o estado real de pr
 
 ## Home Reconciliada — 2026-06-25
 
-Registro criado apos a reconciliacao da Home do Proceder.
+Registro criado apos a reconciliacao da Home do Mundo das Ideias.
 
 - Home ativa: `SITE/index.html`
 - Home prototipo arquivada: `SITE/docs/backups/home-prototype-archived-20260625-reconciliacao/index.html`

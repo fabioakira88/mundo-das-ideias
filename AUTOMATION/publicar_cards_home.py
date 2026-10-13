@@ -108,7 +108,7 @@ def build_patch(posts):
     posts_json = json.dumps(posts, ensure_ascii=False).replace("</", "<\\/")
     return f"""{PATCH_START}
 <!-- wp:html -->
-<style id="proceder-cards-fix-style">
+<style id="mundo-das-ideias-cards-fix-style">
   .news-card-thumb {{
     width: 100%;
     height: 200px;
@@ -129,8 +129,8 @@ def build_patch(posts):
     transform: translateY(0) !important;
   }}
 </style>
-<script id="proceder-cards-fix-data" type="application/json">{posts_json}</script>
-<script id="proceder-cards-fix-script">
+<script id="mundo-das-ideias-cards-fix-data" type="application/json">{posts_json}</script>
+<script id="mundo-das-ideias-cards-fix-script">
 (function() {{
   function text(value) {{
     return String(value || '').replace(/[&<>"']/g, function(ch) {{
@@ -139,7 +139,7 @@ def build_patch(posts):
   }}
 
   function getPosts() {{
-    var data = document.getElementById('proceder-cards-fix-data');
+    var data = document.getElementById('mundo-das-ideias-cards-fix-data');
     if (!data) return [];
     try {{
       return JSON.parse(data.textContent || '[]').map(function(post) {{
@@ -147,7 +147,7 @@ def build_patch(posts):
         return post;
       }});
     }} catch (err) {{
-      console.error('Proceder cards fix: JSON invalido', err);
+      console.error('Mundo das Ideias cards fix: JSON invalido', err);
       return [];
     }}
   }}

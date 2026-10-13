@@ -1,4 +1,6 @@
-# DOCUMENTATION MAP — Proceder Filosófico
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# DOCUMENTATION MAP — Mundo das Ideias
 
 ### Versão 1.0 — 2026-06-26
 
@@ -82,7 +84,7 @@ BACKLOG_OFICIAL.md  (compartilhado, cópia idêntica com o Japão Relativo)
 
 `DECISAO_HOME_OFICIAL.md` é o único documento desta camada que **não existe** no Japão Relativo
 — é específico da Missão 6 (consolidar produção × repositório local), que só se aplica ao
-Proceder (o JR não tem CMS intermediário). `02_DEPARTAMENTOS/DIRETORIA_CRIATIVA.md`
+Mundo das Ideias (o JR não tem CMS intermediário). `02_DEPARTAMENTOS/DIRETORIA_CRIATIVA.md`
 (compartilhado) cita `DECISAO_HOME_OFICIAL.md` apenas como **formato de referência** para RFCs
 futuras — não pressupõe que o arquivo exista fisicamente nos dois projetos.
 
@@ -114,7 +116,7 @@ ROADMAP_DA_IDENTIDADE.md    — estado atual → 3m → 6m → 1a → 3a → 10a
 ## Riscos estruturais já identificados (auditoria de 2026-06-26)
 
 1. **Risco de divergência silenciosa em documentos "compartilhados".** Já ocorreu uma vez:
-   `BACKLOG_OFICIAL.md` divergiu entre as cópias de Proceder e Japão Relativo por pelo menos um
+   `BACKLOG_OFICIAL.md` divergiu entre as cópias de Mundo das Ideias e Japão Relativo por pelo menos um
    ciclo antes de ser detectado e corrigido nesta mesma auditoria. Mitigação: auditoria mensal
    (`02_DEPARTAMENTOS/KPI_E_RITUAIS.md`) compara as duas cópias byte a byte, não assume
    identidade.

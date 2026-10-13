@@ -1,4 +1,6 @@
-# BRIEFING DE IMPLEMENTAÇÃO — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# BRIEFING DE IMPLEMENTAÇÃO — MUNDO DAS IDEIAS
 
 > Resumo operacional para quem implementa (Codex). A documentação completa e o raciocínio por trás de cada regra vivem em `BRANDING/` (DNA, Brand Book, Manifesto, Leis, Design System, UX System, Content System) e são mantidos pelo Diretor Criativo (Claude). Este briefing não substitui aqueles documentos — qualquer dúvida de "por quê", consultar o original.
 

@@ -1,4 +1,6 @@
-# ROADMAP DA IDENTIDADE — Proceder Filosófico
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# ROADMAP DA IDENTIDADE — Mundo das Ideias
 
 ### Versão 1.0 — 2026-06-26
 
@@ -21,7 +23,7 @@ Fase 1 (Saneamento) em andamento, não concluída:
   encerradas no `BACKLOG_OFICIAL.md`.
 - Missão 6 (consolidar produção × repositório local) — decisão de fonte oficial tomada
   (`DECISAO_HOME_OFICIAL.md`), reconciliação executada localmente, **deploy não autorizado**.
-- Missão 7 (unificar Design System do Proceder) — não iniciada, depende da Missão 6.
+- Missão 7 (unificar Design System do Mundo das Ideias) — não iniciada, depende da Missão 6.
 
 Fase 2 (Evolução) **bloqueada** — não só neste projeto, mas no ecossistema inteiro, até a Fase 1
 estar concluída em ambos os projetos (princípio fixado em `BACKLOG_OFICIAL.md`).
@@ -56,10 +58,10 @@ Inteligência, Operações).
 
 ## Próximo ano
 
-- Patrimônio documental e de conteúdo do Proceder estável: zero divergência não detectada entre
+- Patrimônio documental e de conteúdo do Mundo das Ideias estável: zero divergência não detectada entre
   documentação e código por mais de um ciclo de auditoria mensal.
 - Akira (perfil pessoal, hoje sem auditoria própria) tratado com o mesmo rigor de identidade já
-  aplicado a Proceder e Japão Relativo, antes de ser considerado produto maduro do ecossistema.
+  aplicado a Mundo das Ideias e Japão Relativo, antes de ser considerado produto maduro do ecossistema.
 - Primeira repetição completa do ciclo Pesquisa → Arquitetura → Direção Criativa →
   Implementação → Validação → Publicação → Monitoramento → Otimização → Documentação
   (`AION_STUDIO_MANUAL.md`) para uma entrega de Fase 2, do início ao fim, com evidência em cada
@@ -70,7 +72,7 @@ Inteligência, Operações).
 A partir daqui, o roadmap é direcional, não um compromisso de entrega — manter isso explícito é
 parte do princípio "documentação acima da memória" (`AION_STUDIO_MANUAL.md`, Valores).
 
-- Múltiplos produtos do ecossistema (Proceder, Japão Relativo, Akira, possíveis novos) operando
+- Múltiplos produtos do ecossistema (Mundo das Ideias, Japão Relativo, Akira, possíveis novos) operando
   sob a mesma governança de três níveis, sem que a entrada de um produto novo exija reescrever
   a governança existente.
 - Processo de decisão (Protocolo de Decisão, RFCs, Definition of Done) comprovadamente reduzindo

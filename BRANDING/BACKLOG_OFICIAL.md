@@ -1,3 +1,5 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # BACKLOG OFICIAL — ECOSSISTEMA DIGITAL
 
 > Governança permanente, compartilhada com o Japão Relativo (cópia idêntica em `JAPAO_RELATIVO:/BRANDING/BACKLOG_OFICIAL.md`). Esta numeração é oficial para toda documentação futura. Nenhuma Fase 2 (Evolução) começa antes da Fase 1 (Saneamento) estar concluída em ambos os projetos.
@@ -12,7 +14,7 @@ O objetivo não é crescer. O objetivo é consolidar o patrimônio digital. Até
 
 ## Missão 1 — Integridade das fontes ⚠️ PENDENTE DE EVIDÊNCIA DE PRODUÇÃO
 
-**Objetivo:** restaurar a integridade das 27 fontes oficiais do Proceder Filosófico
+**Objetivo:** restaurar a integridade das 27 fontes oficiais do Mundo das Ideias
 (`SITE/index.html`, regras `@font-face`), sem nenhuma alteração perceptível de layout,
 identidade visual ou tipografia.
 
@@ -51,10 +53,10 @@ em `CHANGELOG_DA_IDENTIDADE.md` — não faz parte do escopo desta Missão 1.
 - Crawl interno completo de cada site sem 404 nem erro de carregamento.
 - Toda imagem, PDF e link de download referenciado no código responde 200.
 - Favicon e manifest carregam sem erro de console em desktop e mobile.
-- Nenhuma referência ativa a arquivo de `ARCHIVE/` (JR) ou pasta legada equivalente no Proceder.
+- Nenhuma referência ativa a arquivo de `ARCHIVE/` (JR) ou pasta legada equivalente no Mundo das Ideias.
 
 **Riscos:**
-- Um "link quebrado" no Proceder pode, na verdade, apontar para conteúdo que só existe em produção (ver Missão 6) — corrigir cegamente mascara a causa real em vez de resolvê-la.
+- Um "link quebrado" no Mundo das Ideias pode, na verdade, apontar para conteúdo que só existe em produção (ver Missão 6) — corrigir cegamente mascara a causa real em vez de resolvê-la.
 - Risco de remover referência a algo que é "em breve" por design (ex.: módulos do Survival com status `soon`), confundindo incompletude planejada com referência quebrada.
 
 **Impacto em SEO:** alto e direto. Link/asset quebrado é penalizado por crawlers e prejudica Core Web Vitals (imagem 404 conta como recurso falho); experiência de navegação quebrada é fator indireto de ranqueamento.
@@ -95,7 +97,7 @@ em `CHANGELOG_DA_IDENTIDADE.md` — não faz parte do escopo desta Missão 1.
 - Nenhuma exclusão executada nesta missão — só recomendação, com aprovação pendente.
 
 **Riscos:**
-- Um "órfão" no Proceder pode não ser órfão de verdade se houver referência em produção que o repositório local não tem — mesmo risco de causa raiz da Missão 2, ligado à Missão 6.
+- Um "órfão" no Mundo das Ideias pode não ser órfão de verdade se houver referência em produção que o repositório local não tem — mesmo risco de causa raiz da Missão 2, ligado à Missão 6.
 - Uma "duplicata" pode ser intencional (ex.: mesmo retrato usado em dois caminhos por decisão de design anterior) — auditoria reporta, não decide sozinha.
 
 **Impacto em SEO:** indireto, mas relevante — imagem pesada não otimizada prejudica tempo de carregamento (LCP), que é fator de ranqueamento.
@@ -125,12 +127,12 @@ em `CHANGELOG_DA_IDENTIDADE.md` — não faz parte do escopo desta Missão 1.
 
 ---
 
-## Missão 6 — Consolidar Produção × Repositório Local *(específica do Proceder Filosófico)*
+## Missão 6 — Consolidar Produção × Repositório Local *(específica do Mundo das Ideias)*
 
 **Objetivo:** eliminar a divergência entre a produção (`procederfilosofico.com.br`, hoje WordPress, com conteúdo próprio incluindo artigos que não existem no repositório local) e o repositório local (43 artigos, arquitetura modular). Definir qual é a fonte oficial daqui para frente.
 
 **Decisão de fonte oficial já registrada:** ver `BRANDING/DECISAO_HOME_OFICIAL.md`. Produção =
-fonte oficial de conteúdo/URLs. Base de reconciliação = `SITE/docs/backups/proceder-fase1-20260601-110542/index.html`
+fonte oficial de conteúdo/URLs. Base de reconciliação = `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/index.html`
 (mais próxima da produção, mas não é espelho perfeito). `SITE/index.html` = arquivar como
 referência de design, nunca deployar. Bloqueio ativo: nenhum deploy da Home até mapear os
 permalinks reais de produção dos conteúdos exclusivos ("Peter Pan", "Montanha Contra a
@@ -154,19 +156,19 @@ Status: apta tecnicamente para revisao pre-deploy; deploy ainda exige autorizaca
 - Inventário completo do que existe só em produção vs. só localmente (retomar e concluir a auditoria de divergência iniciada nesta mesma sessão).
 - Decisão explícita e registrada: qual é a fonte oficial.
 - Plano de migração ou descarte para cada item divergente, aprovado antes de qualquer execução.
-- Credencial de WordPress hoje exposta em texto puro (`DOCS/ARQUITETURA.md` do Japão Relativo e script já publicado em produção do Proceder) revogada e substituída.
+- Credencial de WordPress hoje exposta em texto puro (`DOCS/ARQUITETURA.md` do Japão Relativo e script já publicado em produção do Mundo das Ideias) revogada e substituída.
 
 **Riscos:** a missão de maior risco político e técnico do backlog. Decidir "fonte oficial" pode significar descartar conteúdo publicado com tráfego e posição de busca próprios (ex.: o artigo sobre J.M. Barrie/Peter Pan). Decisão apressada aqui é irreversível para SEO se feita sem redirecionamento.
 
 **Impacto em SEO:** altíssimo — produção tem páginas indexadas hoje. Qualquer migração de fonte sem redirecionamento 301 entre URLs antigas e novas destrói posições de busca já conquistadas.
 
-**Impacto na identidade:** alto — esta missão decide, na prática, qual versão do Proceder o leitor real encontra. Toda a documentação de Design/UX/Content System em `BRANDING/` só vale de verdade depois desta decisão.
+**Impacto na identidade:** alto — esta missão decide, na prática, qual versão do Mundo das Ideias o leitor real encontra. Toda a documentação de Design/UX/Content System em `BRANDING/` só vale de verdade depois desta decisão.
 
 **Ordem ideal de execução:** deve vir antes da Missão 7 — não é possível unificar definitivamente o Design System sem saber qual fonte está sendo unificada.
 
 ---
 
-## Missão 7 — Unificar Design System do Proceder Filosófico
+## Missão 7 — Unificar Design System do Mundo das Ideias
 
 **Objetivo:** eliminar as quatro variações de paleta/tipografia hoje documentadas em `DESIGN_SYSTEM.md` (Home, artigos, filósofos/conteúdo, sobre, biblioteca), convergindo para o conjunto canônico (`SITE/artigos/<slug>/`). Resolver apenas após o saneamento. Nenhuma mudança de identidade — somente eliminar divergência.
 
@@ -194,7 +196,7 @@ Status: apta tecnicamente para revisao pre-deploy; deploy ainda exige autorizaca
 
 **Impacto na identidade:** mesma lógica da Missão 7 — esta é simplesmente a aplicação prática do que `DESIGN_SYSTEM.md` do Japão Relativo já recomenda.
 
-**Ordem ideal de execução:** não depende da Missão 6 (o Japão Relativo não tem o mesmo tipo de divergência produção/local — o deploy é direto do repositório via GitHub Actions, sem CMS intermediário). Pode, em princípio, ser executada em paralelo às Missões 6–7 do Proceder, desde que as Missões 2–5 já estejam concluídas no repositório do Japão Relativo.
+**Ordem ideal de execução:** não depende da Missão 6 (o Japão Relativo não tem o mesmo tipo de divergência produção/local — o deploy é direto do repositório via GitHub Actions, sem CMS intermediário). Pode, em princípio, ser executada em paralelo às Missões 6–7 do Mundo das Ideias, desde que as Missões 2–5 já estejam concluídas no repositório do Japão Relativo.
 
 ---
 
@@ -214,4 +216,4 @@ Só começa após as oito Missões da Fase 1 estarem concluídas em ambos os pro
 
 # Nota de escopo
 
-As Missões 2–5 são transversais: aplicam-se aos dois repositórios, executadas separadamente em cada um (não existe um Asset Registry ou crawl único compartilhado entre Proceder e Japão Relativo — são codebases independentes). As Missões 6, 7 e 8 são específicas de um projeto cada, conforme indicado em cada título.
+As Missões 2–5 são transversais: aplicam-se aos dois repositórios, executadas separadamente em cada um (não existe um Asset Registry ou crawl único compartilhado entre Mundo das Ideias e Japão Relativo — são codebases independentes). As Missões 6, 7 e 8 são específicas de um projeto cada, conforme indicado em cada título.

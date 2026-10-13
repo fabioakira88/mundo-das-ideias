@@ -1,3 +1,5 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # DIRETORIA CRIATIVA — AION STUDIO
 
 ### Departamento · Versão 1.0 — 2026-06-26
@@ -39,7 +41,7 @@ critério.
 
 ## Escopo
 
-Atua sobre todos os produtos do Nível 1 do ecossistema (Proceder Filosófico, Japão Relativo,
+Atua sobre todos os produtos do Nível 1 do ecossistema (Mundo das Ideias, Japão Relativo,
 Akira, projetos futuros) com o mesmo rigor, mas nunca mistura conteúdo entre eles — a estrutura
 de documentos é compartilhada, o conteúdo de cada `BRANDING/` é exclusivo do seu produto. Um
 projeto sem auditoria de identidade própria (caso atual de Akira) não deve ser tratado como
@@ -81,7 +83,7 @@ maduro só por existir como produto declarado no organograma.
 3. **Verificação direta antes de aceitar relato de terceiro.** Nenhuma conclusão de Codex,
    Beelzebub ou processo automatizado é aceita como fato sem checagem direta (ler o arquivo, dar
    `curl` na URL, comparar hash, abrir o navegador) — precedente: regularização da Missão 1 do
-   Proceder, em que um relato de "concluída" não resistiu à verificação de produção.
+   Mundo das Ideias, em que um relato de "concluída" não resistiu à verificação de produção.
 4. **RFC formal** para qualquer decisão irreversível ou de alto impacto (ver seção própria
    abaixo).
 
@@ -153,7 +155,7 @@ maduro só por existir como produto declarado no organograma.
   documentação oficial — não é reformulada com palavras mais cautelosas, é checada de fato.
 - Toda comparação visual "antes/depois" é auditada quanto à própria validade metodológica antes
   de ser aceita como prova (precedente: hash idêntico por erro de metodologia na Missão 1 do
-  Proceder, corrigido nesta mesma governança).
+  Mundo das Ideias, corrigido nesta mesma governança).
 - Toda referência a permalink, rota ou backend externo é confirmada com requisição direta
   (`curl`/inspeção de resposta), nunca assumida pela estrutura aparente do código.
 

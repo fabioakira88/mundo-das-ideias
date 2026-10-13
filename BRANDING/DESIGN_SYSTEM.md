@@ -1,4 +1,6 @@
-# DESIGN SYSTEM — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# DESIGN SYSTEM — MUNDO DAS IDEIAS
 
 > Referência visual baseada em auditoria factual de `SITE/index.html`, `SITE/filosofos/index.html`, `SITE/artigos/index.html` + artigos individuais, `SITE/conteudo/` (índice e hubs), `SITE/sobre/index.html` e `biblioteca.html`. Registra o estado atual e identifica qual sistema é canônico onde há divergência. Nenhuma alteração de código foi feita.
 

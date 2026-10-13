@@ -1,4 +1,6 @@
-# DECISÃO OFICIAL DA HOME DO PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# DECISÃO OFICIAL DA HOME DO MUNDO DAS IDEIAS
 
 > Decisão formal do Diretor Criativo (Claude), referente à Missão 6 do `BACKLOG_OFICIAL.md`
 > ("Consolidar Produção × Repositório Local"). Esta decisão não implementa nada — define a
@@ -20,7 +22,7 @@ saneada.
 
 ## Arquivo base
 
-**Base de reconciliação: `SITE/docs/backups/proceder-fase1-20260601-110542/index.html`.**
+**Base de reconciliação: `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/index.html`.**
 
 Confirmado como o mais próximo da produção atual (3.605 linhas vs. 3.628 da produção hoje,
 mesma ordem de grandeza; contém "Peter Pan", ausente de `SITE/index.html`). **Mas não é um
@@ -96,7 +98,7 @@ artigos, a Biblioteca), não obriga a herdar uma vitrine decorativa só porque e
 
 ## Seções obrigatórias (Home reconciliada)
 
-1. Identificação/hero da marca (Proceder Filosófico).
+1. Identificação/hero da marca (Mundo das Ideias).
 2. Acesso aos dois conteúdos exclusivos de produção confirmados (Peter Pan, Montanha Contra a
    Caverna) — com link funcional, não card decorativo.
 3. Vitrine de artigos/filósofos real, com contagem verdadeira (sem filtro invisível — mesmo

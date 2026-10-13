@@ -4,7 +4,7 @@
 }
 
 .page-head h1 {
-  font-family: var(--pf-font-display);
+  font-family: var(--mi-font-display);
   letter-spacing: 0;
   line-height: 1.06;
 }
@@ -16,19 +16,19 @@
 
 .area-head,
 .period-head {
-  border-bottom-color: var(--pf-borda-dourada);
+  border-bottom-color: var(--mi-borda-dourada);
 }
 
 .count,
 .period-count {
-  font-family: var(--pf-font-label);
-  color: var(--pf-dourado);
+  font-family: var(--mi-font-label);
+  color: var(--mi-dourado);
   text-transform: uppercase;
   letter-spacing: .12em;
 }
 
 .card {
-  border-color: var(--pf-border);
+  border-color: var(--mi-border);
 }
 
 .card:hover {

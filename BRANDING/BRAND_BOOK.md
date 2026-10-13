@@ -1,4 +1,6 @@
-# BRAND BOOK CONCEITUAL — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# BRAND BOOK CONCEITUAL — MUNDO DAS IDEIAS
 
 > Complementar a `DNA.md`. Baseado em auditoria completa do projeto. Nenhum arquivo de código foi alterado.
 
@@ -29,7 +31,7 @@ Uma biblioteca digital de filosofia com estética de museu noturno: 43 ensaios l
 
 ## 4. Público
 
-Adultos (25–45) que sentem fome intelectual mesmo consumindo informação o dia inteiro, e usam o Proceder quase como penitência pelo scroll raso. Sobreposto a esse público: estudantes preparando ENEM/vestibular usando o acervo como atalho de cultura geral (evidenciado pelos PDFs ENEM já presentes no projeto). O tom precisa servir aos dois sem nunca soar "dica de prova" nem "TED talk motivacional".
+Adultos (25–45) que sentem fome intelectual mesmo consumindo informação o dia inteiro, e usam o Mundo das Ideias quase como penitência pelo scroll raso. Sobreposto a esse público: estudantes preparando ENEM/vestibular usando o acervo como atalho de cultura geral (evidenciado pelos PDFs ENEM já presentes no projeto). O tom precisa servir aos dois sem nunca soar "dica de prova" nem "TED talk motivacional".
 
 ## 5. Tom de voz
 

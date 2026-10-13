@@ -1,4 +1,4 @@
-# Proceder Filosófico
+# Mundo das Ideias
 
 Portal de filosofia, leitura e formação intelectual. O projeto reúne site local estático, base de artigos, biblioteca, assets de marca, PDFs e scripts de automação.
 
@@ -56,7 +56,7 @@ Existe um modelo em `.env.example`. O arquivo `.env` real deve permanecer local 
 ## Instalação para automações
 
 ```bash
-cd /Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/PROCEDER_FILOSOFICO:
+cd /Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/MUNDO_DAS_IDEIAS:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r AUTOMATION/requirements.txt

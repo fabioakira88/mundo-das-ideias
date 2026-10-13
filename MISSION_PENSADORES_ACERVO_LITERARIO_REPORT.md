@@ -2,7 +2,7 @@
 
 ## Escopo
 
-Incorporacao controlada da recomendacao editorial para ampliar a pagina `Pensadores` do Proceder Filosofico.
+Incorporacao controlada da recomendacao editorial para ampliar a pagina `Pensadores` do Mundo das Ideias.
 
 Nao foram criadas paginas novas.
 Nao foram alterados header, footer, shell global, taxonomia de artigos ou layout estrutural.
@@ -101,4 +101,4 @@ As obras fundamentais foram adicionadas apenas no HTML da pagina, pois o arquivo
 
 ## Veredito
 
-A pagina `Pensadores` passa a representar melhor o arquivo intelectual do Proceder Filosofico, incluindo escritores, poetas e obras fundamentais sem criar arquitetura paralela.
+A pagina `Pensadores` passa a representar melhor o arquivo intelectual do Mundo das Ideias, incluindo escritores, poetas e obras fundamentais sem criar arquitetura paralela.

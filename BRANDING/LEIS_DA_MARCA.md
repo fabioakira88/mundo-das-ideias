@@ -1,4 +1,6 @@
-# LEIS DA MARCA — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# LEIS DA MARCA — MUNDO DAS IDEIAS
 
 > 20 regras obrigatórias para qualquer artigo, página, hub, seção ou funcionalidade futura.
 
@@ -8,7 +10,7 @@
 4. Nenhuma seção pode depender de urgência (contador, "última chance", "não perca").
 5. Toda citação precisa de autoria e contexto — nunca solta, nunca anônima.
 6. Humor é permitido como ironia fina; nunca como piada fácil ou meme.
-7. Nenhum conteúdo finge neutralidade absoluta — o Proceder tem voz e ponto de vista.
+7. Nenhum conteúdo finge neutralidade absoluta — o Mundo das Ideias tem voz e ponto de vista.
 8. Toda página deve poder ser lida em silêncio, sem som, sem autoplay ruidoso.
 9. Nenhuma funcionalidade gamifica a leitura — sem streak, sem badge, sem pontuação.
 10. O leitor nunca deve se sentir burro — todo conceito difícil precisa de uma porta de entrada simples.

@@ -1,4 +1,6 @@
-# CONTENT SYSTEM — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# CONTENT SYSTEM — MUNDO DAS IDEIAS
 
 > Referência editorial baseada em auditoria factual de `posts.js` (43 artigos), `philosophers.js` (40 figuras), `hubs.json`/`hubs.schema.json`, os 3 hubs em `CONTENT/hubs/` e os 7 briefings em `CONTENT/briefings/`. Nenhuma alteração de conteúdo foi feita.
 

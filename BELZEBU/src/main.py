@@ -36,7 +36,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--site",
-        choices=["japao-relativo", "proceder-filosofico"],
+        choices=["japao-relativo", "mundo-das-ideias"],
         help="Filter Notion pautas by site.",
     )
     parser.add_argument(

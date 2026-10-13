@@ -1,4 +1,4 @@
-# Proceder Filosofico — Sprint 01C — Consolidacao de Arquitetura Compartilhada
+# Mundo das Ideias — Sprint 01C — Consolidacao de Arquitetura Compartilhada
 
 Data: 2026-06-27
 

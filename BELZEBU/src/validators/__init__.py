@@ -22,8 +22,8 @@ def validate_pauta(pauta: dict[str, Any]) -> None:
     if missing:
         raise ValueError(f"Missing required pauta fields: {', '.join(missing)}")
 
-    if pauta["projeto"] not in {"japao-relativo", "proceder-filosofico"}:
-        raise ValueError("projeto must be 'japao-relativo' or 'proceder-filosofico'.")
+    if pauta["projeto"] not in {"japao-relativo", "mundo-das-ideias"}:
+        raise ValueError("projeto must be 'japao-relativo' or 'mundo-das-ideias'.")
 
     if not isinstance(pauta["palavras_chave"], list) or not pauta["palavras_chave"]:
         raise ValueError("palavras_chave must be a non-empty list.")

@@ -1,0 +1,22 @@
+id,prioridade,fase,tarefa,fontes,evidencia,criterio_de_aceite
+A01,P1,1,Consolidar capas e release,VALIDATION/validate_deploy_manifest.mjs; SITE/assets/article_cards,32 referências para 16 arquivos untracked,Manifesto passa e checkout limpo contém os assets
+A02,P1,1,Reparar quizzes,SITE/artigos/index.html; SITE/posts.js,Resultado vazio após 10 seleções nos dois quizzes,URL direta e navegação mostram nota e explicações
+A03,P1,1,Definir captura newsletter,SITE/index.html; AUTOMATION/generate_seo.mjs,Mailto principal e GET de rodapé,UI reflete confirmação real ou contato manual claramente identificado
+A04,P1,6,Reconciliar publicação,SITE/sitemap.xml; SITE/data/dossiers.json,"200 rotas locais, 143 públicas; 57 somente locais",Lote e mapa de URLs aprovados; rollback identificado
+A05,P2,1,Corrigir capas biblioteca,SITE/biblioteca.html,33 capas com largura natural 1,ISBN/edição verificados e fallback para placeholder
+A06,P2,1,Corrigir overflow biblioteca,SITE/biblioteca.html,Documento 405px em viewport390,Sem overflow nos breakpoints de referência
+A07,P2,2-4,Centralizar e migrar marca,AUTOMATION/generate_seo.mjs; SITE/assets/site-seo.js; SITE/posts.js; CSS,Marca antiga dispersa,Nome e originais MI consistentes com URLs/IDs preservados
+A08,P2,2,Reconciliar registries,Notion Brand/Asset Registry,Paleta/assinatura/status divergentes,Pacote versionado e binários vinculados
+A09,P2,5,Consolidar operação editorial,Notion calendários e workflow,43 multimarcas;90MI+127PF em base paralela,Pautas originais/URLs vinculadas sem regressão ou duplicação
+A10,P2,5,Auditar fontes e retratos,SITE/posts.js; SITE/assets,48 textos sem link externo; origens de imagens pendentes,Fontes e proveniência registradas por risco
+A11,P2,1,Revisar avaliação dos quizzes,SITE/posts.js,20 respostas corretas na primeira posição,Posições variadas e distratores conceitualmente conferidos
+A12,P2,1,Corrigir catálogo de PDFs,SITE/index.html; CONTENT/pdfs,Título comercial e nomes de arquivos imprecisos,"Título, autoria e natureza corretamente identificados"
+A13,P2,5,Otimizar assets selecionados,SITE/assets,48 assets >1MiB; cópias e sobras,Derivados responsivos; medidas antes/depois; originais preservados
+A14,P2,3-4,Reservar geometria de imagens,Templates e componentes,853 img sem width/height explícito,Proporções reservadas e CLS medido
+A15,P2,3,Rever hero e acessibilidade,SITE/index.html; CSS compartilhado,Hero dominante; metadados suaves; ausência de reduced motion detectada,Desktop/mobile/teclado/movimento e contraste verificados
+A16,P2,6,Corrigir contrato FTP,AUTOMATION/deploy.py; workflow FTP,Variáveis de contrato não consumidas,Manifesto e opções efetivamente aplicados ou fallback retirado
+A17,P2,6,Reduzir staging Pages,.github/workflows/mundo-das-ideias-pages-deploy.yml,Preview social sob assets não excluído,Artefato contém somente saídas de publicação pretendidas
+A18,P2,6,Confirmar analytics,SITE/; Notion produto,Tag funcional não identificada; ID de exemplo no documento,Propriedade real e eventos validados sem duplicação
+A19,P3,4,Atualizar documentação,README.md; BRANDING/,Estado descrito anterior ao acervo atual,Docs datados e coerentes com fontes atuais
+A20,P3,5,Consolidar duplicatas e legado,SITE/assets; BRANDING/LOGO,26 grupos idênticos; scripts sem consumidores diretos,Uso validado; nenhum original perdido
+M01,P2,mobile,Recuperar e auditar fonte mobile,Notion Produto Mapa e Codex,ZIP não acessível pelo conector,Código/launchers inventariados e testes de dispositivo realizados

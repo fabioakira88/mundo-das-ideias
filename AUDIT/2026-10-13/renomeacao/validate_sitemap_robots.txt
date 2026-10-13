@@ -1,0 +1,1 @@
+OK: sitemap.xml e robots.txt validos.

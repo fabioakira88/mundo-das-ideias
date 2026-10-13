@@ -1,7 +1,7 @@
-# PRODUCTION_SNAPSHOT.md — Proceder Filosofico
+# PRODUCTION_SNAPSHOT.md — Mundo das Ideias
 
-Data: 2026-06-25  
-Fonte: `https://procederfilosofico.com.br/`  
+Data: 2026-06-25
+Fonte: `https://procederfilosofico.com.br/`
 Escopo: espelhamento tecnico da producao viva, sem deploy e sem reconstruir a Home.
 
 ## Local do snapshot
@@ -78,7 +78,7 @@ Interpretacao tecnica: na producao atual, os artigos da Home estao publicados co
 - Conteudo local tambem presente em producao: `confissoes-santo-agostinho`.
 - Conteudo local ainda nao confirmado em producao: 42 slugs classificados como `experimental-local` ate decisao de reconciliacao.
 - `SITE/index.html`: referencia historica de design pendente de arquivamento formal, conforme `BRANDING/DECISAO_HOME_OFICIAL.md`.
-- `SITE/docs/backups/proceder-fase1-20260601-110542/index.html`: backup mais proximo da producao, mas nao espelho perfeito.
+- `SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/index.html`: backup mais proximo da producao, mas nao espelho perfeito.
 
 ## Limitacoes
 
@@ -89,6 +89,6 @@ Interpretacao tecnica: na producao atual, os artigos da Home estao publicados co
 
 ## Status
 
-Snapshot criado e preservado no repositorio.  
-Status da reconciliacao da Home: pendente.  
+Snapshot criado e preservado no repositorio.
+Status da reconciliacao da Home: pendente.
 Recomendacao: nao executar deploy ate que a Home reconciliada seja criada a partir deste snapshot e validada contra a decisao oficial.

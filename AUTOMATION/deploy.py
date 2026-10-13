@@ -8,7 +8,7 @@ Credenciais no .env (na raiz do projeto):
     FTP_HOST=files.procederfilosofico.com.br  (ou IP do Hostinger)
     FTP_USER=u123456789
     FTP_PASS=sua_senha_ftp
-    FTP_REMOTE_DIR=/PROCEDER_FILOSOFICO
+    FTP_REMOTE_DIR=/MUNDO_DAS_IDEIAS
 
 Regra de deploy:
     Envia somente o conteúdo de SITE/ para a raiz pública do domínio.

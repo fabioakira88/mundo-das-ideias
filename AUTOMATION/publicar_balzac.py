@@ -68,6 +68,6 @@ resp = requests.post(f'{BASE}/pages/68', auth=AUTH,
 print(f'\nPublicação: {resp.status_code}')
 if resp.ok:
     print('Link:', resp.json().get('link', 'N/A'))
-    print('✓ Balzac publicado no Proceder!')
+    print('✓ Balzac publicado no Mundo das Ideias!')
 else:
     print(resp.text[:300])

@@ -1,3 +1,5 @@
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
 # ENGENHARIA — AION STUDIO
 
 ### Departamento · Versão 1.0 — 2026-06-26

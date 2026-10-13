@@ -3,6 +3,915 @@
 
 const POSTS = [
 
+{
+  "id": "marco-aurelio-imperador-filosofo-estoico",
+  "slug": "marco-aurelio-imperador-filosofo-estoico",
+  "tag": "FILOSOFIA ANTIGA",
+  "category": "Filosofia",
+  "title": "Marco Aurélio: o imperador que escreveu para si mesmo",
+  "excerpt": "As Meditações mostram um governante tentando disciplinar a própria alma entre guerra, dever público e finitude.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "9 min",
+  "thumb": "assets/article_cards/marco-aurelio-imperador-filosofo-estoico.jpg",
+  "cover": "assets/article_cards/marco-aurelio-imperador-filosofo-estoico.jpg",
+  "tags": [
+    "Marco Aurélio",
+    "estoicismo",
+    "Meditações",
+    "filosofia romana",
+    "virtude"
+  ],
+  "featured": false,
+  "metaTitle": "Marco Aurélio: o imperador que escreveu para si mesmo | Mundo das Ideias",
+  "metaDescription": "Biografia filosófica de Marco Aurélio: estoicismo, Meditações, poder, guerra, dever público e disciplina interior.",
+  "keywords": [
+    "Marco Aurélio",
+    "estoicismo",
+    "Meditações",
+    "filosofia romana",
+    "imperador filósofo"
+  ],
+  "content": "<p><strong>Marco Aurélio entrou para a história como imperador romano, mas sua permanência filosófica nasce de um livro que não foi escrito para conquistar leitores.</strong></p>\n<p>As <em>Meditações</em> são notas privadas, compostas em meio a campanhas militares, responsabilidades administrativas e perdas pessoais. Esse detalhe importa: o texto não é um sistema acadêmico, mas um exercício repetido de governo de si. O imperador fala consigo para lembrar que poder não suspende fragilidade, morte nem obrigação moral.</p>\n<h2>Entre Roma e a escola estoica</h2>\n<p>Nascido em 121, Marco Aurélio foi educado para ocupar posição pública elevada. A formação filosófica, especialmente estoica, ensinava que o bem humano não depende de riqueza, reputação ou conforto, mas do uso correto da razão e da virtude. Essa tese pode soar abstrata; em Marco, ela aparece sob pressão concreta.</p>\n<p>O estoicismo não prometia controlar o mundo. Ele distinguia aquilo que depende de nós, como juízo, intenção e ação, daquilo que não depende, como morte, opinião alheia, acaso político e doença. Para um governante cercado por guerra e intriga, essa separação não era fuga: era método de lucidez.</p>\n<h2>O poder como prova moral</h2>\n<p>É tentador transformar Marco Aurélio em santo laico. Isso empobrece o personagem histórico. Ele foi imperador de um império real, com conflitos, violência de Estado e decisões discutíveis. A força filosófica de sua figura não está em pureza sem contradição, mas na tensão entre autoridade máxima e consciência de limite.</p>\n<p>Nas <em>Meditações</em>, aparecem advertências contra vaidade, ira, ressentimento e apego à fama. O tom é menos triunfal do que disciplinar. Marco não escreve como alguém que já venceu a si mesmo; escreve como alguém que precisa recomeçar todos os dias.</p>\n<h2>Natureza, dever e mortalidade</h2>\n<p>A ordem natural, para o estoicismo, não é mero cenário. Viver de acordo com a natureza significa viver segundo razão, sociabilidade e aceitação do que não pode ser mudado. A morte, por isso, não deve destruir o juízo: ela recorda que o tempo disponível para agir bem é limitado.</p>\n<p>Essa filosofia é exigente porque remove desculpas confortáveis. A vida pública pode ser injusta, o corpo pode falhar e os outros podem agir mal; ainda assim, a pergunta decisiva permanece: que qualidade terá a minha ação?</p>\n<h2>Por que ainda importa</h2>\n<p>Marco Aurélio interessa hoje quando o estoicismo vira técnica rápida de produtividade. Seu texto não autoriza indiferença emocional nem culto da eficiência. Ele pede exame, domínio da reação e compromisso com o comum. A liberdade interior não é isolamento: é a capacidade de não trair a razão quando o mundo pressiona.</p>\n<p>O imperador que escreveu para si mesmo nos deixou uma lição discreta: filosofia não é ornamento para dias tranquilos. É aquilo que precisa continuar funcionando quando a vida não obedece.</p>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://iep.utm.edu/marcus-aurelius/\" target=\"_blank\" rel=\"noopener\">Internet Encyclopedia of Philosophy: Marcus Aurelius</a></li><li><a href=\"https://iep.utm.edu/stoiceth/\" target=\"_blank\" rel=\"noopener\">Internet Encyclopedia of Philosophy: Stoic Ethics</a></li><li><a href=\"https://classics.mit.edu/Antoninus/meditations.html\" target=\"_blank\" rel=\"noopener\">Marcus Aurelius, Meditations, Internet Classics Archive</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/estoicismo-virtude-destino-acao/\">Estoicismo: virtude, destino e ação</a></li><li><a href=\"/artigos/quiz-estoicismo-vida-pratica/\">Quiz: estoicismo, liberdade e vida prática</a></li><li><a href=\"/artigos/epicteto-liberdade-interior-controle/\">Epicteto e a liberdade interior</a></li></ul>",
+  "description": "Biografia filosófica de Marco Aurélio: estoicismo, Meditações, poder, guerra, dever público e disciplina interior.",
+  "subcategory": "biografia filosófica",
+  "philosophers": [
+    "Marco Aurélio",
+    "Epicteto",
+    "Sêneca"
+  ],
+  "books": [
+    "Meditações"
+  ],
+  "civilization": "Roma antiga",
+  "period": "Antiguidade",
+  "themes": [
+    "estoicismo",
+    "virtude",
+    "poder",
+    "morte",
+    "dever"
+  ],
+  "relatedArticles": [
+    "estoicismo-virtude-destino-acao",
+    "epicteto-liberdade-interior-controle",
+    "quiz-estoicismo-vida-pratica"
+  ],
+  "format": "Biografia filosófica",
+  "heroImage": "assets/article_cards/marco-aurelio-imperador-filosofo-estoico.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+{
+  "id": "john-dewey-filosofia-democracia-educacao",
+  "slug": "john-dewey-filosofia-democracia-educacao",
+  "tag": "FILOSOFIA CONTEMPORÂNEA",
+  "category": "Filosofia",
+  "title": "John Dewey: democracia, educação e filosofia como experiência",
+  "excerpt": "Dewey transforma a filosofia em investigação pública sobre hábitos, escola, experiência e vida democrática.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "10 min",
+  "thumb": "assets/article_cards/john-dewey-filosofia-democracia-educacao.jpg",
+  "cover": "assets/article_cards/john-dewey-filosofia-democracia-educacao.jpg",
+  "tags": [
+    "John Dewey",
+    "pragmatismo",
+    "democracia",
+    "educação",
+    "experiência"
+  ],
+  "featured": false,
+  "metaTitle": "John Dewey: democracia, educação e filosofia como experiência | Mundo das Ideias",
+  "metaDescription": "Biografia filosófica de John Dewey: pragmatismo, educação democrática, experiência, hábitos e investigação pública.",
+  "keywords": [
+    "John Dewey",
+    "pragmatismo",
+    "democracia",
+    "educação",
+    "experiência"
+  ],
+  "content": "<p><strong>John Dewey recusou a imagem da filosofia como contemplação distante: para ele, pensar é intervir com inteligência nos problemas da experiência.</strong></p>\n<p>Nascido em 1859 nos Estados Unidos, Dewey atravessou um período de urbanização, industrialização, expansão escolar e conflito democrático. Sua obra nasce desse mundo em movimento. O pragmatismo que ele ajudou a consolidar não pergunta apenas se uma ideia é elegante; pergunta como ela funciona na experiência, que consequências produz e que problemas ajuda a investigar.</p>\n<h2>Experiência não é impressão solta</h2>\n<p>Em Dewey, experiência não significa sensação privada imediata. Ela envolve organismo e ambiente, hábito e ruptura, ação e consequência. Pensamos com mais intensidade quando um hábito deixa de resolver uma situação e precisamos reconstruir o caminho.</p>\n<p>Por isso, a inteligência é experimental. Ideias são instrumentos de orientação, não espelhos perfeitos de uma realidade imóvel. Isso não torna a verdade arbitrária; torna a investigação dependente de teste, correção e comunicação pública.</p>\n<h2>Educação como vida democrática</h2>\n<p>A ligação entre filosofia e educação é central. Em <em>Democracy and Education</em>, Dewey entende a escola como uma forma de vida social. Educar não é despejar conteúdos prontos em uma mente passiva, mas formar hábitos de investigação, cooperação e julgamento.</p>\n<p>Essa visão não reduz a escola a espontaneidade sem direção. O professor continua tendo responsabilidade intelectual. A diferença é que o conhecimento precisa ser vivido como problema significativo, não como acúmulo morto de respostas.</p>\n<h2>Democracia além do voto</h2>\n<p>Dewey trata democracia como modo de associação. Instituições importam, eleições importam, mas a democracia também depende de comunicação, participação, confiança e capacidade de revisar crenças. Onde a experiência comum se fragmenta, a democracia vira técnica sem alma pública.</p>\n<p>Essa ideia continua atual diante de polarização, desinformação e isolamento social. Dewey não oferece nostalgia de consenso fácil. Ele sugere que uma sociedade democrática precisa criar condições para que conflitos sejam investigados, e não apenas consumidos como espetáculo.</p>\n<h2>Limites e legado</h2>\n<p>O otimismo democrático de Dewey foi criticado por subestimar violência, dominação e desigualdades estruturais. A crítica é importante. Mesmo assim, sua filosofia preserva uma pergunta indispensável: que instituições formam pessoas capazes de pensar juntas?</p>\n<p>Se a filosofia nasce na experiência, ela não pode se contentar em observar a crise de longe. Em Dewey, pensar bem é aprender publicamente a reconstruir o mundo comum.</p>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://plato.stanford.edu/entries/dewey/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: John Dewey</a></li><li><a href=\"https://plato.stanford.edu/entries/dewey-political/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Dewey&#x27;s Political Philosophy</a></li><li><a href=\"https://www.gutenberg.org/ebooks/852\" target=\"_blank\" rel=\"noopener\">John Dewey, Democracy and Education</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/algoritmo-substituiu-verdade-pela-atencao/\">O algoritmo substituiu a verdade pela atenção</a></li><li><a href=\"/artigos/crise-contemporanea-nao-e-economica-e-espiritual/\">A crise contemporânea não é econômica. É espiritual.</a></li><li><a href=\"/artigos/quiz-justica-politica-filosofia/\">Quiz: justiça, poder e sociedade</a></li></ul>",
+  "description": "Biografia filosófica de John Dewey: pragmatismo, educação democrática, experiência, hábitos e investigação pública.",
+  "subcategory": "biografia filosófica",
+  "philosophers": [
+    "John Dewey"
+  ],
+  "books": [
+    "Democracy and Education"
+  ],
+  "civilization": "Estados Unidos moderno",
+  "period": "Século XX",
+  "themes": [
+    "democracia",
+    "educação",
+    "experiência",
+    "pragmatismo",
+    "investigação"
+  ],
+  "relatedArticles": [
+    "algoritmo-substituiu-verdade-pela-atencao",
+    "crise-contemporanea-nao-e-economica-e-espiritual"
+  ],
+  "format": "Biografia filosófica",
+  "heroImage": "assets/article_cards/john-dewey-filosofia-democracia-educacao.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+{
+  "id": "epicteto-liberdade-interior-controle",
+  "slug": "epicteto-liberdade-interior-controle",
+  "tag": "FILOSOFIA ANTIGA",
+  "category": "Filosofia",
+  "title": "Epicteto e a liberdade interior: o que depende de nós?",
+  "excerpt": "A distinção entre o que depende e o que não depende de nós não é resignação passiva, mas técnica de responsabilidade moral.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "8 min",
+  "thumb": "assets/article_cards/epicteto-liberdade-interior-controle.jpg",
+  "cover": "assets/article_cards/epicteto-liberdade-interior-controle.jpg",
+  "tags": [
+    "Epicteto",
+    "estoicismo",
+    "Encheirídion",
+    "liberdade interior",
+    "controle"
+  ],
+  "featured": false,
+  "metaTitle": "Epicteto e a liberdade interior: o que depende de nós? | Mundo das Ideias",
+  "metaDescription": "Entenda a liberdade prática em Epicteto: juízo, desejo, aversão, destino e responsabilidade no estoicismo.",
+  "keywords": [
+    "Epicteto",
+    "estoicismo",
+    "liberdade interior",
+    "Encheirídion",
+    "controle"
+  ],
+  "content": "<p><strong>Epicteto começa por uma separação simples e implacável: algumas coisas dependem de nós; outras não.</strong></p>\n<p>A força dessa fórmula não está em simplificar a vida, mas em impedir que a alma seja governada por aquilo que ela não controla. Para o filósofo estoico, nascido escravizado no século I, liberdade não é primeiro uma condição externa; é a qualidade do juízo diante de perdas, insultos, medo, desejo e poder.</p>\n<h2>O domínio do juízo</h2>\n<p>No <em>Encheirídion</em>, compilado por Arriano a partir de seus ensinamentos, Epicteto distingue opinião, impulso, desejo e aversão de corpo, reputação, cargos e riqueza. Não se trata de negar que bens externos importem socialmente. Trata-se de dizer que eles não constituem o bem moral.</p>\n<p>A pessoa que depende inteiramente do reconhecimento alheio entrega sua paz ao acaso. A que confunde sofrimento com todo acontecimento desagradável passa a sofrer duas vezes: pelo fato e pela interpretação que cola ao fato.</p>\n<h2>Resignação ou responsabilidade?</h2>\n<p>Uma leitura apressada transforma Epicteto em defensor de passividade. Essa interpretação é pobre. O estoico não diz que nada deve ser feito; diz que a ação precisa partir do que está sob nossa responsabilidade. Escolher bem, agir justamente, corrigir o próprio desejo e aceitar o inevitável são tarefas ativas.</p>\n<p>A aceitação estoica não é amor pela injustiça. É recusa de desperdiçar a vida lutando contra a estrutura mesma do real. Quando algo pode ser feito, faz-se com retidão. Quando não pode, resta preservar o juízo.</p>\n<h2>Desejo, medo e treinamento</h2>\n<p>Epicteto propõe exercícios: observar impressões, adiar reações, lembrar a mortalidade, diferenciar perda real de fantasia de perda. A liberdade interior é treinamento porque paixões não obedecem apenas a argumentos bonitos.</p>\n<p>Esse ponto o aproxima de práticas contemporâneas de atenção à interpretação, mas a ética estoica é mais ampla que técnica emocional. Ela pergunta que tipo de pessoa estou me tornando ao consentir com certas opiniões.</p>\n<h2>Atualidade sem slogan</h2>\n<p>Hoje a frase 'controle o que você pode controlar' circula como conselho motivacional. Epicteto é mais exigente. Ele pede uma reforma do desejo, não apenas gestão de produtividade. Pergunta menos como vencer sempre e mais como não ser destruído moralmente pelo que acontece.</p>\n<p>O que depende de nós talvez seja menor do que gostaríamos. Mas, para Epicteto, é exatamente ali que se decide a dignidade de uma vida.</p>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://iep.utm.edu/epictetu/\" target=\"_blank\" rel=\"noopener\">Internet Encyclopedia of Philosophy: Epictetus</a></li><li><a href=\"https://classics.mit.edu/Epictetus/epicench.html\" target=\"_blank\" rel=\"noopener\">Epictetus, The Enchiridion, Internet Classics Archive</a></li><li><a href=\"https://plato.stanford.edu/entries/stoicism/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Stoicism</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/marco-aurelio-imperador-filosofo-estoico/\">Marco Aurélio: o imperador que escreveu para si mesmo</a></li><li><a href=\"/artigos/estoicismo-virtude-destino-acao/\">Estoicismo: virtude, destino e ação</a></li><li><a href=\"/artigos/quiz-estoicismo-vida-pratica/\">Quiz: estoicismo, liberdade e vida prática</a></li></ul>",
+  "description": "Entenda a liberdade prática em Epicteto: juízo, desejo, aversão, destino e responsabilidade no estoicismo.",
+  "subcategory": "estoicismo e vida prática",
+  "philosophers": [
+    "Epicteto",
+    "Marco Aurélio"
+  ],
+  "books": [
+    "Encheirídion",
+    "Discursos"
+  ],
+  "civilization": "Roma antiga",
+  "period": "Antiguidade",
+  "themes": [
+    "liberdade",
+    "juízo",
+    "desejo",
+    "responsabilidade",
+    "estoicismo"
+  ],
+  "relatedArticles": [
+    "marco-aurelio-imperador-filosofo-estoico",
+    "estoicismo-virtude-destino-acao",
+    "quiz-estoicismo-vida-pratica"
+  ],
+  "format": "Ensaio filosófico",
+  "heroImage": "assets/article_cards/epicteto-liberdade-interior-controle.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+{
+  "id": "simone-weil-atencao-generosidade",
+  "slug": "simone-weil-atencao-generosidade",
+  "tag": "FILOSOFIA CONTEMPORÂNEA",
+  "category": "Filosofia",
+  "title": "Simone Weil: a atenção como forma de generosidade",
+  "excerpt": "Para Simone Weil, atenção não é concentração utilitária, mas disponibilidade radical diante da verdade, do sofrimento e do outro.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "9 min",
+  "thumb": "assets/article_cards/simone-weil-atencao-generosidade.jpg",
+  "cover": "assets/article_cards/simone-weil-atencao-generosidade.jpg",
+  "tags": [
+    "Simone Weil",
+    "atenção",
+    "ética",
+    "sofrimento",
+    "mística"
+  ],
+  "featured": false,
+  "metaTitle": "Simone Weil: a atenção como forma de generosidade | Mundo das Ideias",
+  "metaDescription": "Ensaio sobre Simone Weil, atenção, sofrimento, verdade, escola, trabalho e responsabilidade diante do outro.",
+  "keywords": [
+    "Simone Weil",
+    "atenção",
+    "ética",
+    "sofrimento",
+    "mística"
+  ],
+  "content": "<p><strong>Simone Weil deu à palavra atenção uma gravidade rara: atender é suspender a vontade de possuir o mundo para permitir que algo ou alguém apareça em sua verdade.</strong></p>\n<p>A filósofa francesa, marcada por trabalho operário, militância, experiência religiosa e reflexão sobre a violência, não fala de atenção como técnica de produtividade. A atenção, em seus textos, é uma disciplina espiritual e intelectual que exige vazio, paciência e consentimento ao real.</p>\n<h2>Atenção e verdade</h2>\n<p>Em Weil, pensar não é dominar rapidamente um objeto. É esperar sem falsificar. A inteligência se torna justa quando resiste à pressa de projetar respostas prontas. Isso vale para matemática, literatura, política e dor humana.</p>\n<p>Por isso a atenção tem dimensão moral. Quem não atende ao outro tende a reduzi-lo a função, estatística, ameaça ou obstáculo. A atenção interrompe essa redução.</p>\n<h2>Escola, esforço e humildade</h2>\n<p>Weil escreveu que estudos escolares podem formar a atenção mesmo quando o conteúdo parece distante da vida prática. O ponto não é utilidade imediata, mas exercício de espera, precisão e humildade diante de algo que não se dobra à nossa impaciência.</p>\n<p>Essa visão não romantiza sofrimento escolar. Ela critica uma relação superficial com o saber. Aprender exige suportar o intervalo entre não compreender e compreender, sem transformar toda dificuldade em fracasso.</p>\n<h2>Força e despersonalização</h2>\n<p>A experiência de Weil com trabalho fabril e guerra alimenta sua reflexão sobre a força. A força reduz pessoas a coisas quando destrói voz, tempo, corpo e possibilidade de escolha. A atenção é uma resposta porque devolve presença ao que a violência torna invisível.</p>\n<p>Não se deve transformar essa ideia em sentimentalismo. Para Weil, compaixão verdadeira não é emoção passageira; é uma forma de justiça que exige ver a realidade do sofrimento sem usá-la para autopromoção moral.</p>\n<h2>Atualidade da atenção</h2>\n<p>Num ambiente saturado por notificações e performance, a atenção virou recurso econômico. Weil ajuda a recuperar sua profundidade ética. A pergunta não é apenas quanto tempo conseguimos focar, mas a que damos presença e que tipo de mundo nasce dessa presença.</p>\n<p>A generosidade da atenção está em não ocupar todo o espaço com o próprio eu. É uma forma silenciosa de hospitalidade intelectual: deixar que o real fale antes que nossa vaidade conclua.</p>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://plato.stanford.edu/entries/simone-weil/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Simone Weil</a></li><li><a href=\"https://iep.utm.edu/simone-weil/\" target=\"_blank\" rel=\"noopener\">Internet Encyclopedia of Philosophy: Simone Weil</a></li><li><a href=\"https://archive.org/details/waitingforgod0000weil\" target=\"_blank\" rel=\"noopener\">Simone Weil, Waiting for God, Internet Archive</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/sociedade-contemporanea-perdeu-o-rito/\">A sociedade contemporânea perdeu o rito</a></li><li><a href=\"/artigos/algoritmo-substituiu-verdade-pela-atencao/\">O algoritmo substituiu a verdade pela atenção</a></li><li><a href=\"/artigos/crise-contemporanea-nao-e-economica-e-espiritual/\">A crise contemporânea não é econômica. É espiritual.</a></li></ul>",
+  "description": "Ensaio sobre Simone Weil, atenção, sofrimento, verdade, escola, trabalho e responsabilidade diante do outro.",
+  "subcategory": "ética e atenção",
+  "philosophers": [
+    "Simone Weil"
+  ],
+  "books": [
+    "Waiting for God",
+    "Gravity and Grace"
+  ],
+  "civilization": "França moderna",
+  "period": "Século XX",
+  "themes": [
+    "atenção",
+    "ética",
+    "sofrimento",
+    "verdade",
+    "trabalho"
+  ],
+  "relatedArticles": [
+    "sociedade-contemporanea-perdeu-o-rito",
+    "algoritmo-substituiu-verdade-pela-atencao"
+  ],
+  "format": "Ensaio filosófico",
+  "heroImage": "assets/article_cards/simone-weil-atencao-generosidade.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+{
+  "id": "quiz-estoicismo-vida-pratica",
+  "slug": "quiz-estoicismo-vida-pratica",
+  "tag": "QUIZ FILOSÓFICO",
+  "category": "Filosofia",
+  "title": "Quiz: estoicismo, liberdade e vida prática",
+  "excerpt": "Teste se você distingue estoicismo filosófico de frases motivacionais sobre controle, destino e virtude.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "6 min",
+  "thumb": "assets/article_cards/quiz-estoicismo-vida-pratica.jpg",
+  "cover": "assets/article_cards/quiz-estoicismo-vida-pratica.jpg",
+  "tags": [
+    "quiz filosófico",
+    "estoicismo",
+    "Epicteto",
+    "Marco Aurélio",
+    "virtude"
+  ],
+  "featured": false,
+  "metaTitle": "Quiz: estoicismo, liberdade e vida prática | Mundo das Ideias",
+  "metaDescription": "Quiz filosófico com 10 perguntas sobre estoicismo, Epicteto, Marco Aurélio, liberdade interior e virtude.",
+  "keywords": [
+    "quiz filosofia",
+    "estoicismo",
+    "Epicteto",
+    "Marco Aurélio",
+    "virtude"
+  ],
+  "content": "<p><strong>Este quiz testa distinções básicas do estoicismo antigo sem reduzir a escola a autoajuda de controle emocional.</strong></p>\n\n<style>\n.mi-quiz{border:1px solid rgba(207,171,84,.35);padding:22px;margin:28px 0;background:rgba(15,23,42,.04)}\n.mi-quiz-question{border:0;border-top:1px solid rgba(0,0,0,.1);padding:18px 0;margin:0}\n.mi-quiz-question legend{font-weight:700;margin-bottom:10px}\n.mi-quiz-question label{display:block;margin:8px 0;line-height:1.45}\n.mi-quiz button{border:0;background:#111827;color:#fff;padding:11px 18px;font-weight:700;cursor:pointer}\n.mi-quiz-result{margin-top:18px;font-weight:700}\n.mi-quiz-explanation{color:#51422c;margin:10px 0 0}\n</style>\n<div class=\"mi-quiz\" id=\"quiz-estoicismo-vida-pratica\" data-answers='[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]'>\n<fieldset class=\"mi-quiz-question\"><legend>1. Para Epicteto, o que depende propriamente de nós?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-1\" value=\"0\"> O julgamento, o desejo e a ação deliberada</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-1\" value=\"1\"> A opinião pública sobre nossa reputação</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-1\" value=\"2\"> A duração da vida e a saúde do corpo</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-1\" value=\"3\"> O comportamento de todas as pessoas próximas</label><p class=\"mi-quiz-explanation\" hidden>Epicteto concentra a liberdade no uso do juízo e da vontade, não no controle dos acontecimentos externos.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>2. O que é virtude no estoicismo?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-2\" value=\"0\"> O único bem propriamente moral</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-2\" value=\"1\"> Um ornamento social para parecer nobre</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-2\" value=\"2\"> A ausência completa de emoções físicas</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-2\" value=\"3\"> O acúmulo de riqueza usada com prudência</label><p class=\"mi-quiz-explanation\" hidden>Para os estoicos, bens externos podem ter valor relativo, mas a virtude é o bem moral central.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>3. As Meditações de Marco Aurélio foram escritas principalmente como:</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-3\" value=\"0\"> Exercícios pessoais de disciplina filosófica</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-3\" value=\"1\"> Tratado oficial para organizar a Igreja</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-3\" value=\"2\"> Manual militar para soldados romanos</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-3\" value=\"3\"> Diálogo escolar no estilo de Platão</label><p class=\"mi-quiz-explanation\" hidden>O texto preserva notas privadas de autoexame, não um tratado público sistemático.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>4. Aceitar o destino, em leitura estoica cuidadosa, significa:</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-4\" value=\"0\"> Agir bem onde há responsabilidade e aceitar o inevitável</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-4\" value=\"1\"> Aprovar toda injustiça como moralmente correta</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-4\" value=\"2\"> Abandonar qualquer forma de ação política</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-4\" value=\"3\"> Confundir sofrimento alheio com ilusão sem importância</label><p class=\"mi-quiz-explanation\" hidden>Aceitação não elimina ação; ela impede revolta inútil contra o que não está sob controle.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>5. Qual risco aparece quando o estoicismo vira slogan contemporâneo?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-5\" value=\"0\"> Virar técnica de produtividade sem ética da virtude</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-5\" value=\"1\"> Virar pesquisa histórica sem relação com a vida</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-5\" value=\"2\"> Virar doutrina sem qualquer exercício prático</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-5\" value=\"3\"> Virar defesa exclusiva do prazer sensível</label><p class=\"mi-quiz-explanation\" hidden>O slogan costuma preservar a ideia de controle e perder o núcleo moral da virtude.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>6. No estoicismo, paixões desordenadas nascem sobretudo de:</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-6\" value=\"0\"> Juízos equivocados sobre bens e males</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-6\" value=\"1\"> Movimentos corporais sem qualquer interpretação</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-6\" value=\"2\"> Uma essência má impossível de educar</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-6\" value=\"3\"> Ausência de conhecimento matemático</label><p class=\"mi-quiz-explanation\" hidden>As paixões envolvem assentimentos e avaliações que podem ser examinados.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>7. Qual autor compilou os ensinamentos de Epicteto?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-7\" value=\"0\"> Arriano</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-7\" value=\"1\"> Plotino</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-7\" value=\"2\"> Cícero</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-7\" value=\"3\"> Porfírio</label><p class=\"mi-quiz-explanation\" hidden>Arriano registrou os Discursos e o Encheirídion a partir do ensino de Epicteto.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>8. A liberdade interior estoica se aproxima mais de:</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-8\" value=\"0\"> Autodomínio racional diante do acaso</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-8\" value=\"1\"> Indiferença cruel ao sofrimento dos outros</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-8\" value=\"2\"> Desejo de dominar politicamente todos</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-8\" value=\"3\"> Busca de prazer como ausência de dor</label><p class=\"mi-quiz-explanation\" hidden>A liberdade interior é disciplina do juízo, não frieza moral.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>9. Qual frase representa melhor a prudência estoica?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-9\" value=\"0\"> Não controlo tudo, mas respondo pelo meu juízo</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-9\" value=\"1\"> Nada importa, logo qualquer ação vale</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-9\" value=\"2\"> A fama é sempre o maior bem político</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-9\" value=\"3\"> A natureza deve ser negada pela vontade</label><p class=\"mi-quiz-explanation\" hidden>A distinção entre controle e responsabilidade resume uma tese prática estoica.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>10. Por que o estoicismo não é simples pessimismo?</legend><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-10\" value=\"0\"> Porque orienta uma vida ativa segundo razão e virtude</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-10\" value=\"1\"> Porque promete prazer permanente</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-10\" value=\"2\"> Porque nega a morte como fato natural</label><label><input type=\"radio\" name=\"quiz-estoicismo-vida-pratica-10\" value=\"3\"> Porque substitui ética por astrologia</label><p class=\"mi-quiz-explanation\" hidden>A escola admite limites, mas aposta na ação racional e na sociabilidade.</p></fieldset>\n<button type=\"button\">Ver resultado</button>\n<div class=\"mi-quiz-result\" aria-live=\"polite\"></div>\n</div>\n<script>\n(function(){\n  var root=document.getElementById(\"quiz-estoicismo-vida-pratica\");\n  if(!root) return;\n  var answers=JSON.parse(root.getAttribute(\"data-answers\"));\n  root.querySelector(\"button\").addEventListener(\"click\", function(){\n    var score=0;\n    root.querySelectorAll(\"fieldset\").forEach(function(fs, i){\n      var checked=fs.querySelector(\"input:checked\");\n      var ok=checked && Number(checked.value)===answers[i];\n      fs.style.borderLeft=ok?\"4px solid #1b7f45\":\"4px solid #a51f2b\";\n      var exp=fs.querySelector(\".mi-quiz-explanation\");\n      if(exp) exp.hidden=false;\n      if(ok) score++;\n    });\n    var msg=score>=8?\"excelente: você reconhece nuances, não só slogans.\":score>=5?\"bom caminho: há base, mas algumas distinções ainda pedem calma.\":\"vale reler o tema: filosofia começa quando a pressa perde autoridade.\";\n    root.querySelector(\".mi-quiz-result\").textContent=\"Resultado: \"+score+\"/10 — \"+msg;\n  });\n})();\n</script>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://plato.stanford.edu/entries/stoicism/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Stoicism</a></li><li><a href=\"https://classics.mit.edu/Epictetus/epicench.html\" target=\"_blank\" rel=\"noopener\">Epictetus, The Enchiridion</a></li><li><a href=\"https://classics.mit.edu/Antoninus/meditations.html\" target=\"_blank\" rel=\"noopener\">Marcus Aurelius, Meditations</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/marco-aurelio-imperador-filosofo-estoico/\">Marco Aurélio: o imperador que escreveu para si mesmo</a></li><li><a href=\"/artigos/epicteto-liberdade-interior-controle/\">Epicteto e a liberdade interior</a></li></ul>",
+  "description": "Quiz filosófico com 10 perguntas sobre estoicismo, Epicteto, Marco Aurélio, liberdade interior e virtude.",
+  "subcategory": "quiz filosófico",
+  "philosophers": [
+    "Epicteto",
+    "Marco Aurélio"
+  ],
+  "books": [
+    "Encheirídion",
+    "Meditações"
+  ],
+  "civilization": "Roma antiga",
+  "period": "Antiguidade",
+  "themes": [
+    "quiz",
+    "estoicismo",
+    "virtude",
+    "liberdade"
+  ],
+  "relatedArticles": [
+    "marco-aurelio-imperador-filosofo-estoico",
+    "epicteto-liberdade-interior-controle"
+  ],
+  "format": "Quiz filosófico",
+  "heroImage": "assets/article_cards/quiz-estoicismo-vida-pratica.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+{
+  "id": "quiz-justica-politica-filosofia",
+  "slug": "quiz-justica-politica-filosofia",
+  "tag": "QUIZ FILOSÓFICO",
+  "category": "Política",
+  "title": "Quiz: justiça, poder e sociedade",
+  "excerpt": "Um quiz para testar conceitos de filosofia política: contrato, justiça, poder, liberdade e esfera pública.",
+  "date": "10 de Agosto de 2026",
+  "dateISO": "2026-08-10",
+  "readTime": "7 min",
+  "thumb": "assets/article_cards/quiz-justica-politica-filosofia.jpg",
+  "cover": "assets/article_cards/quiz-justica-politica-filosofia.jpg",
+  "tags": [
+    "quiz filosófico",
+    "filosofia política",
+    "justiça",
+    "Rawls",
+    "poder"
+  ],
+  "featured": false,
+  "metaTitle": "Quiz: justiça, poder e sociedade | Mundo das Ideias",
+  "metaDescription": "Quiz filosófico com 10 perguntas sobre justiça, contrato social, poder, liberdade, esfera pública e filosofia política.",
+  "keywords": [
+    "quiz filosofia política",
+    "justiça",
+    "poder",
+    "Rawls",
+    "contrato social"
+  ],
+  "content": "<p><strong>Este quiz avalia conceitos de filosofia política sem tratar teorias complexas como respostas automáticas para todo conflito histórico.</strong></p>\n\n<style>\n.mi-quiz{border:1px solid rgba(207,171,84,.35);padding:22px;margin:28px 0;background:rgba(15,23,42,.04)}\n.mi-quiz-question{border:0;border-top:1px solid rgba(0,0,0,.1);padding:18px 0;margin:0}\n.mi-quiz-question legend{font-weight:700;margin-bottom:10px}\n.mi-quiz-question label{display:block;margin:8px 0;line-height:1.45}\n.mi-quiz button{border:0;background:#111827;color:#fff;padding:11px 18px;font-weight:700;cursor:pointer}\n.mi-quiz-result{margin-top:18px;font-weight:700}\n.mi-quiz-explanation{color:#51422c;margin:10px 0 0}\n</style>\n<div class=\"mi-quiz\" id=\"quiz-justica-politica-filosofia\" data-answers='[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]'>\n<fieldset class=\"mi-quiz-question\"><legend>1. No experimento de Rawls, o véu da ignorância serve para:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-1\" value=\"0\"> Pensar princípios de justiça sem saber a própria posição social</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-1\" value=\"1\"> Provar que toda desigualdade é sempre ilegítima</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-1\" value=\"2\"> Defender que governantes sábios devem mandar sozinhos</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-1\" value=\"3\"> Eliminar qualquer conflito entre liberdade e igualdade</label><p class=\"mi-quiz-explanation\" hidden>A posição original imagina escolha imparcial de princípios sem conhecer vantagens pessoais.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>2. Em Hobbes, o contrato social responde principalmente a qual problema?</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-2\" value=\"0\"> A insegurança do estado de natureza</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-2\" value=\"1\"> A busca estética pela beleza</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-2\" value=\"2\"> A salvação religiosa pela graça</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-2\" value=\"3\"> A origem da linguagem poética</label><p class=\"mi-quiz-explanation\" hidden>Hobbes pensa autoridade política como resposta ao medo, à insegurança e à guerra potencial.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>3. Para Locke, direitos naturais costumam incluir:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-3\" value=\"0\"> Vida, liberdade e propriedade</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-3\" value=\"1\"> Fama, honra e luxo</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-3\" value=\"2\"> Império, conquista e glória</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-3\" value=\"3\"> Silêncio, rito e tragédia</label><p class=\"mi-quiz-explanation\" hidden>A tradição lockeana associa governo legítimo à proteção desses direitos.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>4. Qual é um risco de reduzir política apenas a técnica administrativa?</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-4\" value=\"0\"> Apagar conflitos de valor e disputas de legitimidade</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-4\" value=\"1\"> Aumentar a participação popular automaticamente</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-4\" value=\"2\"> Tornar toda decisão moralmente neutra de fato</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-4\" value=\"3\"> Eliminar desigualdade econômica por cálculo</label><p class=\"mi-quiz-explanation\" hidden>A política envolve autoridade, valores, conflitos e justificação pública.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>5. Em Arendt, poder é mais bem entendido como:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-5\" value=\"0\"> Capacidade coletiva de agir em comum</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-5\" value=\"1\"> Violência física privada sem linguagem</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-5\" value=\"2\"> Domínio técnico sobre objetos naturais</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-5\" value=\"3\"> Obediência automática ao mais forte</label><p class=\"mi-quiz-explanation\" hidden>Arendt distingue poder de violência e liga poder à ação conjunta.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>6. O princípio da diferença em Rawls permite desigualdades quando:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-6\" value=\"0\"> Beneficiam os menos favorecidos dentro de instituições justas</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-6\" value=\"1\"> Aumentam a riqueza de qualquer grupo dominante</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-6\" value=\"2\"> São escolhidas pelo mercado sem instituições</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-6\" value=\"3\"> Tornam impossível a liberdade política</label><p class=\"mi-quiz-explanation\" hidden>A desigualdade só é justificável se melhorar a posição dos menos favorecidos, junto a liberdades básicas.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>7. Qual expressão descreve melhor uma esfera pública democrática?</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-7\" value=\"0\"> Espaço de debate, crítica e formação de opinião comum</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-7\" value=\"1\"> Lista secreta de decisões tomadas por especialistas</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-7\" value=\"2\"> Mercado de desejos privados sem argumento</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-7\" value=\"3\"> Arquivo estatal sem participação social</label><p class=\"mi-quiz-explanation\" hidden>A esfera pública depende de comunicação e possibilidade de contestação.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>8. O realismo político de Maquiavel é melhor entendido como:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-8\" value=\"0\"> Análise da lógica do poder, não simples apologia da crueldade</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-8\" value=\"1\"> Defesa de bondade ingênua como método de governo</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-8\" value=\"2\"> Negação de qualquer conflito na cidade</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-8\" value=\"3\"> Tratado de metafísica sobre substância</label><p class=\"mi-quiz-explanation\" hidden>Maquiavel observa condições efetivas do poder, embora suas teses sejam interpretadas de modos diversos.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>9. Uma teoria política normativa pergunta principalmente:</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-9\" value=\"0\"> Como instituições devem ser justificadas</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-9\" value=\"1\"> Qual foi a temperatura média no passado</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-9\" value=\"2\"> Como calcular juros compostos</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-9\" value=\"3\"> Qual idioma possui mais partículas</label><p class=\"mi-quiz-explanation\" hidden>Teorias normativas avaliam critérios de legitimidade, justiça e obrigação.</p></fieldset><fieldset class=\"mi-quiz-question\"><legend>10. Por que filosofia política exige cuidado histórico?</legend><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-10\" value=\"0\"> Porque conceitos mudam conforme instituições, conflitos e contextos</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-10\" value=\"1\"> Porque todas as ideias significam sempre a mesma coisa</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-10\" value=\"2\"> Porque fatos históricos são irrelevantes</label><label><input type=\"radio\" name=\"quiz-justica-politica-filosofia-10\" value=\"3\"> Porque fontes primárias nunca importam</label><p class=\"mi-quiz-explanation\" hidden>Evitar anacronismo é parte da leitura responsável de teorias políticas.</p></fieldset>\n<button type=\"button\">Ver resultado</button>\n<div class=\"mi-quiz-result\" aria-live=\"polite\"></div>\n</div>\n<script>\n(function(){\n  var root=document.getElementById(\"quiz-justica-politica-filosofia\");\n  if(!root) return;\n  var answers=JSON.parse(root.getAttribute(\"data-answers\"));\n  root.querySelector(\"button\").addEventListener(\"click\", function(){\n    var score=0;\n    root.querySelectorAll(\"fieldset\").forEach(function(fs, i){\n      var checked=fs.querySelector(\"input:checked\");\n      var ok=checked && Number(checked.value)===answers[i];\n      fs.style.borderLeft=ok?\"4px solid #1b7f45\":\"4px solid #a51f2b\";\n      var exp=fs.querySelector(\".mi-quiz-explanation\");\n      if(exp) exp.hidden=false;\n      if(ok) score++;\n    });\n    var msg=score>=8?\"excelente: você reconhece nuances, não só slogans.\":score>=5?\"bom caminho: há base, mas algumas distinções ainda pedem calma.\":\"vale reler o tema: filosofia começa quando a pressa perde autoridade.\";\n    root.querySelector(\".mi-quiz-result\").textContent=\"Resultado: \"+score+\"/10 — \"+msg;\n  });\n})();\n</script>\n<h2>Fontes e leitura complementar</h2><ul><li><a href=\"https://plato.stanford.edu/entries/rawls/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: John Rawls</a></li><li><a href=\"https://plato.stanford.edu/entries/hobbes-moral/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Hobbes&#x27;s Moral and Political Philosophy</a></li><li><a href=\"https://plato.stanford.edu/entries/arendt/\" target=\"_blank\" rel=\"noopener\">Stanford Encyclopedia of Philosophy: Hannah Arendt</a></li></ul>\n<h2>Leia também</h2><ul><li><a href=\"/artigos/maquiavel-poder-politica-realismo/\">Maquiavel e o realismo político</a></li><li><a href=\"/artigos/hannah-arendt-banalidade-do-mal/\">Hannah Arendt e a banalidade do mal</a></li><li><a href=\"/artigos/john-dewey-filosofia-democracia-educacao/\">John Dewey: democracia e educação</a></li></ul>",
+  "description": "Quiz filosófico com 10 perguntas sobre justiça, contrato social, poder, liberdade, esfera pública e filosofia política.",
+  "subcategory": "quiz filosófico",
+  "philosophers": [
+    "John Rawls",
+    "Thomas Hobbes",
+    "John Locke",
+    "Hannah Arendt",
+    "Maquiavel"
+  ],
+  "books": [
+    "A Theory of Justice",
+    "Leviathan",
+    "The Human Condition"
+  ],
+  "civilization": "Ocidente moderno",
+  "period": "Modernidade e contemporaneidade",
+  "themes": [
+    "quiz",
+    "justiça",
+    "poder",
+    "democracia",
+    "contrato social"
+  ],
+  "relatedArticles": [
+    "maquiavel-poder-politica-realismo",
+    "hannah-arendt-banalidade-do-mal",
+    "john-dewey-filosofia-democracia-educacao"
+  ],
+  "format": "Quiz filosófico",
+  "heroImage": "assets/article_cards/quiz-justica-politica-filosofia.jpg",
+  "updated": "2026-08-10",
+  "updatedISO": "2026-08-10"
+},
+
+
+  {
+    id: "maimonides-teologia-negativa",
+    slug: "maimonides-teologia-negativa",
+    tag: "FILOSOFIA MEDIEVAL",
+    category: "Filosofia",
+    title: "Maimônides e a teologia negativa: o que podemos dizer sobre Deus?",
+    excerpt: "Maimônides transforma a linguagem sobre Deus em um exercício de rigor: quanto mais perfeita é a realidade divina, menos adequado é descrevê-la como se fosse um objeto do mundo.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/maimonides-teologia-negativa.jpg",
+    cover: "assets/article_cards/maimonides-teologia-negativa.jpg",
+    tags: ["Maimônides", "teologia negativa", "Guia dos Perplexos", "filosofia medieval", "atributos divinos"],
+    featured: false,
+    metaTitle: "Maimônides e a teologia negativa: o que podemos dizer sobre Deus? | Mundo das Ideias",
+    metaDescription: "Entenda a teologia negativa de Maimônides no Guia dos Perplexos, sua relação com razão, revelação e os limites da linguagem religiosa.",
+    keywords: ["Maimônides", "teologia negativa", "Guia dos Perplexos", "filosofia medieval", "atributos divinos"],
+    content: `<p><strong>Em Maimônides, a razão não desaparece diante de Deus; ela aprende que a linguagem religiosa pode deformar o que pretende honrar quando trata o absoluto como objeto comum.</strong></p>
+<p>No Guia dos Perplexos, escrito em árabe judaico no século XII, Moisés Maimônides tenta orientar leitores formados pela tradição bíblica e pela filosofia aristotélica. O problema é delicado: como preservar a transcendência divina sem transformar a Bíblia em antropomorfismo grosseiro, e como usar a filosofia sem dissolver a fé em pura abstração.</p>
+<h2>O problema dos atributos</h2>
+<p>Para Maimônides, dizer que Deus é sábio, poderoso ou vivo não pode significar o mesmo que quando usamos essas palavras para humanos. Em nós, atributos acrescentam qualidades a uma substância limitada. Em Deus, isso introduziria composição, e tudo que é composto dependeria de algo anterior que o compõe.</p>
+<p>A solução mais rigorosa é negativa: em vez de definir a essência divina, removemos predicados inadequados. Dizer que Deus não é ignorante ou não é impotente evita projetar nele uma qualidade humana ampliada. A linguagem religiosa continua possível, mas aprende humildade.</p>
+<h2>Razão e revelação</h2>
+<p>Maimônides não trata a filosofia como inimiga da Escritura. Ele entende que muitas passagens bíblicas falam por imagens porque precisam formar uma comunidade concreta, não apenas satisfazer especialistas em metafísica. A interpretação filosófica procura distinguir sentido pedagógico, linguagem figurada e afirmação doutrinal.</p>
+<p>Isso não elimina a tensão. A filosofia exige precisão; a religião comunica por narrativas, mandamentos e símbolos. O mérito de Maimônides está em não escolher uma metade fácil. Ele tenta pensar como uma tradição revelada pode conviver com uma concepção rigorosamente transcendente de Deus.</p>
+<h2>O que a negação ensina</h2>
+<p>A teologia negativa não é silêncio vazio. Ela educa a inteligência contra a idolatria conceitual. O erro não está apenas em imaginar estátuas; está também em imaginar que nossos conceitos finitos dão posse ao mistério que nomeiam.</p>
+<p>Por isso, o caminho negativo é também uma disciplina ética da mente. Ele impede que a certeza religiosa vire arrogância intelectual. Quanto mais alto o objeto do pensamento, mais cuidadosa precisa ser a linguagem.</p>
+<h2>Atualidade do problema</h2>
+<p>Em tempos de debates rápidos sobre religião, ciência e identidade, Maimônides ajuda a separar convicção de simplificação. Há afirmações que parecem defender Deus, mas apenas defendem uma imagem pequena de Deus.</p>
+<p>Sua teologia negativa não resolve todas as questões contemporâneas, mas preserva uma intuição poderosa: certas realidades exigem uma linguagem que saiba recuar. Pensar bem também é saber quando uma definição empobrece aquilo que pretende honrar.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/maimonides/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Maimonides</a>.</li>
+<li><a href="https://archive.org/details/guideforperplexe00maim" target="_blank" rel="noopener">Moses Maimonides, The Guide of the Perplexed</a>.</li>
+<li>Leia também: <a href="/artigos/sao-tomas-fe-razao-explicacao/">Tomás de Aquino: fé e razão</a>, <a href="/artigos/o-que-e-a-metafisica/">O que é a metafísica?</a>, <a href="/artigos/provar-deus-kant/">Provar Deus depois de Kant</a>.</li>
+</ul>`,
+    description: "Entenda a teologia negativa de Maimônides no Guia dos Perplexos, sua relação com razão, revelação e os limites da linguagem religiosa.",
+    subcategory: "filosofia medieval e teologia negativa",
+    dossier: null,
+    philosophers: ["Moisés Maimônides", "Aristóteles"],
+    books: ["Guia dos Perplexos"],
+    civilization: "Judaísmo medieval",
+    period: "Idade Média",
+    themes: ["Deus", "linguagem", "razão", "revelação", "teologia negativa"],
+    relatedArticles: ["sao-tomas-fe-razao-explicacao", "o-que-e-a-metafisica", "provar-deus-kant"],
+    editorialPriority: "P0",
+    civilizations: ["Judaísmo medieval"],
+    historicalPeriods: ["Idade Média"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/maimonides-teologia-negativa.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "tomas-de-aquino-lei-natural",
+    slug: "tomas-de-aquino-lei-natural",
+    tag: "FILOSOFIA MEDIEVAL",
+    category: "Filosofia",
+    title: "Tomás de Aquino e a lei natural",
+    excerpt: "A lei natural em Tomás de Aquino pergunta como a razão prática reconhece bens humanos sem reduzir a moral à vontade do governante ou ao costume do momento.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/tomas-de-aquino-lei-natural.jpg",
+    cover: "assets/article_cards/tomas-de-aquino-lei-natural.jpg",
+    tags: ["Tomás de Aquino", "lei natural", "Suma Teológica", "ética", "filosofia medieval"],
+    featured: false,
+    metaTitle: "Tomás de Aquino e a lei natural | Mundo das Ideias",
+    metaDescription: "Guia sobre lei natural em Tomás de Aquino: lei eterna, razão prática, bens humanos, prudência e debates contemporâneos.",
+    keywords: ["Tomás de Aquino", "lei natural", "Suma Teológica", "ética", "filosofia medieval"],
+    content: `<p><strong>Tomás de Aquino não entende lei natural como uma lista mágica gravada fora da história, mas como a participação racional da criatura humana em uma ordem moral inteligível.</strong></p>
+<p>Na Suma Teológica, Tomás organiza a lei em níveis: eterna, natural, humana e divina. Essa arquitetura nasce do encontro entre cristianismo, Aristóteles e direito romano, mas continua relevante porque pergunta como normas podem ter fundamento sem depender apenas de força política.</p>
+<h2>Lei eterna e lei natural</h2>
+<p>A lei eterna é a razão divina enquanto governa o todo da criação. A lei natural é a participação da criatura racional nessa ordem: o ser humano pode reconhecer certos bens porque possui razão prática.</p>
+<p>Isso não significa que todos cheguem automaticamente às mesmas conclusões em cada caso. Os princípios básicos são gerais; sua aplicação exige prudência, experiência e atenção às circunstâncias.</p>
+<h2>Bens humanos e razão prática</h2>
+<p>Tomás parte de inclinações humanas fundamentais: preservar a vida, formar relações, educar filhos, buscar verdade, viver em sociedade e evitar ignorância. A moralidade nasce quando a razão ordena essas inclinações de modo propriamente humano.</p>
+<p>A lei natural, portanto, não é puro biologismo. Não basta apontar um impulso e chamá-lo de moral. O impulso precisa ser compreendido, julgado e integrado pela razão.</p>
+<h2>Lei humana e limites</h2>
+<p>A lei positiva deve traduzir princípios gerais em regras públicas. Mas ela pode errar. Uma lei injusta, para Tomás, perde algo de sua força moral, embora a desobediência concreta exija cuidado quando ameaça o bem comum.</p>
+<p>Essa tensão explica por que a tradição da lei natural influenciou debates sobre direitos, resistência, justiça e dignidade. Ela permite criticar o poder legal sem cair na arbitrariedade de preferências individuais.</p>
+<h2>Debates contemporâneos</h2>
+<p>Hoje a lei natural é disputada. Críticos veem nela risco de impor uma moral religiosa sob linguagem racional. Defensores respondem que a pergunta por bens humanos objetivos continua inevitável em bioética, direito e política.</p>
+<p>A leitura responsável de Tomás precisa evitar simplificações. Ele não oferece atalhos para guerras culturais. Oferece um problema filosófico sério: como distinguir legislação legítima, costume social e justiça racional?</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/natural-law-ethics/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: The Natural Law Tradition in Ethics</a>.</li>
+<li><a href="https://iep.utm.edu/aq-moral/" target="_blank" rel="noopener">Internet Encyclopedia of Philosophy: Aquinas, Moral Philosophy</a>.</li>
+<li>Leia também: <a href="/artigos/sao-tomas-fe-razao-explicacao/">Tomás de Aquino: fé e razão</a>, <a href="/artigos/aristoteles-eudaimonia-vida-boa/">Aristóteles e eudaimonia</a>, <a href="/artigos/o-que-e-a-metafisica/">O que é a metafísica?</a>.</li>
+</ul>`,
+    description: "Guia sobre lei natural em Tomás de Aquino: lei eterna, razão prática, bens humanos, prudência e debates contemporâneos.",
+    subcategory: "lei natural e ética medieval",
+    dossier: null,
+    philosophers: ["Tomás de Aquino", "Aristóteles"],
+    books: ["Suma Teológica"],
+    civilization: "Cristandade latina",
+    period: "Idade Média",
+    themes: ["lei natural", "razão prática", "bem comum", "ética", "justiça"],
+    relatedArticles: ["sao-tomas-fe-razao-explicacao", "aristoteles-eudaimonia-vida-boa", "o-que-e-a-metafisica"],
+    editorialPriority: "P0",
+    civilizations: ["Cristandade latina"],
+    historicalPeriods: ["Idade Média"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/tomas-de-aquino-lei-natural.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "problema-dos-universais",
+    slug: "problema-dos-universais",
+    tag: "METAFÍSICA",
+    category: "Filosofia",
+    title: "O problema dos universais: por que uma ideia medieval ainda importa",
+    excerpt: "A disputa sobre universais pergunta se conceitos gerais existem nas coisas, na mente ou apenas na linguagem.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/problema-dos-universais.jpg",
+    cover: "assets/article_cards/problema-dos-universais.jpg",
+    tags: ["problema dos universais", "nominalismo", "realismo", "Ockham", "metafísica"],
+    featured: false,
+    metaTitle: "O problema dos universais: por que uma ideia medieval ainda importa | Mundo das Ideias",
+    metaDescription: "Entenda realismo, nominalismo e conceitualismo no problema dos universais, da filosofia medieval à classificação científica atual.",
+    keywords: ["problema dos universais", "nominalismo", "realismo", "Ockham", "metafísica"],
+    content: `<p><strong>Quando dizemos que duas rosas são vermelhas, o problema filosófico não é a cor em si, mas o estatuto do que chamamos de comum: propriedade real, conceito mental ou convenção linguística.</strong></p>
+<p>O problema dos universais atravessa Platão, Aristóteles e a escolástica medieval, mas não ficou preso ao passado. Ele reaparece sempre que classificamos doenças, espécies, gêneros, inteligências, emoções ou identidades.</p>
+<h2>Realismo</h2>
+<p>Para o realismo, os universais possuem algum tipo de realidade. A vermelhidão não seria apenas um som que pronunciamos, mas algo comum às coisas vermelhas. A versão platônica tende a separar formas inteligíveis; versões aristotélicas aproximam a forma das próprias coisas.</p>
+<p>A força do realismo está em explicar por que o conhecimento geral parece alcançar algo objetivo. Se tudo fosse apenas nome, como a ciência descobriria padrões reais?</p>
+<h2>Nominalismo</h2>
+<p>O nominalismo resiste a multiplicar entidades. Para muitos nominalistas, só existem indivíduos; termos gerais são instrumentos de linguagem. Ockham é frequentemente associado a essa economia ontológica, embora suas posições exijam leitura técnica.</p>
+<p>A força do nominalismo está em evitar que conceitos virem seres misteriosos. Sua dificuldade é explicar por que nossas classificações funcionam tão bem quando não são meras convenções arbitrárias.</p>
+<h2>Conceitualismo e mediações</h2>
+<p>Entre realismo forte e nominalismo estrito, há posições intermediárias. Conceitualistas entendem o universal como conceito mental fundado na semelhança entre indivíduos. A generalidade não flutua em outro mundo, mas também não é puro ruído verbal.</p>
+<p>Essas mediações mostram que a pergunta medieval não é caricatura. Ela trabalha em uma região difícil: o encontro entre linguagem, mente e estrutura do real.</p>
+<h2>Por que ainda importa</h2>
+<p>Classificar é poder pensar, mas também é poder governar. Categorias médicas, jurídicas e sociais definem tratamentos, direitos, estatísticas e expectativas. Por isso, o problema dos universais toca a vida pública.</p>
+<p>A pergunta antiga continua viva: nossos conceitos descobrem a realidade, organizam a realidade ou às vezes fabricam a realidade social que depois tratam como natural?</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/nominalism-metaphysics/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Nominalism in Metaphysics</a>.</li>
+<li><a href="https://iep.utm.edu/universa/" target="_blank" rel="noopener">Internet Encyclopedia of Philosophy: The Problem of Universals</a>.</li>
+<li>Leia também: <a href="/artigos/platao-mundo-das-ideias/">Platão e o mundo das ideias</a>, <a href="/artigos/o-que-e-a-metafisica/">O que é a metafísica?</a>, <a href="/artigos/descartes-cogito-ergo-sum/">Descartes: cogito ergo sum</a>.</li>
+</ul>`,
+    description: "Entenda realismo, nominalismo e conceitualismo no problema dos universais, da filosofia medieval à classificação científica atual.",
+    subcategory: "metafísica medieval",
+    dossier: null,
+    philosophers: ["Platão", "Aristóteles", "Guilherme de Ockham"],
+    books: [],
+    civilization: "Ocidente",
+    period: "Medieval e contemporâneo",
+    themes: ["universais", "realismo", "nominalismo", "linguagem", "classificação"],
+    relatedArticles: ["platao-mundo-das-ideias", "o-que-e-a-metafisica", "descartes-cogito-ergo-sum"],
+    editorialPriority: "P0",
+    civilizations: ["Ocidente"],
+    historicalPeriods: ["Medieval e contemporâneo"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/problema-dos-universais.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "francis-bacon-idolos-da-mente",
+    slug: "francis-bacon-idolos-da-mente",
+    tag: "EPISTEMOLOGIA",
+    category: "Ciência",
+    title: "Os ídolos da mente segundo Francis Bacon",
+    excerpt: "Francis Bacon descreveu padrões de erro que distorcem observação, linguagem e julgamento coletivo antes mesmo de chamarmos isso de viés cognitivo.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/francis-bacon-idolos-da-mente.jpg",
+    cover: "assets/article_cards/francis-bacon-idolos-da-mente.jpg",
+    tags: ["Francis Bacon", "ídolos da mente", "Novum Organum", "epistemologia", "método científico"],
+    featured: false,
+    metaTitle: "Os ídolos da mente segundo Francis Bacon | Mundo das Ideias",
+    metaDescription: "Conheça os ídolos da tribo, caverna, mercado e teatro em Francis Bacon e sua importância para ciência, linguagem e pensamento crítico.",
+    keywords: ["Francis Bacon", "ídolos da mente", "Novum Organum", "epistemologia", "método científico"],
+    content: `<p><strong>Antes de acumular fatos, Bacon queria limpar a mente dos hábitos que a fazem enxergar ordem onde há desejo, autoridade onde há repetição e clareza onde há apenas palavras gastas.</strong></p>
+<p>No Novum Organum, publicado em 1620, Francis Bacon defende uma reforma do conhecimento. Seu alvo não é apenas a ignorância, mas a confiança prematura: a mente humana tende a fabricar certezas antes de investigar com método.</p>
+<h2>Ídolos da tribo</h2>
+<p>Os ídolos da tribo pertencem à espécie humana. A mente busca padrões, confirma expectativas e simplifica a realidade para caber em suas medidas. O erro não é individual; está ligado à forma humana de perceber e julgar.</p>
+<p>Essa intuição antecipa discussões modernas sobre vieses. Bacon não usa a linguagem da psicologia experimental, mas entende que observar exige combater tendências internas.</p>
+<h2>Ídolos da caverna</h2>
+<p>Os ídolos da caverna nascem da história particular de cada pessoa: educação, temperamento, leituras favoritas, experiências e paixões. Cada um habita uma caverna própria que filtra o mundo.</p>
+<p>Por isso, pensamento crítico não é apenas desconfiar dos outros. É suspeitar do próprio ângulo. Uma inteligência honesta pergunta que preferências secretas estão guiando sua interpretação.</p>
+<h2>Ídolos do mercado</h2>
+<p>Os ídolos do mercado vêm da linguagem comum. Palavras circulam, convencem e confundem. Quando termos vagos parecem explicar demais, a discussão pública degrada-se em disputa de slogans.</p>
+<p>Bacon percebe que linguagem não é embalagem neutra do pensamento. Ela pode organizar a investigação ou desviá-la. Conceitos imprecisos produzem problemas falsos e consensos frágeis.</p>
+<h2>Ídolos do teatro</h2>
+<p>Os ídolos do teatro são sistemas filosóficos recebidos como peças já montadas. Tradições intelectuais podem iluminar, mas também hipnotizar. A autoridade de um palco antigo não substitui contato disciplinado com a experiência.</p>
+<p>A atualidade de Bacon está nessa combinação: desconfiança da mente, cuidado com palavras e crítica a sistemas fechados. Ciência não é só método externo; é também educação contra as idolatrias internas do saber.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/archives/fall2020/entries/francis-bacon/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Francis Bacon</a>.</li>
+<li><a href="https://www.gutenberg.org/ebooks/45988" target="_blank" rel="noopener">Francis Bacon, Novum Organum</a>.</li>
+<li>Leia também: <a href="/artigos/algoritmo-substituiu-verdade-pela-atencao/">O algoritmo substituiu a verdade pela atenção</a>, <a href="/artigos/laplace-sonho-razao-absoluta/">Laplace e o sonho da razão absoluta</a>, <a href="/artigos/o-que-e-a-metafisica/">O que é a metafísica?</a>.</li>
+</ul>`,
+    description: "Conheça os ídolos da tribo, caverna, mercado e teatro em Francis Bacon e sua importância para ciência, linguagem e pensamento crítico.",
+    subcategory: "método científico e crítica dos erros",
+    dossier: null,
+    philosophers: ["Francis Bacon"],
+    books: ["Novum Organum"],
+    civilization: "Europa moderna",
+    period: "Modernidade",
+    themes: ["ciência", "erro", "método", "linguagem", "viés"],
+    relatedArticles: ["algoritmo-substituiu-verdade-pela-atencao", "laplace-sonho-razao-absoluta", "o-que-e-a-metafisica"],
+    editorialPriority: "P0",
+    civilizations: ["Europa moderna"],
+    historicalPeriods: ["Modernidade"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/francis-bacon-idolos-da-mente.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "hume-problema-da-causalidade",
+    slug: "hume-problema-da-causalidade",
+    tag: "EPISTEMOLOGIA",
+    category: "Filosofia",
+    title: "Hume e o problema da causalidade",
+    excerpt: "Hume pergunta se a experiência mostra uma conexão necessária entre causa e efeito ou apenas sucessões regulares que a mente aprende a esperar.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/hume-problema-da-causalidade.jpg",
+    cover: "assets/article_cards/hume-problema-da-causalidade.jpg",
+    tags: ["David Hume", "causalidade", "indução", "empirismo", "Kant"],
+    featured: false,
+    metaTitle: "Hume e o problema da causalidade | Mundo das Ideias",
+    metaDescription: "Entenda Hume, causalidade, indução, hábito mental e o impacto dessa crítica na ciência moderna e em Kant.",
+    keywords: ["David Hume", "causalidade", "indução", "empirismo", "Kant"],
+    content: `<p><strong>Hume argumenta que a experiência mostra contiguidade, sucessão e repetição; a necessidade causal, tal como a imaginamos, nasce do hábito mental de esperar que o futuro acompanhe o passado.</strong></p>
+<p>O empirismo de Hume leva a experiência a sério a ponto de abalar uma confiança básica do conhecimento comum: a ideia de que percebemos diretamente a conexão necessária entre causa e efeito. O problema não destrói a ciência, mas obriga a explicar o que justificamos quando confiamos no futuro.</p>
+<h2>Impressões, ideias e limite da experiência</h2>
+<p>Hume distingue impressões vivas e ideias derivadas. Todo conceito legítimo deve poder ser relacionado a alguma experiência. Quando aplicamos isso à causalidade, surge a dificuldade: onde está a impressão da conexão necessária?</p>
+<p>Vemos fogo seguido de calor, choque seguido de movimento, nuvens seguidas de chuva. Mas a necessidade que diz que o efeito deve ocorrer não aparece como objeto sensível.</p>
+<h2>Hábito e expectativa</h2>
+<p>A mente, após repetidas conjunções, passa a esperar o efeito. Essa expectativa é psicológica, não demonstração lógica. A causalidade cotidiana nasce do costume, de uma propensão formada pela repetição.</p>
+<p>Isso não torna a vida impossível. Hume sabe que ninguém deixa de agir causalmente. A questão é filosófica: nossa confiança prática não equivale a prova racional absoluta.</p>
+<h2>O problema da indução</h2>
+<p>A indução supõe que o futuro se parecerá com o passado. Mas justificar essa suposição apelando ao passado é circular. Ela funcionou antes; logo funcionará depois. O raciocínio já pressupõe aquilo que deveria provar.</p>
+<p>A ciência continua usando regularidades, probabilidades e modelos, mas Hume impede a ilusão de fundamento infalível. O conhecimento empírico é poderoso, porém humano, revisável e dependente de hábitos inferenciais.</p>
+<h2>Impacto em Kant</h2>
+<p>Kant afirmou que Hume o despertou de seu sono dogmático. A crítica da causalidade abriu caminho para perguntar se certas formas de organização não vêm da experiência, mas das condições pelas quais a experiência se torna possível.</p>
+<p>Assim, Hume não é apenas destrutivo. Ele força a filosofia moderna a encarar uma pergunta decisiva: o que a mente contribui para o mundo que acredita apenas observar?</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/hume/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: David Hume</a>.</li>
+<li><a href="https://plato.stanford.edu/entries/induction-problem/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: The Problem of Induction</a>.</li>
+<li>Leia também: <a href="/artigos/locke-tabula-rasa/">Locke e a tabula rasa</a>, <a href="/artigos/provar-deus-kant/">Provar Deus depois de Kant</a>, <a href="/artigos/descartes-cogito-ergo-sum/">Descartes: cogito ergo sum</a>.</li>
+</ul>`,
+    description: "Entenda Hume, causalidade, indução, hábito mental e o impacto dessa crítica na ciência moderna e em Kant.",
+    subcategory: "empirismo e causalidade",
+    dossier: null,
+    philosophers: ["David Hume", "Immanuel Kant"],
+    books: ["Tratado da Natureza Humana", "Investigação sobre o Entendimento Humano"],
+    civilization: "Iluminismo escocês",
+    period: "Modernidade",
+    themes: ["causalidade", "indução", "hábito", "experiência", "ciência"],
+    relatedArticles: ["locke-tabula-rasa", "provar-deus-kant", "descartes-cogito-ergo-sum"],
+    editorialPriority: "P0",
+    civilizations: ["Iluminismo escocês"],
+    historicalPeriods: ["Modernidade"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/hume-problema-da-causalidade.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "kant-maioridade-intelectual",
+    slug: "kant-maioridade-intelectual",
+    tag: "ILUMINISMO",
+    category: "Filosofia",
+    title: "Kant e a maioridade intelectual: o que significa pensar por conta própria",
+    excerpt: "A maioridade intelectual em Kant exige coragem para usar o entendimento sem tutela, mas também responsabilidade no uso público da razão.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/kant-maioridade-intelectual.jpg",
+    cover: "assets/article_cards/kant-maioridade-intelectual.jpg",
+    tags: ["Kant", "maioridade intelectual", "Esclarecimento", "sapere aude", "autonomia"],
+    featured: false,
+    metaTitle: "Kant e a maioridade intelectual: o que significa pensar por conta própria | Mundo das Ideias",
+    metaDescription: "Entenda o ensaio de Kant sobre o Esclarecimento: sapere aude, autonomia, uso público da razão e limites históricos.",
+    keywords: ["Kant", "maioridade intelectual", "Esclarecimento", "sapere aude", "autonomia"],
+    content: `<p><strong>Para Kant, a menoridade não é falta de inteligência; é o hábito de deixar que outros pensem por nós quando poderíamos assumir o risco da razão.</strong></p>
+<p>Em 1784, Kant respondeu à pergunta: que é Esclarecimento? Sua resposta tornou-se uma das formulações mais célebres da modernidade: sair da menoridade autoculpável e ousar saber. Mas o texto é mais exigente do que o slogan sugere.</p>
+<h2>Menoridade e tutela</h2>
+<p>Menoridade é a incapacidade de usar o próprio entendimento sem direção alheia. Ela é autoculpável quando não nasce da falta de capacidade, mas de preguiça, covardia ou dependência confortável.</p>
+<p>Kant não está dizendo que todos precisam desprezar professores, instituições ou tradição. O problema é transformar mediações necessárias em tutela permanente.</p>
+<h2>Sapere aude</h2>
+<p>A expressão latina sapere aude significa ousa saber. A coragem aqui é intelectual e moral. Pensar por conta própria exige suportar erro, crítica, exposição e responsabilidade.</p>
+<p>Por isso, autonomia não é capricho. O sujeito esclarecido não troca autoridade externa por impulso interno. Ele submete crenças a razões que podem ser apresentadas publicamente.</p>
+<h2>Uso público da razão</h2>
+<p>Kant distingue usos da razão em funções institucionais e no debate público. Um funcionário pode ter deveres de cargo; como estudioso ou cidadão que argumenta publicamente, deve poder criticar normas e ideias.</p>
+<p>Essa distinção tenta proteger ordem civil e progresso intelectual ao mesmo tempo. Ela é controversa, mas mostra que esclarecimento não é anarquia: é uma cultura em que razões circulam.</p>
+<h2>Limites históricos</h2>
+<p>Kant escreve dentro de seu século, com exclusões e tensões que não devem ser apagadas. A modernidade iluminista falou de universalidade enquanto sociedades europeias ainda sustentavam hierarquias coloniais, de gênero e classe.</p>
+<p>Ler Kant hoje exige manter duas coisas juntas: a força da autonomia racional e a crítica das fronteiras históricas que limitaram quem era reconhecido como sujeito pleno dessa razão.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://www.columbia.edu/acis/ets/CCREAD/etscc/kant.html" target="_blank" rel="noopener">Immanuel Kant, What is Enlightenment?</a>.</li>
+<li><a href="https://plato.stanford.edu/entries/kant-reason/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Kant's Account of Reason</a>.</li>
+<li>Leia também: <a href="/artigos/provar-deus-kant/">Provar Deus depois de Kant</a>, <a href="/artigos/descartes-cogito-ergo-sum/">Descartes: cogito ergo sum</a>, <a href="/artigos/locke-tabula-rasa/">Locke e a tabula rasa</a>.</li>
+</ul>`,
+    description: "Entenda o ensaio de Kant sobre o Esclarecimento: sapere aude, autonomia, uso público da razão e limites históricos.",
+    subcategory: "Iluminismo e autonomia",
+    dossier: null,
+    philosophers: ["Immanuel Kant"],
+    books: ["Resposta à pergunta: Que é Esclarecimento?", "Crítica da Razão Pura"],
+    civilization: "Iluminismo europeu",
+    period: "Modernidade",
+    themes: ["autonomia", "razão pública", "Esclarecimento", "liberdade", "modernidade"],
+    relatedArticles: ["provar-deus-kant", "descartes-cogito-ergo-sum", "locke-tabula-rasa"],
+    editorialPriority: "P0",
+    civilizations: ["Iluminismo europeu"],
+    historicalPeriods: ["Modernidade"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/kant-maioridade-intelectual.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "hegel-luta-por-reconhecimento",
+    slug: "hegel-luta-por-reconhecimento",
+    tag: "FILOSOFIA MODERNA",
+    category: "Filosofia",
+    title: "Hegel e a luta por reconhecimento",
+    excerpt: "Na dialética do senhor e do escravo, Hegel mostra que a consciência de si não nasce isolada: ela depende de outra consciência.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/hegel-luta-por-reconhecimento.jpg",
+    cover: "assets/article_cards/hegel-luta-por-reconhecimento.jpg",
+    tags: ["Hegel", "reconhecimento", "senhor e escravo", "Fenomenologia do Espírito", "dialética"],
+    featured: false,
+    metaTitle: "Hegel e a luta por reconhecimento | Mundo das Ideias",
+    metaDescription: "Entenda Hegel, reconhecimento, dialética do senhor e do escravo, trabalho, dependência recíproca e leituras sociais contemporâneas.",
+    keywords: ["Hegel", "reconhecimento", "senhor e escravo", "Fenomenologia do Espírito", "dialética"],
+    content: `<p><strong>O eu não se torna plenamente eu olhando apenas para dentro; ele precisa ser reconhecido por outro eu que também exige reconhecimento.</strong></p>
+<p>A seção sobre senhorio e servidão na Fenomenologia do Espírito tornou-se uma das passagens mais influentes da filosofia moderna. Hegel não oferece uma psicologia simples da autoestima, mas uma análise da formação histórica e relacional da consciência de si.</p>
+<h2>Desejo e consciência de si</h2>
+<p>A consciência inicialmente deseja objetos. Mas, ao encontrar outra consciência, descobre que não basta consumir coisas: ela quer ser reconhecida. O objeto decisivo passa a ser o olhar de outro sujeito livre.</p>
+<p>Daí nasce conflito. Se cada consciência quer afirmar-se como absoluta, a relação tende à luta. O reconhecimento verdadeiro, porém, não pode ser extraído de um objeto passivo. Ele precisa vir de alguém também livre.</p>
+<h2>Senhor e escravo</h2>
+<p>Na figura hegeliana, o senhor domina, mas depende do escravo para ser reconhecido. O escravo, por sua vez, trabalha sobre o mundo e transforma a si mesmo nesse processo. A relação é assimétrica e instável.</p>
+<p>O ponto não é celebrar a servidão. É mostrar que a dominação falha até para o dominador: reconhecimento forçado não satisfaz plenamente, porque vem de alguém negado como igual.</p>
+<h2>Trabalho e formação</h2>
+<p>O trabalho aparece como mediação decisiva. Ao transformar a matéria, o escravo encontra permanência, disciplina o desejo e vê sua própria atividade objetivada no mundo.</p>
+<p>Essa leitura inspirou tradições posteriores, inclusive debates marxistas e teorias sociais do reconhecimento. A identidade não é dado interior puro; forma-se em práticas, instituições e conflitos.</p>
+<h2>Atualidade e cautela</h2>
+<p>Falar em reconhecimento hoje ajuda a pensar raça, gênero, classe, trabalho, cidadania e visibilidade. Pessoas e grupos não querem apenas sobreviver; querem ser vistos como participantes legítimos da vida comum.</p>
+<p>Mas é preciso evitar simplificação. Hegel não reduz política a validação subjetiva. O reconhecimento exige instituições, normas e reciprocidade, não apenas aplauso emocional ou exposição pública.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/recognition/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Recognition</a>.</li>
+<li><a href="https://iep.utm.edu/hegelsoc/" target="_blank" rel="noopener">Internet Encyclopedia of Philosophy: Hegel</a>.</li>
+<li>Leia também: <a href="/artigos/hegel-fenomenologia-inteligencias-artificiais/">Hegel e a fenomenologia diante das inteligências artificiais</a>, <a href="/artigos/poder-simbolico-ideias-governam/">O poder simbólico</a>, <a href="/artigos/escala-6x1-trabalho-tempo-vida/">Marx e trabalho</a>.</li>
+</ul>`,
+    description: "Entenda Hegel, reconhecimento, dialética do senhor e do escravo, trabalho, dependência recíproca e leituras sociais contemporâneas.",
+    subcategory: "dialética e reconhecimento",
+    dossier: null,
+    philosophers: ["G. W. F. Hegel"],
+    books: ["Fenomenologia do Espírito"],
+    civilization: "Idealismo alemão",
+    period: "Modernidade",
+    themes: ["reconhecimento", "consciência", "trabalho", "dialética", "liberdade"],
+    relatedArticles: ["hegel-fenomenologia-inteligencias-artificiais", "poder-simbolico-ideias-governam", "escala-6x1-trabalho-tempo-vida"],
+    editorialPriority: "P0",
+    civilizations: ["Idealismo alemão"],
+    historicalPeriods: ["Modernidade"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/hegel-luta-por-reconhecimento.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "marx-alienacao-do-trabalho",
+    slug: "marx-alienacao-do-trabalho",
+    tag: "FILOSOFIA SOCIAL",
+    category: "Sociologia",
+    title: "Alienação em Marx: quando o trabalho se torna estranho ao trabalhador",
+    excerpt: "Nos Manuscritos de 1844, Marx descreve a alienação como separação entre trabalhador, produto, atividade, humanidade e outros indivíduos.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/marx-alienacao-do-trabalho.jpg",
+    cover: "assets/article_cards/marx-alienacao-do-trabalho.jpg",
+    tags: ["Marx", "alienação", "trabalho", "Manuscritos de 1844", "capitalismo"],
+    featured: false,
+    metaTitle: "Alienação em Marx: quando o trabalho se torna estranho ao trabalhador | Mundo das Ideias",
+    metaDescription: "Entenda o conceito de alienação em Marx, suas quatro dimensões, relação com trabalho assalariado e atualidade crítica.",
+    keywords: ["Marx", "alienação", "trabalho", "Manuscritos de 1844", "capitalismo"],
+    content: `<p><strong>Alienação, em Marx, não é apenas sentir-se cansado no emprego; é trabalhar em uma estrutura na qual a própria atividade humana retorna contra quem a realizou.</strong></p>
+<p>Nos Manuscritos econômico-filosóficos de 1844, o jovem Marx analisa o trabalho sob capitalismo industrial. O texto não é sua teoria madura completa, mas oferece uma das descrições mais fortes da perda de sentido no trabalho moderno.</p>
+<h2>Produto estranho</h2>
+<p>O trabalhador produz objetos que não lhe pertencem. Quanto mais trabalha, mais o mundo de mercadorias cresce diante dele como poder alheio. O produto carrega sua energia, mas volta como propriedade de outro.</p>
+<p>Essa primeira dimensão mostra que alienação não é sentimento privado. Ela depende de relações de propriedade, salário e controle do processo produtivo.</p>
+<h2>Atividade estranha</h2>
+<p>A segunda separação atinge o próprio ato de trabalhar. Em vez de expressão de capacidades humanas, a atividade aparece como obrigação externa, meio de sobrevivência e tempo vendido.</p>
+<p>Marx não idealiza preguiça. Seu ponto é que o trabalho poderia ser forma de objetivação humana, criação e participação no mundo. Sob alienação, ele se torna atividade contra si.</p>
+<h2>Ser genérico e outros humanos</h2>
+<p>A alienação separa o trabalhador de sua humanidade compartilhada, aquilo que Marx chama de ser genérico. A capacidade de criar conscientemente um mundo comum é reduzida à necessidade imediata.</p>
+<p>Também separa indivíduos entre si. A relação social aparece mediada por competição, hierarquia, salário e mercadoria. O outro surge como ameaça, comprador, supervisor ou rival.</p>
+<h2>Atualidade e críticas</h2>
+<p>Aplicar Marx hoje exige cuidado. Plataformas digitais, escritórios e trabalho imaterial não são fábrica do século XIX, mas continuam produzindo perda de controle, fragmentação e sentido capturado por métricas.</p>
+<p>Críticos lembram que Marx pode subestimar pluralidade de motivações e complexidade institucional. Ainda assim, sua pergunta permanece incômoda: quem controla o tempo, o produto e o sentido da atividade que ocupa a vida?</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/marx/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Karl Marx</a>.</li>
+<li><a href="https://www.marxists.org/archive/marx/works/1844/manuscripts/labour.htm" target="_blank" rel="noopener">Karl Marx, Economic and Philosophic Manuscripts of 1844</a>.</li>
+<li>Leia também: <a href="/artigos/escala-6x1-trabalho-tempo-vida/">Escala 6x1: trabalho, tempo e vida</a>, <a href="/artigos/balzac-escritor-alma-capitalismo/">Balzac e a alma do capitalismo</a>, <a href="/artigos/adorno-cultura-pensamento/">Adorno e a indústria cultural</a>.</li>
+</ul>`,
+    description: "Entenda o conceito de alienação em Marx, suas quatro dimensões, relação com trabalho assalariado e atualidade crítica.",
+    subcategory: "trabalho e alienação",
+    dossier: null,
+    philosophers: ["Karl Marx"],
+    books: ["Manuscritos econômico-filosóficos de 1844"],
+    civilization: "Modernidade industrial",
+    period: "Contemporâneo",
+    themes: ["trabalho", "alienação", "capitalismo", "mercadoria", "tempo"],
+    relatedArticles: ["escala-6x1-trabalho-tempo-vida", "balzac-escritor-alma-capitalismo", "adorno-cultura-pensamento"],
+    editorialPriority: "P0",
+    civilizations: ["Modernidade industrial"],
+    historicalPeriods: ["Contemporâneo"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/marx-alienacao-do-trabalho.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "frantz-fanon-consciencia-colonizada",
+    slug: "frantz-fanon-consciencia-colonizada",
+    tag: "FILOSOFIA POLÍTICA",
+    category: "Política",
+    title: "Frantz Fanon e a consciência colonizada",
+    excerpt: "Fanon examina como o colonialismo atinge linguagem, corpo, identidade e reconhecimento, sem reduzir libertação a uma fórmula simples.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/frantz-fanon-consciencia-colonizada.jpg",
+    cover: "assets/article_cards/frantz-fanon-consciencia-colonizada.jpg",
+    tags: ["Frantz Fanon", "colonialismo", "consciência colonizada", "Pele Negra Máscaras Brancas", "Os Condenados da Terra"],
+    featured: false,
+    metaTitle: "Frantz Fanon e a consciência colonizada | Mundo das Ideias",
+    metaDescription: "Entenda Frantz Fanon, consciência colonizada, linguagem, racismo, violência colonial e os debates sobre libertação.",
+    keywords: ["Frantz Fanon", "colonialismo", "consciência colonizada", "Pele Negra Máscaras Brancas", "Os Condenados da Terra"],
+    content: `<p><strong>Fanon analisou o colonialismo como dominação territorial, política e psíquica: uma estrutura que afeta linguagem, corpo, reconhecimento e possibilidade de futuro.</strong></p>
+<p>Médico psiquiatra, escritor e militante anticolonial, Frantz Fanon atravessou Martinica, França e Argélia. Seus livros principais, Pele Negra, Máscaras Brancas e Os Condenados da Terra, combinam filosofia, clínica, política e literatura.</p>
+<h2>Linguagem e assimilação</h2>
+<p>Em Pele Negra, Máscaras Brancas, Fanon analisa como a língua do colonizador pode funcionar como promessa de reconhecimento. Falar como o centro imperial parece oferecer humanidade plena, mas frequentemente cobra negação de origem e corpo.</p>
+<p>A língua não é apenas ferramenta neutra. Ela carrega hierarquias, desejo de aceitação e vergonha social. A consciência colonizada aprende a olhar para si a partir do olhar que a inferioriza.</p>
+<h2>Corpo racializado</h2>
+<p>Fanon descreve a experiência de ser fixado pela raça: o corpo deixa de ser simplesmente vivido e passa a ser observado, temido, exotizado ou patologizado. A identidade torna-se campo de tensão entre experiência própria e imagem imposta.</p>
+<p>Essa análise não deve ser reduzida a psicologia individual. O sofrimento subjetivo nasce de estruturas coloniais, instituições, imagens culturais e relações materiais de dominação.</p>
+<h2>Violência colonial</h2>
+<p>Em Os Condenados da Terra, Fanon discute violência em contexto colonial. O tema é controverso e precisa ser lido com precisão: Fanon analisa a violência como estrutura constitutiva do colonialismo e como problema da libertação, não como elogio abstrato da crueldade.</p>
+<p>Apresentar sua posição como fórmula simples seria falso. O texto articula opressão, trauma, luta política e riscos do pós-colonial, incluindo novas elites nacionais e frustrações da independência formal.</p>
+<h2>Atualidade</h2>
+<p>Fanon continua importante porque mostra que libertação não é apenas trocar bandeiras. É transformar linguagem, instituições, economia, memória e formas de reconhecimento.</p>
+<p>Sua obra exige responsabilidade interpretativa. Ela fala de conflitos históricos concretos e não deve ser usada para legitimar qualquer violência. Seu núcleo filosófico é mais profundo: uma humanidade ferida pela colonização precisa reconstruir condições reais de aparecer como humana.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/archives/sum2021/entries/frantz-fanon/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Frantz Fanon</a>.</li>
+<li><a href="https://plato.stanford.edu/entries/colonialism/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Colonialism</a>.</li>
+<li>Leia também: <a href="/artigos/poder-simbolico-ideias-governam/">O poder simbólico</a>, <a href="/artigos/hegel-fenomenologia-inteligencias-artificiais/">Hegel e inteligência artificial</a>, <a href="/artigos/nostalgia-forma-consciencia-historica/">A nostalgia como consciência histórica</a>.</li>
+</ul>`,
+    description: "Entenda Frantz Fanon, consciência colonizada, linguagem, racismo, violência colonial e os debates sobre libertação.",
+    subcategory: "colonialismo e subjetividade",
+    dossier: null,
+    philosophers: ["Frantz Fanon"],
+    books: ["Pele Negra, Máscaras Brancas", "Os Condenados da Terra"],
+    civilization: "Mundo pós-colonial",
+    period: "Contemporâneo",
+    themes: ["colonialismo", "racismo", "linguagem", "corpo", "libertação"],
+    relatedArticles: ["poder-simbolico-ideias-governam", "hegel-fenomenologia-inteligencias-artificiais", "nostalgia-forma-consciencia-historica"],
+    editorialPriority: "P0",
+    civilizations: ["Mundo pós-colonial"],
+    historicalPeriods: ["Contemporâneo"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/frantz-fanon-consciencia-colonizada.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+  {
+    id: "foucault-corpos-disciplinados",
+    slug: "foucault-corpos-disciplinados",
+    tag: "FILOSOFIA CONTEMPORÂNEA",
+    category: "Sociologia",
+    title: "Foucault e os corpos disciplinados",
+    excerpt: "Foucault analisa como horários, vigilância, exames e normas fabricam corpos úteis, dóceis e permanentemente avaliáveis.",
+    date: "10 de Agosto de 2026",
+    dateISO: "2026-08-10",
+    readTime: "10 min",
+    thumb: "assets/article_cards/foucault-corpos-disciplinados.jpg",
+    cover: "assets/article_cards/foucault-corpos-disciplinados.jpg",
+    tags: ["Foucault", "corpos disciplinados", "Vigiar e Punir", "panoptismo", "normalização"],
+    featured: false,
+    metaTitle: "Foucault e os corpos disciplinados | Mundo das Ideias",
+    metaDescription: "Entenda Foucault, poder disciplinar, panoptismo, exame, normalização e instituições modernas como escola, fábrica, hospital e prisão.",
+    keywords: ["Foucault", "corpos disciplinados", "Vigiar e Punir", "panoptismo", "normalização"],
+    content: `<p><strong>Para Foucault, o poder moderno não age apenas proibindo; ele treina gestos, organiza horários, mede desempenhos e produz sujeitos legíveis.</strong></p>
+<p>Em Vigiar e Punir, Foucault investiga uma transformação histórica nas técnicas penais e disciplinares, evitando contar a modernidade apenas como progresso humanitário linear. A prisão é seu caso central, mas o modelo se espalha por escolas, quartéis, fábricas e hospitais.</p>
+<h2>Do suplício à disciplina</h2>
+<p>O poder soberano antigo aparecia em punições espetaculares. A disciplina moderna é menos teatral e mais contínua. Ela não precisa ferir o corpo publicamente; precisa distribuí-lo no espaço, controlar seu tempo e corrigir condutas.</p>
+<p>Essa transformação não é simplesmente humanização. Foucault reconhece reformas, mas mostra que punir menos visivelmente pode significar controlar melhor.</p>
+<h2>Panoptismo</h2>
+<p>O panóptico, modelo arquitetônico associado a Jeremy Bentham, torna-se para Foucault uma figura do poder disciplinar. A pessoa se comporta como se estivesse sempre visível, mesmo sem saber quando é observada.</p>
+<p>O ponto não é apenas a torre de vigilância. É a internalização da norma. O sujeito passa a vigiar a si mesmo, antecipando julgamento, nota, relatório, diagnóstico ou punição.</p>
+<h2>Exame e normalização</h2>
+<p>O exame combina observação, classificação e registro. Ele mede indivíduos, compara desempenhos e produz documentos. A pessoa não é apenas vista; torna-se caso, prontuário, boletim, ficha.</p>
+<p>A norma ganha força porque parece técnica. Ela não diz apenas permitido ou proibido; define normal e anormal, eficiente e insuficiente, apto e inapto.</p>
+<h2>Instituições modernas</h2>
+<p>Escolas, fábricas, hospitais e prisões não são iguais, mas compartilham técnicas: horários, filas, postos, séries, avaliações, vigilância e correção. O corpo é treinado para ser útil e previsível.</p>
+<p>A crítica de Foucault não prova que toda disciplina é ilegítima. Crianças precisam aprender, pacientes precisam cuidado, fábricas precisam segurança. O problema é quando técnicas de organização se tornam formas invisíveis de sujeição sem debate público.</p>
+<h2>Fontes e leitura complementar</h2>
+<ul>
+<li><a href="https://plato.stanford.edu/entries/foucault/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy: Michel Foucault</a>.</li>
+<li><a href="https://iep.utm.edu/foucault/" target="_blank" rel="noopener">Internet Encyclopedia of Philosophy: Foucault</a>.</li>
+<li>Leia também: <a href="/artigos/poder-simbolico-ideias-governam/">O poder simbólico</a>, <a href="/artigos/algoritmo-substituiu-verdade-pela-atencao/">O algoritmo substituiu a verdade pela atenção</a>, <a href="/artigos/adorno-cultura-pensamento/">Adorno e a indústria cultural</a>.</li>
+</ul>`,
+    description: "Entenda Foucault, poder disciplinar, panoptismo, exame, normalização e instituições modernas como escola, fábrica, hospital e prisão.",
+    subcategory: "poder disciplinar e normalização",
+    dossier: null,
+    philosophers: ["Michel Foucault"],
+    books: ["Vigiar e Punir"],
+    civilization: "Ocidente contemporâneo",
+    period: "Contemporâneo",
+    themes: ["disciplina", "poder", "corpo", "vigilância", "normalização"],
+    relatedArticles: ["poder-simbolico-ideias-governam", "algoritmo-substituiu-verdade-pela-atencao", "adorno-cultura-pensamento"],
+    editorialPriority: "P0",
+    civilizations: ["Ocidente contemporâneo"],
+    historicalPeriods: ["Contemporâneo"],
+    format: "Ensaio filosófico",
+    heroImage: "assets/article_cards/foucault-corpos-disciplinados.jpg",
+    updated: "2026-08-10",
+    updatedISO: "2026-08-10"
+  },
+
+
   {
     id:       "plotino-experiencia-do-uno",
     slug:     "plotino-experiencia-do-uno",
@@ -17,7 +926,7 @@ const POSTS = [
     cover:    "assets/article_cards/plotino-experiencia-do-uno.jpg",
     tags:     ["Plotino", "neoplatonismo", "Uno", "Intelecto", "Alma", "metafísica"],
     featured: true,
-    metaTitle: "Plotino e a experiência do Uno | Proceder Filosófico",
+    metaTitle: "Plotino e a experiência do Uno | Mundo das Ideias",
     metaDescription: "Entenda o Uno em Plotino, a relação entre Intelecto, Alma e mundo sensível, e por que o neoplatonismo ainda fala à fragmentação contemporânea.",
     keywords: ["Plotino", "Uno", "neoplatonismo", "Enéadas", "metafísica", "filosofia antiga"],
     content: `
@@ -98,7 +1007,7 @@ const POSTS = [
     cover:    "assets/article_cards/martha-nussbaum-emocoes-inteligencia.jpg",
     tags:     ["Martha Nussbaum", "emoções", "ética", "compaixão", "vulnerabilidade", "filosofia moral"],
     featured: true,
-    metaTitle: "Martha Nussbaum e a inteligência das emoções | Proceder Filosófico",
+    metaTitle: "Martha Nussbaum e a inteligência das emoções | Mundo das Ideias",
     metaDescription: "Entenda a teoria cognitiva das emoções em Martha Nussbaum e por que medo, luto, amor e compaixão envolvem juízos de valor.",
     keywords: ["Martha Nussbaum", "emoções", "Upheavals of Thought", "ética", "compaixão", "filosofia moral"],
     content: `
@@ -179,7 +1088,7 @@ const POSTS = [
     cover:    "assets/article_cards/gunther-anders-vergonha-maquinas.jpg",
     tags:     ["Günther Anders", "vergonha prometeica", "técnica", "máquinas", "automação", "inteligência artificial"],
     featured: true,
-    metaTitle: "Günther Anders e a vergonha diante das máquinas | Proceder Filosófico",
+    metaTitle: "Günther Anders e a vergonha diante das máquinas | Mundo das Ideias",
     metaDescription: "Entenda a vergonha prometeica em Günther Anders, a defasagem entre capacidade técnica e imaginação moral, e sua atualidade diante da automação.",
     keywords: ["Günther Anders", "vergonha prometeica", "tecnologia", "automação", "ética da técnica", "inteligência artificial"],
     content: `
@@ -260,7 +1169,7 @@ const POSTS = [
     cover:    "assets/article_cards/watsuji-tetsuro-fudo-clima-espaco.jpg",
     tags:     ["Watsuji Tetsurō", "fūdo", "filosofia japonesa", "clima", "espaço", "aidagara"],
     featured: true,
-    metaTitle: "Watsuji Tetsurō: clima, espaço e vida humana | Proceder Filosófico",
+    metaTitle: "Watsuji Tetsurō: clima, espaço e vida humana | Mundo das Ideias",
     metaDescription: "Introdução ao conceito de fūdo em Watsuji Tetsurō, a relação entre ambiente, cultura, subjetividade e os limites do determinismo climático.",
     keywords: ["Watsuji Tetsurō", "fūdo", "clima e cultura", "filosofia japonesa", "aidagara", "antropologia filosófica"],
     content: `
@@ -341,7 +1250,7 @@ const POSTS = [
     cover:    "assets/article_cards/diogenes-laercio-memoria-filosofos.jpg",
     tags:     ["Diógenes Laércio", "filosofia antiga", "história da filosofia", "biografia", "doxografia", "Grécia"],
     featured: true,
-    metaTitle: "Diógenes Laércio e a memória dos filósofos | Proceder Filosófico",
+    metaTitle: "Diógenes Laércio e a memória dos filósofos | Mundo das Ideias",
     metaDescription: "Entenda quem foi Diógenes Laércio, por que suas Vidas e doutrinas preservaram a filosofia antiga e por que sua obra exige leitura crítica.",
     keywords: ["Diógenes Laércio", "Vidas dos filósofos", "filosofia antiga", "doxografia", "Epicuro", "Sócrates"],
     content: `
@@ -428,7 +1337,7 @@ const POSTS = [
     cover:    "assets/article_cards/xenobots-anthrobots-organizacao-vida.jpg",
     tags:     ["xenobots", "anthrobots", "biologia", "morte", "Aristóteles", "medicina regenerativa"],
     featured: true,
-    metaTitle: "Xenobots, anthrobots e a organização da vida | Proceder Filosófico",
+    metaTitle: "Xenobots, anthrobots e a organização da vida | Mundo das Ideias",
     metaDescription: "Entenda o que xenobots e anthrobots revelam sobre células, morte do organismo, auto-organização, reparo em laboratório e filosofia aristotélica da vida.",
     keywords: ["xenobots", "anthrobots", "morte", "vida", "Aristóteles", "biologia", "medicina regenerativa"],
     content: `
@@ -535,7 +1444,7 @@ const POSTS = [
     cover:    "assets/article_cards/propaganda-moldou-seculo-xx.jpg",
     tags:     ["propaganda", "opinião pública", "século XX", "Walter Lippmann", "Edward Bernays", "Hannah Arendt"],
     featured: true,
-    metaTitle: "Como a propaganda moldou o século XX | Proceder Filosófico",
+    metaTitle: "Como a propaganda moldou o século XX | Mundo das Ideias",
     metaDescription: "Ensaio sobre propaganda política, publicidade, rádio, cinema, televisão, opinião pública, totalitarismo e plataformas digitais.",
     keywords: ["propaganda", "século XX", "opinião pública", "Walter Lippmann", "Edward Bernays", "Jacques Ellul", "Hannah Arendt"],
     content: `
@@ -628,7 +1537,7 @@ const POSTS = [
     cover:    "assets/article_cards/internet-transformou-todos-em-espectadores.jpg",
     tags:     ["internet", "sociedade do espetáculo", "Guy Debord", "atenção", "vigilância"],
     featured: true,
-    metaTitle: "A internet transformou todos em espectadores | Proceder Filosófico",
+    metaTitle: "A internet transformou todos em espectadores | Mundo das Ideias",
     metaDescription: "Ensaio sobre Guy Debord, sociedade do espetáculo, economia da atenção, performance digital e limites da participação online.",
     keywords: ["internet", "espectadores", "Guy Debord", "sociedade do espetáculo", "economia da atenção", "redes sociais"],
     content: `
@@ -716,7 +1625,7 @@ const POSTS = [
     cover:    "assets/article_cards/crise-da-masculinidade-moderna.jpg",
     tags:     ["masculinidade", "gênero", "Raewyn Connell", "bell hooks", "Simone de Beauvoir"],
     featured: true,
-    metaTitle: "Existe uma crise da masculinidade moderna? | Proceder Filosófico",
+    metaTitle: "Existe uma crise da masculinidade moderna? | Mundo das Ideias",
     metaDescription: "Ensaio sobre masculinidade moderna, gênero, trabalho, família, ressentimento digital, saúde mental e transformação dos papéis masculinos.",
     keywords: ["crise da masculinidade", "masculinidade moderna", "gênero", "Raewyn Connell", "bell hooks", "Simone de Beauvoir"],
     content: `
@@ -1505,7 +2414,7 @@ const POSTS = [
     cover:    "assets/article_cards/sociedade-liquida-conteudo-liquido.jpg",
     tags:     ["sociedade líquida","Bauman","conteúdo","algoritmos","atenção"],
     featured: true,
-    metaTitle: "Sociedade líquida e conteúdo líquido | Proceder Filosófico",
+    metaTitle: "Sociedade líquida e conteúdo líquido | Mundo das Ideias",
     metaDescription: "Um ensaio filosófico sobre Bauman, criação de conteúdo, fluxo digital, algoritmos, Heráclito e a dificuldade de produzir permanência numa cultura líquida.",
     keywords: ["sociedade líquida","conteúdo líquido","Bauman","criação de conteúdo","filosofia da cultura"],
     content: `
@@ -1565,13 +2474,13 @@ const POSTS = [
     cover:    "assets/article_cards/maquiavel-poder-politica-realismo.jpg",
     tags:     ["Maquiavel", "poder", "virtù", "fortuna", "realismo político", "república"],
     featured: true,
-    metaTitle: "Maquiavel: poder, virtù e realismo político | Proceder Filosófico",
+    metaTitle: "Maquiavel: poder, virtù e realismo político | Mundo das Ideias",
     metaDescription: "Hub editorial sobre Maquiavel: O Príncipe, Discursos sobre Tito Lívio, virtù, fortuna, república, conflito, moralidade e política moderna.",
     keywords: ["Maquiavel", "O Príncipe", "virtù", "fortuna", "realismo político", "filosofia política", "república"],
     content: `
 <p><strong>Maquiavel é quase sempre lembrado pelo adjetivo errado.</strong> Chamamos de maquiavélico aquilo que parece frio, manipulador e sem escrúpulos. Mas essa caricatura empobrece um dos pensadores mais importantes da política moderna. Maquiavel não inventou a crueldade; ele obrigou a filosofia a olhar para a política sem desviar os olhos quando ela se torna conflito, força, medo, ambição e instabilidade.</p>
 
-<p>Este hub serve como porta de entrada para estudar Nicolau Maquiavel dentro do Proceder Filosófico. Ele organiza os conceitos centrais, as obras principais, os debates interpretativos e os caminhos de leitura para quem quer entender por que <em>O Príncipe</em> ainda incomoda cinco séculos depois.</p>
+<p>Este hub serve como porta de entrada para estudar Nicolau Maquiavel dentro do Mundo das Ideias. Ele organiza os conceitos centrais, as obras principais, os debates interpretativos e os caminhos de leitura para quem quer entender por que <em>O Príncipe</em> ainda incomoda cinco séculos depois.</p>
 
 <h2>Quem foi Maquiavel?</h2>
 
@@ -1631,11 +2540,11 @@ const POSTS = [
 
 <p>Seu pensamento ajuda a separar moralismo fácil de responsabilidade política. Também ajuda a desconfiar do poder que se apresenta como puro bem. Governantes que dizem agir apenas por amor, salvação ou virtude podem esconder ambições muito concretas. Maquiavel nos ensina a perguntar: quem ganha poder com isso? Quem perde? Que forças reais sustentam essa decisão?</p>
 
-<h2>Caminhos de estudo no Proceder</h2>
+<h2>Caminhos de estudo no Mundo das Ideias</h2>
 
 <p>Para continuar, leia também <a href="/conceitos/justica/">Justiça</a>, <a href="/conceitos/liberdade/">Liberdade</a>, <a href="/conceitos/razao/">Razão</a> e o artigo <a href="/artigos/john-stuart-mill-revolucao-liberal-moderna/">John Stuart Mill e a revolução liberal moderna</a>. Maquiavel conversa diretamente com poder, liberdade, Estado, conflito e limites da moral na vida pública.</p>
 
-<p>Na Biblioteca do Proceder, a obra central é <a href="/biblioteca.html"><strong>O Príncipe</strong></a>, apresentada como leitura de entrada para compreender realismo político, governo e a tensão entre moralidade e preservação do Estado.</p>
+<p>Na Biblioteca do Mundo das Ideias, a obra central é <a href="/biblioteca.html"><strong>O Príncipe</strong></a>, apresentada como leitura de entrada para compreender realismo político, governo e a tensão entre moralidade e preservação do Estado.</p>
 
 <h2>Fontes e créditos</h2>
 
@@ -1645,7 +2554,7 @@ const POSTS = [
   <li>Niccolò Machiavelli, <em>O Príncipe</em> / <em>The Prince</em>, texto disponível no <a href="https://www.gutenberg.org/ebooks/1232" target="_blank" rel="noopener">Project Gutenberg</a>.</li>
   <li>Cary J. Nederman, “Niccolò Machiavelli”, <a href="https://plato.stanford.edu/entries/machiavelli/" target="_blank" rel="noopener">Stanford Encyclopedia of Philosophy</a>, revisão substantiva de 2023.</li>
   <li>Internet Encyclopedia of Philosophy, “Machiavelli, Niccolò”, disponível em <a href="https://iep.utm.edu/machiave/" target="_blank" rel="noopener">iep.utm.edu/machiave</a>.</li>
-  <li>Referência bibliográfica interna da Biblioteca do Proceder: <em>O Príncipe</em>, Nicolau Maquiavel.</li>
+  <li>Referência bibliográfica interna da Biblioteca do Mundo das Ideias: <em>O Príncipe</em>, Nicolau Maquiavel.</li>
 </ul>
 `
   },
@@ -1664,7 +2573,7 @@ const POSTS = [
     cover:    "assets/article_cards/sociedade-moderna-destruiu-silencio.webp",
     tags:     ["silêncio", "modernidade", "atenção", "vida interior"],
     featured: true,
-    metaTitle: "A Sociedade Moderna Destruiu o Silêncio | Proceder Filosófico",
+    metaTitle: "A Sociedade Moderna Destruiu o Silêncio | Mundo das Ideias",
     metaDescription: "Um ensaio sobre como ruído, conectividade e produtividade transformaram o silêncio em algo suspeito e enfraqueceram a vida interior.",
     keywords: ["sociedade moderna", "silêncio", "vida interior", "atenção", "filosofia da cultura"],
     content: `
@@ -1906,7 +2815,7 @@ const POSTS = [
     cover:    "assets/article_cards/tecnologia-mais-rapida-que-sabedoria.webp",
     tags:     ["tecnologia", "sabedoria", "ética", "inteligência artificial"],
     featured: false,
-    metaTitle: "Tecnologia Mais Rápida que Sabedoria | Proceder Filosófico",
+    metaTitle: "Tecnologia Mais Rápida que Sabedoria | Mundo das Ideias",
     metaDescription: "Ensaio sobre a distância crescente entre capacidade tecnológica, maturidade ética e responsabilidade humana.",
     keywords: ["tecnologia e sabedoria", "ética tecnológica", "inteligência artificial", "responsabilidade", "progresso"],
     content: `
@@ -1968,7 +2877,7 @@ const POSTS = [
     cover:    "assets/article_cards/modernidade-matou-sagrado.webp",
     tags:     ["sagrado", "modernidade", "religião", "secularização"],
     featured: false,
-    metaTitle: "A Modernidade Matou o Sagrado? | Proceder Filosófico",
+    metaTitle: "A Modernidade Matou o Sagrado? | Mundo das Ideias",
     metaDescription: "Uma reflexão sobre secularização, desencantamento do mundo e as novas formas assumidas pelo sagrado moderno.",
     keywords: ["modernidade", "sagrado", "secularização", "religião", "desencantamento"],
     content: `
@@ -2030,7 +2939,7 @@ const POSTS = [
     cover:    "assets/article_cards/luis-de-camoes-morte-lingua-portuguesa.webp",
     tags:     ["Luís de Camões", "língua portuguesa", "literatura", "memória"],
     featured: true,
-    metaTitle: "Luís de Camões e a Língua Portuguesa | Proceder Filosófico",
+    metaTitle: "Luís de Camões e a Língua Portuguesa | Mundo das Ideias",
     metaDescription: "Por que a morte de Luís de Camões, lembrada em 10 de junho, continua importante para a língua portuguesa e sua memória cultural.",
     keywords: ["Luís de Camões", "10 de junho", "língua portuguesa", "Os Lusíadas", "literatura portuguesa"],
     content: `
@@ -2357,7 +3266,7 @@ const POSTS = [
 
 <h2>Leitura complementar</h2>
 
-<p>Este artigo integra a trilha introdutória da Proceder Filosófico. A próxima leitura recomendada é <a href="?post=sofistas-primeiros-mestres-persuasao"><strong>Os Sofistas: Os Primeiros Mestres da Persuasão</strong></a>, que mostra como a educação grega passou da autoridade dos poetas ao ensino público da argumentação e da retórica.</p>
+<p>Este artigo integra a trilha introdutória da Mundo das Ideias. A próxima leitura recomendada é <a href="?post=sofistas-primeiros-mestres-persuasao"><strong>Os Sofistas: Os Primeiros Mestres da Persuasão</strong></a>, que mostra como a educação grega passou da autoridade dos poetas ao ensino público da argumentação e da retórica.</p>
 
 <p>Para aprofundar temas relacionados, consulte também <a href="?post=platao-mundo-das-ideias"><strong>Platão: Tudo Quanto Vive Provém do Que Morreu</strong></a> e <a href="?post=socrates-metodo-maieutico"><strong>Sócrates: A Arte de Queixar-se de Si Mesmo</strong></a>.</p>
 

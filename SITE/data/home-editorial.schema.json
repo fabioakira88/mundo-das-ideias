@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://procederfilosofico.com.br/schemas/home-editorial.schema.json",
-  "title": "Proceder Filosofico Home Editorial Rails",
+  "title": "Mundo das Ideias Home Editorial Rails",
   "type": "object",
   "required": ["schemaVersion", "rails"],
   "properties": {

@@ -85,12 +85,31 @@ for (const dossier of dossiers.dossiers || []) {
     'timeline',
     'bibliography',
     'futureReadings',
-    'continueStudying'
+    'continueStudying',
+    'chapters',
+    'concepts',
+    'glossary',
+    'specialResources'
   ]) {
     if (!Array.isArray(dossier[field])) failures.push(`${dossier.id}: ${field} deve ser array`);
   }
-  for (const field of ['title', 'subtitle', 'editorialIntroduction', 'intellectualObjective']) {
+  for (const field of ['title', 'subtitle', 'coverImage', 'keyQuestion', 'editorialIntroduction', 'intellectualObjective']) {
     if (!dossier[field]) failures.push(`${dossier.id}: ${field} vazio`);
+  }
+  if (dossier.coverImage && !fs.existsSync(path.join(ROOT, 'SITE', String(dossier.coverImage).replace(/^\/+/, '')))) {
+    failures.push(`${dossier.id}: coverImage inexistente ${dossier.coverImage}`);
+  }
+  for (const chapter of dossier.chapters || []) {
+    if (!kebab(chapter.slug)) failures.push(`${dossier.id}: chapter slug invalido: ${chapter.slug}`);
+    if (!chapter.title) failures.push(`${dossier.id}: chapter sem title`);
+    if (!chapter.summary) failures.push(`${dossier.id}: chapter sem summary`);
+    if (!Array.isArray(chapter.relatedArticles)) failures.push(`${dossier.id}: chapter.relatedArticles deve ser array`);
+    for (const slug of chapter.relatedArticles || []) {
+      if (!postSlugs.has(slug)) failures.push(`${dossier.id}: chapter ${chapter.slug} aponta para artigo inexistente ${slug}`);
+    }
+  }
+  for (const entry of dossier.glossary || []) {
+    if (!entry.term || !entry.definition) failures.push(`${dossier.id}: glossary exige term e definition`);
   }
   if (dossier.category && !titles.has(dossier.category)) failures.push(`${dossier.id}: categoria fora da taxonomia oficial`);
   if (dossier.mainArticle && !postSlugs.has(dossier.mainArticle)) failures.push(`${dossier.id}: mainArticle inexistente ${dossier.mainArticle}`);

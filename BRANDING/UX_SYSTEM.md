@@ -1,4 +1,6 @@
-# UX SYSTEM — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# UX SYSTEM — MUNDO DAS IDEIAS
 
 > Referência de comportamento e interação, baseada em auditoria factual do JavaScript e da navegação do projeto. Nenhuma alteração de código foi feita para produzir este documento, exceto a correção pontual já registrada em `CHANGELOG_DA_IDENTIDADE.md` (filtro de categoria em `/filosofos/`).
 

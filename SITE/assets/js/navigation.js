@@ -23,7 +23,7 @@
     if (!inner || !links) return;
     if (!links.id) {
       autoId += 1;
-      links.id = 'procederNav' + autoId;
+      links.id = 'mundoDasIdeiasNav' + autoId;
     }
     var button = document.createElement('button');
     button.type = 'button';
@@ -74,7 +74,7 @@
     window.addEventListener('resize', function () { syncAllNavs(document); });
   }
 
-  window.ProcederNavigation = { init: initNavigation };
+  window.MundoDasIdeiasNavigation = { init: initNavigation };
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { initNavigation(document); });
   } else {

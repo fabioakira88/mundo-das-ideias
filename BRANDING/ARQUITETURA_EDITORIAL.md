@@ -1,8 +1,10 @@
-# ARQUITETURA EDITORIAL — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# ARQUITETURA EDITORIAL — MUNDO DAS IDEIAS
 
 ### Sprint 01 — Diretor Editorial (Claude) · Versão 1.0 — Proposta
 
-> Este documento define a arquitetura intelectual definitiva do Proceder Filosófico como revista
+> Este documento define a arquitetura intelectual definitiva do Mundo das Ideias como revista
 > cultural digital. É um documento de **arquitetura**, não de conteúdo — nenhum artigo foi
 > escrito, nenhum código foi alterado, nenhuma tag foi reatribuída no acervo existente. É a base
 > permanente sobre a qual o projeto deve crescer a partir desta sprint.
@@ -11,7 +13,7 @@
 
 ## 0. Natureza da mudança — evolução, não pivot
 
-O `DNA.md` atual define o Proceder como tradutor de "2.500 anos de pensamento filosófico" para o
+O `DNA.md` atual define o Mundo das Ideias como tradutor de "2.500 anos de pensamento filosófico" para o
 desconforto contemporâneo. Esta sprint **não substitui** essa identidade — amplia o objeto de
 estudo de "história da filosofia" para **civilização**, mantendo a filosofia como eixo
 estruturante e o tom, o método e as 20 Leis da Marca inteiramente preservados. Nada no
@@ -39,7 +41,7 @@ tempo, das culturas e das formas de expressão.**
 
 A filosofia é o eixo central porque é a disciplina que historicamente pergunta "por quê" onde as
 outras perguntam "o quê", "quando" ou "como" — mas nenhuma ideia humana relevante nasceu isolada
-da história, da fé, da arte ou da ciência do seu tempo. O Proceder trata cada uma das nove
+da história, da fé, da arte ou da ciência do seu tempo. O Mundo das Ideias trata cada uma das nove
 disciplinas vizinhas não como conteúdo equivalente a ser produzido em paralelo, mas como **lente
 de leitura de uma mesma matéria-prima**: a pergunta que um ser humano fez, e o que ela revela
 sobre a condição humana.

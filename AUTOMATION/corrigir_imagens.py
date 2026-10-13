@@ -1,5 +1,5 @@
 """
-CORREÇÃO DE IMAGENS — Proceder Filosófico
+CORREÇÃO DE IMAGENS — Mundo das Ideias
 ==========================================
 Fixes:
   1. Peter Pan: thumb 404 → upload imagem + atualizar page 68
@@ -92,7 +92,7 @@ if not test.ok:
     print("5. Encontre o bloco HTML com o texto:")
     print("     slug:     'peter-pan-sindrome-amadurecimento'")
     print("6. Altere a linha:")
-    print("     thumb:    'Canva%20-%20Proceder/peter-pan.png',")
+    print("     thumb:    'Canva%20-%20Mundo%20das%20Ideias/peter-pan.png',")
     print("   Para:")
     print("     thumb:    'URL_DA_IMAGEM_AQUI',")
     print()
@@ -152,7 +152,7 @@ if not peter_pan_url:
 
 # ── 6. Atualizar thumb do Peter Pan no bloco POSTS.unshift ───────
 print("\n[5] Atualizando thumb Peter Pan na page...")
-old_peter = "thumb:    'Canva%20-%20Proceder/peter-pan.png',"
+old_peter = "thumb:    'Canva%20-%20Mundo%20das%20Ideias/peter-pan.png',"
 new_peter = f"thumb:    '{peter_pan_url}',"
 if old_peter in raw:
     raw = raw.replace(old_peter, new_peter)

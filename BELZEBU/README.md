@@ -1,6 +1,6 @@
 # Belzebu
 
-Belzebu e um orquestrador editorial externo para operar a producao de conteudo do Japao Relativo e do Proceder Filosofico.
+Belzebu e um orquestrador editorial externo para operar a producao de conteudo do Japao Relativo e do Mundo das Ideias.
 
 Este MVP 0.3 roda em dois modos seguros:
 
@@ -93,7 +93,7 @@ Valores esperados:
 
 ```text
 Status: Backlog, Em Produção, Publicado, Erro
-Site: Japão Relativo, Proceder Filosófico
+Site: Japão Relativo, Mundo das Ideias
 ```
 
 ## AI Provider
@@ -201,5 +201,5 @@ output/generated/[slug]/report.json
 1. Conectar leitura real do Notion.
 2. Adicionar gerador editorial com API configuravel.
 3. Implementar validadores por projeto.
-4. Implementar publishers separados para Japao Relativo e Proceder Filosofico.
+4. Implementar publishers separados para Japao Relativo e Mundo das Ideias.
 5. Adicionar modo de publicacao com aprovacao explicita.

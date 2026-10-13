@@ -1,4 +1,6 @@
-# CHANGELOG DA IDENTIDADE — PROCEDER FILOSÓFICO
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# CHANGELOG DA IDENTIDADE — MUNDO DAS IDEIAS
 
 > Histórico de decisões sobre identidade, branding, design, UX e conteúdo. Toda alteração à documentação em `BRANDING/`, ou toda decisão relevante de identidade tomada fora dela, deve ser registrada aqui.
 
@@ -7,7 +9,7 @@
 Auditoria completa de toda a documentação de `BRANDING/` e dos arquivos `.md` da raiz dos dois
 projetos (delegada a agentes de leitura, síntese e correção feitas pela Diretoria Criativa).
 Achados corrigidos nesta consolidação:
-- `BACKLOG_OFICIAL.md` do Japão Relativo estava desatualizado em relação à cópia do Proceder
+- `BACKLOG_OFICIAL.md` do Japão Relativo estava desatualizado em relação à cópia do Mundo das Ideias
   (Missão 1 com definição e status antigos, Missão 6 sem os três registros de progresso) —
   sincronizado integralmente; correção registrada também no changelog do Japão Relativo.
 - `ECOSYSTEM_FINAL_AUDIT.md` citava uma estrutura de pastas (`AION_STUDIO/00_CONSTITUICAO...`)
@@ -71,7 +73,7 @@ System, Content System de nenhum produto) — documento de processo, não de con
 ## 2026-06-26 — Terceiro nível do ecossistema: AION Studio (Manual Operacional)
 
 Criado `AION_STUDIO_MANUAL.md` (v1.0), compartilhado em cópia idêntica com o Japão Relativo.
-Formaliza o terceiro nível do ecossistema, acima dos Produtos (Proceder Filosófico, Japão
+Formaliza o terceiro nível do ecossistema, acima dos Produtos (Mundo das Ideias, Japão
 Relativo, Akira) e da Equipe (Claude, Codex, Manus, ChatGPT, Beelzebub): a AION Studio como
 empresa-sistema, com propósito, missão, visão, valores e organograma próprios. Beelzebub
 formalizado como "Chief Operating System" (orquestra agentes, monitora indicadores, mantém
@@ -149,7 +151,7 @@ ativa e substituída por CTA neutro via e-mail. Relatório: `MISSION_HOME_RECONC
 
 ## 2026-06-25 — Backlog oficial: Fase 1 (Saneamento) antes de Fase 2 (Evolução)
 
-Criado `BACKLOG_OFICIAL.md`, compartilhado com o Japão Relativo. Oito Missões definidas: Missão 1 (integridade das fontes — `/filosofos/`, concluída) já feita; Missões 2–5 transversais aos dois projetos (referências quebradas, Open Graph, auditoria de assets, padronização de estrutura); Missão 6 específica do Proceder (consolidar produção × repositório local); Missão 7 específica do Proceder (unificar Design System); Missão 8 específica do Japão Relativo (unificar Design System). Nenhum item de Fase 2 (novos hubs, artigos, funcionalidades) inicia antes da Fase 1 estar concluída em ambos os projetos.
+Criado `BACKLOG_OFICIAL.md`, compartilhado com o Japão Relativo. Oito Missões definidas: Missão 1 (integridade das fontes — `/filosofos/`, concluída) já feita; Missões 2–5 transversais aos dois projetos (referências quebradas, Open Graph, auditoria de assets, padronização de estrutura); Missão 6 específica do Mundo das Ideias (consolidar produção × repositório local); Missão 7 específica do Mundo das Ideias (unificar Design System); Missão 8 específica do Japão Relativo (unificar Design System). Nenhum item de Fase 2 (novos hubs, artigos, funcionalidades) inicia antes da Fase 1 estar concluída em ambos os projetos.
 
 ## 2026-06-25 — Decisão oficial: fonte de verdade da Home (Missão 6)
 
@@ -160,7 +162,7 @@ Caverna", nenhum dos dois presente em `SITE/index.html`; sem `og:`/`twitter:card
 `/artigos/`, `/filosofos/`, `/conteudo/`, `/sobre/` retornam 404; endpoint de newsletter legado
 404; `posts.js` responde 200 isoladamente mas não é referenciado por nenhum `<script>` na home
 de produção — está órfão, não ausente). Base de reconciliação definida como
-`SITE/docs/backups/proceder-fase1-20260601-110542/index.html` — mais próxima da produção atual,
+`SITE/docs/backups/mundo-das-ideias-fase1-20260601-110542/index.html` — mais próxima da produção atual,
 mas não é espelho perfeito (não contém "Montanha Contra a Caverna", que já existe em produção
 hoje; precisa ser resgatada da produção viva, não do backup). `SITE/index.html` confirmado como
 "snapshot/protótipo local" (própria classificação em `README.md`) — não é base de conteúdo, só
@@ -225,7 +227,7 @@ script separados, sinal de adição ad-hoc posterior). Outros achados novos: ape
 reais existem em produção (`/` e `biblioteca.html`); favicon, Open Graph, Twitter Card,
 canonical e meta description estão totalmente ausentes nas duas; newsletter usa
 `action="mailto:"` (não funcional); duas origens de asset coexistem (`index_files/` renomeado
-pelo navegador vs. `Canva - Proceder/...` original); nenhuma referência a PDF foi encontrada em
+pelo navegador vs. `Canva - Mundo das Ideias/...` original); nenhuma referência a PDF foi encontrada em
 nenhuma das duas páginas reais. `DECISAO_HOME_OFICIAL.md` atualizado para refletir que a
 migração dos 8 artigos é uma migração de dados, não uma preservação de rota.
 

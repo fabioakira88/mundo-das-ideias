@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove do FTP o asset de tufao que nao pertence ao Proceder."""
+"""Remove do FTP o asset de tufao que nao pertence ao Mundo das Ideias."""
 
 import ftplib
 import os

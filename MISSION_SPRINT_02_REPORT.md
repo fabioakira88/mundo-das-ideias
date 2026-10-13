@@ -1,8 +1,8 @@
-# PROCEDER FILOSOFICO — SPRINT 02
+# MUNDO DAS IDEIAS — SPRINT 02
 
 ## Escopo
 
-Implementacao da infraestrutura editorial definitiva do Proceder Filosofico, sem publicacao de novos artigos, sem criacao de imagens, sem deploy e sem alteracao de identidade visual.
+Implementacao da infraestrutura editorial definitiva do Mundo das Ideias, sem publicacao de novos artigos, sem criacao de imagens, sem deploy e sem alteracao de identidade visual.
 
 ## Arquivos criados
 

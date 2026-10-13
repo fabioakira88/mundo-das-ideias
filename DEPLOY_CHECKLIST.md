@@ -1,7 +1,7 @@
 # DEPLOY_CHECKLIST.md
 
-Data: 2026-06-26  
-Escopo: Proceder Filosófico e Japão Relativo  
+Data: 2026-06-26
+Escopo: Mundo das Ideias e Japão Relativo
 Status: checklist obrigatório antes de qualquer deploy autorizado
 
 ## Regra Absoluta
@@ -11,7 +11,7 @@ Nenhum deploy pode ocorrer sem autorização explícita. Este checklist não aut
 ## 1. Aprovação e Escopo
 
 - Objetivo do deploy documentado.
-- Projeto identificado: Proceder Filosófico, Japão Relativo ou ambos.
+- Projeto identificado: Mundo das Ideias, Japão Relativo ou ambos.
 - Decisão de identidade/UX validada quando houver impacto visual.
 - Nenhuma alteração de identidade, tipografia, paleta, linguagem ou arquitetura editorial fora de especificação oficial.
 - Backlog atualizado com a tarefa correspondente.
@@ -89,7 +89,7 @@ Nenhum deploy pode ocorrer sem autorização explícita. Este checklist não aut
 - Downloads e links externos revisados.
 - Arquivos de backup, snapshots e validação não expostos publicamente salvo decisão explícita.
 
-## 10. Proceder Filosófico — Critérios Específicos
+## 10. Mundo das Ideias — Critérios Específicos
 
 - Home reconciliada preservada.
 - Artigos recuperados mantidos.

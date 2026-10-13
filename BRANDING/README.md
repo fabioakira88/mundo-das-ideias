@@ -1,4 +1,6 @@
-# BRANDING/ — Proceder Filosófico
+> Atualização 13/10/2026: a identidade vigente é Master 4.0 + [Sistema Web CURRENT](SISTEMA_WEB_CURRENT.md). Paletas azul/dourado e recomendações incompatíveis neste registro descrevem a fase histórica. Consultar o CURRENT antes de produzir.
+
+# BRANDING/ — Mundo das Ideias
 
 Esta pasta é a fonte única de identidade e governança do projeto. Contém tanto os materiais visuais da marca (`LOGO/`, `Filósofos /`, `frases/`) quanto a documentação conceitual que define o que o projeto é, como ele se comporta e o que nunca pode ser quebrado nele.
 
@@ -13,7 +15,7 @@ Qualquer pessoa ou IA que abra este repositório pela primeira vez deve consegui
 5. **`DESIGN_SYSTEM.md`** — tokens visuais e qual sistema é canônico onde há divergência no código atual.
 6. **`UX_SYSTEM.md`** — padrões de navegação e interação que devem ser preservados.
 7. **`CONTENT_SYSTEM.md`** — taxonomia editorial, estado real do acervo, divergência produção-vs-local.
-8. **`EDITORIAL_GUIDELINES.md`** — como uma frase do Proceder deve (e não deve) soar.
+8. **`EDITORIAL_GUIDELINES.md`** — como uma frase do Mundo das Ideias deve (e não deve) soar.
 9. **`GOVERNANCE.md`** — quem decide o quê, e o processo de validação de qualquer ideia nova.
 10. **`DEFINITION_OF_DONE.md`** — critérios obrigatórios para uma entrega ser considerada concluída.
 11. **`BRIEFING_PARA_CODEX.md`** — resumo operacional para quem implementa.
@@ -40,4 +42,4 @@ Antes de qualquer decisão sobre conteúdo publicado, ler a seção de divergên
 
 ## Regra permanente
 
-Nenhum documento desta pasta deve ser copiado de outro projeto do ecossistema. A estrutura de documentos é compartilhada com o Japão Relativo; o conteúdo é exclusivo do Proceder Filosófico. Ver `BRANDING/GOVERNANCE.md` para o processo de validação de qualquer mudança proposta a esta documentação.
+Nenhum documento desta pasta deve ser copiado de outro projeto do ecossistema. A estrutura de documentos é compartilhada com o Japão Relativo; o conteúdo é exclusivo do Mundo das Ideias. Ver `BRANDING/GOVERNANCE.md` para o processo de validação de qualquer mudança proposta a esta documentação.

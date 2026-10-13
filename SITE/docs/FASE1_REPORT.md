@@ -1,13 +1,13 @@
 # FASE 1 — Relatório de Migração Segura
-**Data:** 2026-06-01  
-**Projeto:** Proceder Filosófico — SITE/
+**Data:** 2026-06-01
+**Projeto:** Mundo das Ideias — SITE/
 
 ---
 
 ## 1. Backup Criado
 
-**Localização:** `docs/backups/proceder-fase1-20260601-110542/`  
-**Conteúdo:** 208 arquivos (index.html, biblioteca.html, posts.js, .env, assets/ completo incluindo Filósofos/)  
+**Localização:** `docs/backups/mundo-das-ideias-fase1-20260601-110542/`
+**Conteúdo:** 208 arquivos (index.html, biblioteca.html, posts.js, .env, assets/ completo incluindo Filósofos/)
 **Método:** cópia direta (não destrutiva — originais intactos em assets/)
 
 ---

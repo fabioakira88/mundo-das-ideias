@@ -1,8 +1,8 @@
 # ENGINEERING_STRUCTURE.md
 
-Data: 2026-06-26  
-Escopo: Proceder Filosófico e Japão Relativo  
-Tipo: auditoria documental e consolidação de arquitetura física  
+Data: 2026-06-26
+Escopo: Mundo das Ideias e Japão Relativo
+Tipo: auditoria documental e consolidação de arquitetura física
 Status: documentação criada sem alteração funcional
 
 ## Princípio Operacional
@@ -15,12 +15,12 @@ Esta documentação não autoriza remoções, redesign, migração automática o
 
 | Projeto | Raiz local | Superfície ativa principal |
 |---|---|---|
-| Proceder Filosófico | `/Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/PROCEDER_FILOSOFICO:` | `SITE/` |
+| Mundo das Ideias | `/Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/MUNDO_DAS_IDEIAS:` | `SITE/` |
 | Japão Relativo | `/Users/fabiotsugawa/Downloads/DIGITAL_PROJECTS:/JAPAO_RELATIVO:` | `SITE/` |
 
 ## Métricas Estáticas da Auditoria
 
-| Métrica | Proceder Filosófico | Japão Relativo |
+| Métrica | Mundo das Ideias | Japão Relativo |
 |---|---:|---:|
 | Arquivos totais auditados | 1250 | 527 |
 | Pastas auditadas | 145 | 108 |
@@ -41,7 +41,7 @@ Esta documentação não autoriza remoções, redesign, migração automática o
 
 Observação: órfãos, CSS morto e JS morto são classificados como potenciais porque a auditoria foi estática. Antes de remover qualquer arquivo, uma missão específica deve validar uso dinâmico por JavaScript, dados embutidos, templates, automações e produção.
 
-## Proceder Filosófico — Arquitetura Física Atual
+## Mundo das Ideias — Arquitetura Física Atual
 
 ### Superfície Ativa
 
@@ -120,7 +120,7 @@ Observação: órfãos, CSS morto e JS morto são classificados como potenciais 
 
 ## Achados Estruturais Principais
 
-### Proceder Filosófico
+### Mundo das Ideias
 
 - Não foram encontradas referências internas quebradas na auditoria estática.
 - Existe volume alto de imagens grandes e duplicadas.

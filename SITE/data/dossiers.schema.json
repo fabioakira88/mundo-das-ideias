@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://procederfilosofico.com.br/schemas/dossiers.schema.json",
-  "title": "Proceder Filosofico Dossiers",
+  "title": "Mundo das Ideias Dossiers",
   "type": "object",
   "required": ["schemaVersion", "dossiers"],
   "properties": {
@@ -18,8 +18,14 @@
           "category",
           "status",
           "isCanonicalModel",
+          "coverImage",
+          "keyQuestion",
           "editorialIntroduction",
           "intellectualObjective",
+          "chapters",
+          "concepts",
+          "glossary",
+          "specialResources",
           "mainArticle",
           "relatedArticles",
           "recommendedArticles",
@@ -42,8 +48,38 @@
           "category": { "type": ["string", "null"] },
           "status": { "enum": ["planned", "active", "archived"] },
           "isCanonicalModel": { "type": "boolean" },
+          "coverImage": { "type": "string" },
+          "keyQuestion": { "type": "string" },
           "editorialIntroduction": { "type": "string" },
           "intellectualObjective": { "type": "string" },
+          "chapters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug", "title", "summary", "relatedArticles"],
+              "properties": {
+                "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+                "title": { "type": "string" },
+                "summary": { "type": "string" },
+                "relatedArticles": { "type": "array", "items": { "type": "string" } }
+              },
+              "additionalProperties": false
+            }
+          },
+          "concepts": { "type": "array", "items": { "type": "string" } },
+          "glossary": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["term", "definition"],
+              "properties": {
+                "term": { "type": "string" },
+                "definition": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "specialResources": { "type": "array", "items": { "type": "string" } },
           "mainArticle": { "type": ["string", "null"] },
           "relatedArticles": { "type": "array", "items": { "type": "string" } },
           "recommendedArticles": { "type": "array", "items": { "type": "string" } },

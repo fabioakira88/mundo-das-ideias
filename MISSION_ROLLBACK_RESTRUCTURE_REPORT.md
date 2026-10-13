@@ -1,4 +1,4 @@
-# Proceder Filosofico - Rollback + Reestruturacao
+# Mundo das Ideias - Rollback + Reestruturacao
 
 Data: 2026-06-27
 

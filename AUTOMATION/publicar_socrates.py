@@ -64,7 +64,7 @@ js_block = f"""<!-- wp:html -->
     tag: 'FILOSOFIA CLÁSSICA',
     date: '08 de Maio de 2026',
     excerpt: '\\u201cÉ costume de um tolo quando erra queixar-se do outro; é costume do sábio queixar-se de si mesmo.\\u201d Uma frase que resume todo o método socrático: a responsabilidade filosófica começa pelo autoexame.',
-    thumb: 'Canva%20-%20Proceder/S%C3%B3cratespost.png',
+    thumb: 'Canva%20-%20Mundo%20das%20Ideias/S%C3%B3cratespost.png',
     featured: false,
     content: `{content_js}`
   }});

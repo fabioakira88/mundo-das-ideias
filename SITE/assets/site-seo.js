@@ -2,13 +2,13 @@
   'use strict';
 
   var SITE_URL = 'https://procederfilosofico.com.br';
-  var SITE_NAME = 'Proceder Filosófico';
+  var SITE_NAME = 'Mundo das Ideias';
   function pageDefaults() {
     var isArticles = /^\/artigos\/?$/.test(window.location.pathname);
     return {
-      title: isArticles ? 'Artigos | Proceder Filosófico' : 'Proceder Filosófico',
+      title: isArticles ? 'Artigos | Mundo das Ideias' : 'Mundo das Ideias',
       description: isArticles
-        ? 'Artigos do Proceder Filosófico: filosofia clássica, medieval, moderna, política, ciência e tecnologia em linguagem editorial contemporânea.'
+        ? 'Artigos do Mundo das Ideias: filosofia clássica, medieval, moderna, política, ciência e tecnologia em linguagem editorial contemporânea.'
         : 'Filosofia, história das ideias, literatura e formação intelectual.',
       canonical: SITE_URL + (isArticles ? '/artigos/' : '/'),
       image: SITE_URL + '/assets/default-article.jpg',
@@ -52,10 +52,10 @@
   }
 
   function upsertJsonLd(data) {
-    var script = document.getElementById('proceder-article-jsonld');
+    var script = document.getElementById('mundo-das-ideias-article-jsonld');
     if (!script) {
       script = document.createElement('script');
-      script.id = 'proceder-article-jsonld';
+      script.id = 'mundo-das-ideias-article-jsonld';
       script.type = 'application/ld+json';
       document.head.appendChild(script);
     }
@@ -63,7 +63,7 @@
   }
 
   function removeJsonLd() {
-    var script = document.getElementById('proceder-article-jsonld');
+    var script = document.getElementById('mundo-das-ideias-article-jsonld');
     if (script) script.remove();
   }
 
@@ -138,7 +138,7 @@
     update(locationSlug());
   }
 
-  window.ProcederSEO = {
+  window.MundoDasIdeiasSEO = {
     update: update,
     reset: function () { update(null); },
     fromLocation: fromLocation

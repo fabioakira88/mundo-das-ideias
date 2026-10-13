@@ -81,6 +81,13 @@ const dossierUrls = dossiers.map((dossier) => ({
   loc: `${SITE_URL}/dossies/${encodeURIComponent(dossier.slug)}/`,
   lastmod: null
 }));
+const dossierChapterUrls = dossiers.flatMap((dossier) => (dossier.chapters || []).map((chapter) => ({
+  slug: chapter.slug,
+  chapter,
+  dossier,
+  loc: `${SITE_URL}/dossies/${encodeURIComponent(dossier.slug)}/${encodeURIComponent(chapter.slug)}/`,
+  lastmod: null
+})));
 const reservedHubSlugs = new Set(['index', 'artigos', 'filosofos', 'sobre']);
 const seenHubs = new Set();
 const seenHubIds = new Set();
@@ -176,7 +183,7 @@ const staticUrls = [
 const sitemap = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...staticUrls.concat(categoryUrls, dossierUrls, hubUrls, urls).map(({ loc, lastmod }) => [
+  ...staticUrls.concat(categoryUrls, dossierUrls, dossierChapterUrls, hubUrls, urls).map(({ loc, lastmod }) => [
     '  <url>',
     `    <loc>${escapeXml(loc)}</loc>`,
     lastmod ? `    <lastmod>${escapeXml(lastmod)}</lastmod>` : null,
@@ -198,7 +205,7 @@ const escapeHtml = (value) => escapeXml(value);
 const absoluteImage = (value) => /^https?:\/\//i.test(value || '')
   ? value
   : `${SITE_URL}/${String(value || 'assets/default-article.jpg').replace(/^\/+/, '')}`;
-const generatedMarker = 'PROCEDER:GENERATED_EDITORIAL_PAGE';
+const generatedMarker = 'MUNDO_DAS_IDEIAS:GENERATED_EDITORIAL_PAGE';
 function removeGeneratedChildren(root) {
   if (!fs.existsSync(root)) return;
   for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
@@ -259,15 +266,15 @@ const renderArticleIndexCard = (post, index) => {
 const renderArticleIndexList = () => {
   const articleCards = posts.slice().sort(byNewest).map(renderArticleIndexCard).join('\n');
   return [
-    '    <!-- PROCEDER:ARTICLES_LIST_START -->',
+    '    <!-- MUNDO_DAS_IDEIAS:ARTICLES_LIST_START -->',
     '    <header class="article-index-head">',
     '      <div class="reader-tag">Acervo editorial</div>',
     '      <h1>Artigos</h1>',
-    '      <p class="article-excerpt">Ensaios e estudos do Proceder Filosófico sobre filosofia, civilização, arte, religião, política, ciência e literatura.</p>',
+    '      <p class="article-excerpt">Ensaios e estudos do Mundo das Ideias sobre filosofia, civilização, arte, religião, política, ciência e literatura.</p>',
     '    </header>',
     '    <div class="search-wrap"><input class="search" id="articleSearch" type="search" placeholder="Buscar por título, tema ou tag..." aria-label="Buscar artigos"></div>',
     `    <section class="articles-grid" id="articlesGrid">\n${articleCards}\n    </section>`,
-    '    <!-- PROCEDER:ARTICLES_LIST_END -->'
+    '    <!-- MUNDO_DAS_IDEIAS:ARTICLES_LIST_END -->'
   ].join('\n');
 };
 const renderArticlePageListShell = () => [
@@ -287,31 +294,31 @@ const renderHomeSection = ({ id, label, title, subtitle, body, alt = false }) =>
   '      </div>',
   '    </section>'
   ].filter(Boolean).join('\n');
-const shellLogo = '/assets/LQHqVnilFspwfHEy.png';
+const shellLogo = '/assets/brand/mundo-das-ideias-monograma.png';
 const renderShellNavLink = (key, href, label, active) =>
-  `      <a class="pf-nav__link${active === key ? ' is-active' : ''}" href="${href}">${label}</a>`;
+  `      <a class="mi-nav__link${active === key ? ' is-active' : ''}" href="${href}">${label}</a>`;
 const renderShellHeader = (active = '') => [
-  '  <header class="pf-header" role="banner">',
-  '    <div class="pf-header__top">',
-  '      <a class="pf-brand" href="/" aria-label="Proceder Filosófico - Início">',
-  `        <span class="pf-brand__mark" aria-hidden="true"><img src="${shellLogo}" alt=""></span>`,
-  '        <span class="pf-brand__text">',
-  '          <span class="pf-brand__name">Proceder Filosófico</span>',
-  '          <span class="pf-brand__tagline">Arquivo cultural, filosófico e civilizacional</span>',
+  '  <header class="mi-header" role="banner">',
+  '    <div class="mi-header__top">',
+  '      <a class="mi-brand" href="/" aria-label="Mundo das Ideias - Início">',
+  `        <span class="mi-brand__mark" aria-hidden="true"><img src="${shellLogo}" alt=""></span>`,
+  '        <span class="mi-brand__text">',
+  '          <span class="mi-brand__name">Mundo das Ideias</span>',
+  '          <span class="mi-brand__tagline">Arquivo cultural, filosófico e civilizacional</span>',
   '        </span>',
   '      </a>',
-  '      <div class="pf-header__tools" aria-label="Ações rápidas">',
-  '        <a class="pf-tool" href="/artigos/" aria-label="Buscar artigos">',
-  '          <span class="pf-tool__icon" aria-hidden="true">⌕</span>',
+  '      <div class="mi-header__tools" aria-label="Ações rápidas">',
+  '        <a class="mi-tool" href="/artigos/" aria-label="Buscar artigos">',
+  '          <span class="mi-tool__icon" aria-hidden="true">⌕</span>',
   '          <span>Buscar</span>',
   '        </a>',
-  '        <a class="pf-tool pf-tool--highlight" href="/#newsletter" aria-label="Newsletter">',
-  '          <span class="pf-tool__icon" aria-hidden="true">✉</span>',
+  '        <a class="mi-tool mi-tool--highlight" href="/#newsletter" aria-label="Newsletter">',
+  '          <span class="mi-tool__icon" aria-hidden="true">✉</span>',
   '          <span>Newsletter</span>',
   '        </a>',
   '      </div>',
   '    </div>',
-  '    <nav class="pf-nav" aria-label="Navegação principal">',
+  '    <nav class="mi-nav" aria-label="Navegação principal">',
   renderShellNavLink('inicio', '/', 'Início', active),
   renderShellNavLink('artigos', '/artigos/', 'Artigos', active),
   renderShellNavLink('categorias', '/#categorias', 'Categorias', active),
@@ -325,22 +332,22 @@ const renderShellHeader = (active = '') => [
   '  </header>'
 ].join('\n');
 const renderShellFooter = (id = 'generated') => [
-  '  <footer class="pf-footer" role="contentinfo">',
-  '    <div class="pf-footer__inner">',
-  '      <section class="pf-footer__brand" aria-label="Proceder Filosófico">',
-  '        <a class="pf-footer-brand" href="/">',
-  `          <span class="pf-footer-brand__mark" aria-hidden="true"><img src="${shellLogo}" alt=""></span>`,
-  '          <span class="pf-footer-brand__name">Proceder<br>Filosófico</span>',
+  '  <footer class="mi-footer" role="contentinfo">',
+  '    <div class="mi-footer__inner">',
+  '      <section class="mi-footer__brand" aria-label="Mundo das Ideias">',
+  '        <a class="mi-footer-brand" href="/">',
+  `          <span class="mi-footer-brand__mark" aria-hidden="true"><img src="${shellLogo}" alt=""></span>`,
+  '          <span class="mi-footer-brand__name">Mundo das Ideias<br>Filosófico</span>',
   '        </a>',
   '        <p>Preservamos e promovemos o pensamento que investiga a verdade, a justiça e o bem. Um arquivo para a cultura, a filosofia e a civilização.</p>',
-  '        <div class="pf-social" aria-label="Canais editoriais">',
+  '        <div class="mi-social" aria-label="Canais editoriais">',
   '          <a href="/artigos/" aria-label="Artigos">A</a>',
   '          <a href="/dossies/" aria-label="Dossiês">D</a>',
   '          <a href="/enciclopedia/" aria-label="Enciclopédia">E</a>',
   '          <a href="/biblioteca.html" aria-label="Biblioteca">B</a>',
   '        </div>',
   '      </section>',
-  '      <nav class="pf-footer__column" aria-label="Navegação">',
+  '      <nav class="mi-footer__column" aria-label="Navegação">',
   '        <h2>Navegação</h2>',
   '        <a href="/">Início</a>',
   '        <a href="/artigos/">Artigos</a>',
@@ -352,7 +359,7 @@ const renderShellFooter = (id = 'generated') => [
   '        <a href="/biblioteca.html">Livros</a>',
   '        <a href="/#newsletter">Newsletter</a>',
   '      </nav>',
-  '      <nav class="pf-footer__column" aria-label="Áreas">',
+  '      <nav class="mi-footer__column" aria-label="Áreas">',
   '        <h2>Áreas</h2>',
   '        <a href="/categoria/filosofia/">Filosofia</a>',
   '        <a href="/categoria/historia-da-civilizacao/">História da Civilização</a>',
@@ -363,7 +370,7 @@ const renderShellFooter = (id = 'generated') => [
   '        <a href="/categoria/politica/">Política</a>',
   '        <a href="/categoria/atualidade-filosofica/">Atualidade Filosófica</a>',
   '      </nav>',
-  '      <nav class="pf-footer__column" aria-label="Institucional">',
+  '      <nav class="mi-footer__column" aria-label="Institucional">',
   '        <h2>Institucional</h2>',
   '        <a href="/sobre/">Sobre o Projeto</a>',
   '        <a href="/artigos/">Acervo de Artigos</a>',
@@ -371,22 +378,22 @@ const renderShellFooter = (id = 'generated') => [
   '        <a href="/enciclopedia/">Enciclopédia</a>',
   '        <a href="/biblioteca.html">Biblioteca</a>',
   '      </nav>',
-  '      <section class="pf-footer__manifesto" aria-label="Palavra e pensamento">',
-  '        <span class="pf-footer__symbol" aria-hidden="true">✦</span>',
+  '      <section class="mi-footer__manifesto" aria-label="Palavra e pensamento">',
+  '        <span class="mi-footer__symbol" aria-hidden="true">✦</span>',
   '        <h2>Palavra e Pensamento</h2>',
-  '        <p class="pf-footer__quote">A filosofia não é um luxo, mas uma necessidade da alma que busca compreender o mundo e a si mesma.</p>',
-  '        <form class="pf-newsletter-form" action="/#newsletter" method="get">',
-  `          <label for="pf-footer-email-${id}">Receba novos artigos e dossiês.</label>`,
-  '          <div class="pf-newsletter-form__row">',
-  `            <input id="pf-footer-email-${id}" name="email" type="email" placeholder="Seu e-mail">`,
+  '        <p class="mi-footer__quote">A filosofia não é um luxo, mas uma necessidade da alma que busca compreender o mundo e a si mesma.</p>',
+  '        <form class="mi-newsletter-form" action="/#newsletter" method="get">',
+  `          <label for="mi-footer-email-${id}">Receba novos artigos e dossiês.</label>`,
+  '          <div class="mi-newsletter-form__row">',
+  `            <input id="mi-footer-email-${id}" name="email" type="email" placeholder="Seu e-mail">`,
   '            <button type="submit" aria-label="Assinar newsletter">→</button>',
   '          </div>',
   '        </form>',
   '      </section>',
   '    </div>',
-  '    <div class="pf-footer__bottom">',
-  '      <span class="pf-footer__star" aria-hidden="true">✶</span>',
-  '      <p>© 2026 Proceder Filosófico. Todos os direitos reservados.</p>',
+  '    <div class="mi-footer__bottom">',
+  '      <span class="mi-footer__star" aria-hidden="true">✶</span>',
+  '      <p>© 2026 Mundo das Ideias. Todos os direitos reservados.</p>',
   '      <nav aria-label="Links legais">',
   '        <a href="/sobre/">Sobre</a>',
   '        <a href="/artigos/">Artigos</a>',
@@ -396,8 +403,8 @@ const renderShellFooter = (id = 'generated') => [
   '  </footer>'
 ].join('\n');
 const renderShellPage = (templateHtml, active, id) => templateHtml
-  .replace('  <!-- PROCEDER:SHELL_HEADER -->', renderShellHeader(active))
-  .replace('  <!-- PROCEDER:SHELL_FOOTER -->', renderShellFooter(id));
+  .replace('  <!-- MUNDO_DAS_IDEIAS:SHELL_HEADER -->', renderShellHeader(active))
+  .replace('  <!-- MUNDO_DAS_IDEIAS:SHELL_FOOTER -->', renderShellFooter(id));
 const libraryBooks = new Map([
   ['a-republica', { mark: 'P', title: 'A República', author: 'Platão', href: 'https://amzn.to/3RegesH', action: 'Ler Platão' }],
   ['meditacoes', { mark: 'M', title: 'Meditações', author: 'Marco Aurélio', href: 'https://www.amazon.com.br/s?k=meditacoes+marco+aurelio&tag=proceder-20', action: 'Explorar estoicismo' }],
@@ -443,12 +450,13 @@ function renderHomeRail(rail, index) {
     const selectedDossiers = rail.items.length ? rail.items.map((slug) => dossiers.find((dossier) => dossier.slug === slug)).filter(Boolean) : dossiers;
     const cards = selectedDossiers.map((dossier) => [
       `        <a class="library-card" href="/dossies/${encodeURIComponent(dossier.slug)}/">`,
+      dossier.coverImage ? `          <img class="news-thumb" src="/${String(dossier.coverImage).replace(/^\/+/, '')}" alt="${escapeHtml(dossier.title)}" loading="lazy" decoding="async">` : '',
       '          <div class="mark">D</div>',
       `          <h3>${escapeHtml(dossier.title)}</h3>`,
       `          <p>${escapeHtml(dossier.subtitle || 'Percurso editorial em preparação.')}</p>`,
       '          <span class="button">Ver percurso</span>',
       '        </a>'
-    ].join('\n')).join('\n');
+    ].filter(Boolean).join('\n')).join('\n');
     return renderHomeSection({
       id: 'dossies',
       label: 'Percursos editoriais',
@@ -480,7 +488,7 @@ function renderHomeRail(rail, index) {
     ].join('\n')).join('\n');
     return renderHomeSection({
       id: 'biblioteca',
-      label: 'Biblioteca Proceder',
+      label: 'Biblioteca Mundo das Ideias',
       title: 'Leituras de <span class="dourado">formação</span>',
       subtitle: 'Livros que sustentam os percursos editoriais do acervo.',
       body: `        <div class="library-grid">\n${cards}\n        </div>\n        <p style="text-align:center;margin-top:32px"><a class="button" href="biblioteca.html">Ver biblioteca</a></p>`,
@@ -561,7 +569,41 @@ const renderTimeline = (timeline) => {
     '    </section>'
   ].join('\n');
 };
-const renderCollectionSeo = ({ title, description, loc, image = `${SITE_URL}/assets/LQHqVnilFspwfHEy.png`, collectionItems = [] }) => {
+const renderDossierChapters = (dossier) => {
+  const chapters = dossier.chapters || [];
+  if (!chapters.length) return '';
+  const cards = chapters.map((chapter, index) => [
+    `      <a class="card" href="/dossies/${encodeURIComponent(dossier.slug)}/${encodeURIComponent(chapter.slug)}/">`,
+    '        <div class="card-body">',
+    `          <div class="card-tag">Capítulo ${index + 1}</div>`,
+    `          <h3>${escapeHtml(chapter.title)}</h3>`,
+    `          <p>${escapeHtml(chapter.summary)}</p>`,
+    '        </div>',
+    '      </a>'
+  ].join('\n')).join('\n');
+  return [
+    '    <section>',
+    `      <div class="section-head"><h2>Capítulos do dossiê</h2><span class="count">${chapters.length}</span></div>`,
+    `      <div class="grid">\n${cards}\n      </div>`,
+    '    </section>'
+  ].join('\n');
+};
+const renderGlossary = (glossary) => {
+  if (!Array.isArray(glossary) || !glossary.length) return '';
+  const items = glossary.map((entry) => [
+    '        <li>',
+    `          <strong>${escapeHtml(entry.term)}</strong>`,
+    `          <p>${escapeHtml(entry.definition)}</p>`,
+    '        </li>'
+  ].join('\n')).join('\n');
+  return [
+    '    <section>',
+    `      <div class="section-head"><h2>Glossário</h2><span class="count">${glossary.length}</span></div>`,
+    `      <ul class="intro">\n${items}\n      </ul>`,
+    '    </section>'
+  ].join('\n');
+};
+const renderCollectionSeo = ({ title, description, loc, image = `${SITE_URL}/assets/brand/mundo-das-ideias-monograma.png`, collectionItems = [] }) => {
   const itemList = collectionItems.map((post, index) => ({
     '@type': 'ListItem',
     position: index + 1,
@@ -576,21 +618,21 @@ const renderCollectionSeo = ({ title, description, loc, image = `${SITE_URL}/ass
     url: loc,
     image,
     mainEntity: { '@type': 'ItemList', numberOfItems: itemList.length, itemListElement: itemList },
-    isPartOf: { '@type': 'WebSite', name: 'Proceder Filosófico', url: `${SITE_URL}/` }
+    isPartOf: { '@type': 'WebSite', name: 'Mundo das Ideias', url: `${SITE_URL}/` }
   };
   return [
-    `  <title>${escapeHtml(title)} | Proceder Filosófico</title>`,
+    `  <title>${escapeHtml(title)} | Mundo das Ideias</title>`,
     `  <meta name="description" content="${escapeHtml(description)}">`,
     '  <meta name="robots" content="index,follow,max-image-preview:large">',
     `  <link rel="canonical" href="${escapeHtml(loc)}">`,
     '  <meta property="og:type" content="website">',
-    '  <meta property="og:site_name" content="Proceder Filosófico">',
-    `  <meta property="og:title" content="${escapeHtml(title)} | Proceder Filosófico">`,
+    '  <meta property="og:site_name" content="Mundo das Ideias">',
+    `  <meta property="og:title" content="${escapeHtml(title)} | Mundo das Ideias">`,
     `  <meta property="og:description" content="${escapeHtml(description)}">`,
     `  <meta property="og:url" content="${escapeHtml(loc)}">`,
     `  <meta property="og:image" content="${escapeHtml(image)}">`,
     '  <meta name="twitter:card" content="summary_large_image">',
-    `  <meta name="twitter:title" content="${escapeHtml(title)} | Proceder Filosófico">`,
+    `  <meta name="twitter:title" content="${escapeHtml(title)} | Mundo das Ideias">`,
     `  <meta name="twitter:description" content="${escapeHtml(description)}">`,
     `  <meta name="twitter:image" content="${escapeHtml(image)}">`,
     `  <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`
@@ -635,12 +677,12 @@ const renderTaxonomyPanel = (post, relatedPosts) => {
 };
 let template = fs.readFileSync(ARTICLES_TEMPLATE, 'utf8');
 const hubTemplate = fs.readFileSync(HUB_TEMPLATE, 'utf8');
-if (!hubTemplate.includes('<!-- PROCEDER:HUB_SEO -->') || !hubTemplate.includes('<!-- PROCEDER:HUB_CONTENT -->')) {
+if (!hubTemplate.includes('<!-- MUNDO_DAS_IDEIAS:HUB_SEO -->') || !hubTemplate.includes('<!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->')) {
   throw new Error('Marcadores obrigatórios ausentes em AUTOMATION/templates/hub.html.');
 }
-const seoPattern = /  <!-- PROCEDER:SEO_START -->[\s\S]*?  <!-- PROCEDER:SEO_END -->/;
-const articlesListPattern = /    <!-- PROCEDER:ARTICLES_LIST_START -->[\s\S]*?    <!-- PROCEDER:ARTICLES_LIST_END -->/;
-const articlePattern = /    <!-- PROCEDER:ARTICLE_START -->[\s\S]*?    <!-- PROCEDER:ARTICLE_END -->/;
+const seoPattern = /  <!-- MUNDO_DAS_IDEIAS:SEO_START -->[\s\S]*?  <!-- MUNDO_DAS_IDEIAS:SEO_END -->/;
+const articlesListPattern = /    <!-- MUNDO_DAS_IDEIAS:ARTICLES_LIST_START -->[\s\S]*?    <!-- MUNDO_DAS_IDEIAS:ARTICLES_LIST_END -->/;
+const articlePattern = /    <!-- MUNDO_DAS_IDEIAS:ARTICLE_START -->[\s\S]*?    <!-- MUNDO_DAS_IDEIAS:ARTICLE_END -->/;
 if (!seoPattern.test(template)) {
   throw new Error('Marcadores de SEO ausentes em SITE/artigos/index.html.');
 }
@@ -659,7 +701,7 @@ for (const entry of fs.readdirSync(path.dirname(ARTICLES_TEMPLATE), { withFileTy
 }
 
 for (const { slug, post, loc } of urls) {
-  const title = post.metaTitle || `${post.title} | Proceder Filosófico`;
+  const title = post.metaTitle || `${post.title} | Mundo das Ideias`;
   const description = post.metaDescription || post.excerpt || '';
   const imagePath = post.cover || post.thumb || 'assets/default-article.jpg';
   const image = /^https?:\/\//i.test(imagePath)
@@ -677,17 +719,17 @@ for (const { slug, post, loc } of urls) {
     articleSection: post.category || post.tag || undefined,
     keywords: Array.isArray(keywords) ? keywords.join(', ') : keywords || undefined,
     mainEntityOfPage: { '@type': 'WebPage', '@id': loc },
-    author: { '@type': 'Organization', name: 'Proceder Filosófico', url: `${SITE_URL}/` },
-    publisher: { '@type': 'Organization', name: 'Proceder Filosófico', url: `${SITE_URL}/` }
+    author: { '@type': 'Organization', name: 'Mundo das Ideias', url: `${SITE_URL}/` },
+    publisher: { '@type': 'Organization', name: 'Mundo das Ideias', url: `${SITE_URL}/` }
   };
   const seo = [
-    '  <!-- PROCEDER:SEO_START -->',
+    '  <!-- MUNDO_DAS_IDEIAS:SEO_START -->',
     `  <title>${escapeHtml(title)}</title>`,
     `  <meta name="description" content="${escapeHtml(description)}">`,
     '  <meta name="robots" content="index,follow,max-image-preview:large">',
     `  <link rel="canonical" href="${escapeHtml(loc)}">`,
     '  <meta property="og:type" content="article">',
-    '  <meta property="og:site_name" content="Proceder Filosófico">',
+    '  <meta property="og:site_name" content="Mundo das Ideias">',
     `  <meta property="og:title" content="${escapeHtml(title)}">`,
     `  <meta property="og:description" content="${escapeHtml(description)}">`,
     `  <meta property="og:url" content="${escapeHtml(loc)}">`,
@@ -696,8 +738,8 @@ for (const { slug, post, loc } of urls) {
     `  <meta name="twitter:title" content="${escapeHtml(title)}">`,
     `  <meta name="twitter:description" content="${escapeHtml(description)}">`,
     `  <meta name="twitter:image" content="${escapeHtml(image)}">`,
-    `  <script id="proceder-article-jsonld" type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
-    '  <!-- PROCEDER:SEO_END -->'
+    `  <script id="mundo-das-ideias-article-jsonld" type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
+    '  <!-- MUNDO_DAS_IDEIAS:SEO_END -->'
   ].join('\n');
   const targetDir = path.join(path.dirname(ARTICLES_TEMPLATE), slug);
   fs.mkdirSync(targetDir, { recursive: true });
@@ -708,7 +750,7 @@ for (const { slug, post, loc } of urls) {
     .map((relatedSlug) => postsBySlug.get(relatedSlug))
     .filter(Boolean);
   const article = [
-    '    <!-- PROCEDER:ARTICLE_START -->',
+    '    <!-- MUNDO_DAS_IDEIAS:ARTICLE_START -->',
     '    <article class="reader open" id="reader">',
     '      <button class="back" id="backButton">Voltar aos artigos</button>',
     `      <div class="reader-tag" id="readerTag">${escapeHtml(post.category || post.tag || '')}</div>`,
@@ -717,7 +759,7 @@ for (const { slug, post, loc } of urls) {
     `      <div class="reader-content" id="readerContent">${content}</div>`,
     renderTaxonomyPanel(post, relatedPosts),
     '    </article>',
-    '    <!-- PROCEDER:ARTICLE_END -->'
+    '    <!-- MUNDO_DAS_IDEIAS:ARTICLE_END -->'
   ].join('\n');
   const page = articlePageTemplate
     .replace(seoPattern, seo)
@@ -729,7 +771,7 @@ for (const { slug, post, loc } of urls) {
 for (const entry of fs.readdirSync(path.dirname(CONTENT_INDEX), { withFileTypes: true })) {
   if (!entry.isDirectory()) continue;
   const generatedPage = path.join(path.dirname(CONTENT_INDEX), entry.name, 'index.html');
-  if (fs.existsSync(generatedPage) && fs.readFileSync(generatedPage, 'utf8').includes('PROCEDER:HUB_GENERATED')) {
+  if (fs.existsSync(generatedPage) && fs.readFileSync(generatedPage, 'utf8').includes('MUNDO_DAS_IDEIAS:HUB_GENERATED')) {
     fs.rmSync(path.dirname(generatedPage), { recursive: true });
   }
 }
@@ -754,7 +796,7 @@ for (const { slug, hub, posts: hubPosts, loc } of hubUrls) {
     url: loc,
     image,
     mainEntity: { '@type': 'ItemList', numberOfItems: articleItems.length, itemListElement: articleItems },
-    isPartOf: { '@type': 'WebSite', name: 'Proceder Filosófico', url: `${SITE_URL}/` }
+    isPartOf: { '@type': 'WebSite', name: 'Mundo das Ideias', url: `${SITE_URL}/` }
   };
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -771,7 +813,7 @@ for (const { slug, hub, posts: hubPosts, loc } of hubUrls) {
     '  <meta name="robots" content="index,follow,max-image-preview:large">',
     `  <link rel="canonical" href="${escapeHtml(loc)}">`,
     '  <meta property="og:type" content="website">',
-    '  <meta property="og:site_name" content="Proceder Filosófico">',
+    '  <meta property="og:site_name" content="Mundo das Ideias">',
     `  <meta property="og:title" content="${escapeHtml(hub.metaTitle)}">`,
     `  <meta property="og:description" content="${escapeHtml(hub.metaDescription)}">`,
     `  <meta property="og:url" content="${escapeHtml(loc)}">`,
@@ -813,8 +855,8 @@ for (const { slug, hub, posts: hubPosts, loc } of hubUrls) {
   const targetDir = path.join(path.dirname(CONTENT_INDEX), slug);
   fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(path.join(targetDir, 'index.html'), renderShellPage(hubTemplate
-    .replace('  <!-- PROCEDER:HUB_SEO -->', seo)
-    .replace('    <!-- PROCEDER:HUB_CONTENT -->', content), '', `conteudo-${slug}`));
+    .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_SEO -->', seo)
+    .replace('    <!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->', content), '', `conteudo-${slug}`));
 }
 
 removeGeneratedChildren(CATEGORY_ROOT);
@@ -844,9 +886,9 @@ for (const { slug, category, posts: categoryPosts, loc } of categoryUrls) {
   const targetDir = path.join(CATEGORY_ROOT, slug);
   fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(path.join(targetDir, 'index.html'), renderShellPage(hubTemplate
-    .replace('  <!-- PROCEDER:HUB_SEO -->', seo)
-    .replace('  <!-- PROCEDER:HUB_GENERATED -->', `  <!-- PROCEDER:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
-    .replace('    <!-- PROCEDER:HUB_CONTENT -->', content), 'categorias', `categoria-${slug}`));
+    .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_SEO -->', seo)
+    .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->', `  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
+    .replace('    <!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->', content), 'categorias', `categoria-${slug}`));
 }
 
 removeGeneratedChildren(DOSSIERS_ROOT);
@@ -857,13 +899,15 @@ for (const { slug, dossier, loc } of dossierUrls) {
     dossier.mainArticle,
     ...(dossier.relatedArticles || []),
     ...(dossier.recommendedArticles || []),
-    ...(dossier.continueStudying || [])
+    ...(dossier.continueStudying || []),
+    ...(dossier.chapters || []).flatMap((chapter) => chapter.relatedArticles || [])
   ].filter(Boolean);
   const collectionItems = Array.from(new Set(collectionSlugs)).map((articleSlug) => postsBySlug.get(articleSlug)).filter(Boolean);
   const seo = renderCollectionSeo({
     title: dossier.title,
-    description: dossier.subtitle || dossier.editorialIntroduction || 'Dossiê editorial do Proceder Filosófico.',
+    description: dossier.subtitle || dossier.editorialIntroduction || 'Dossiê editorial do Mundo das Ideias.',
     loc,
+    image: absoluteImage(dossier.coverImage),
     collectionItems
   });
   const modelLabel = dossier.isCanonicalModel ? 'Modelo canônico' : 'Dossiê editorial';
@@ -879,13 +923,18 @@ for (const { slug, dossier, loc } of dossierUrls) {
     `      <span class="label">${escapeHtml(modelLabel)}</span>`,
     `      <h1>${escapeHtml(dossier.title)}</h1>`,
     `      <p class="description">${escapeHtml(dossier.subtitle)}</p>`,
+    dossier.coverImage ? `      <img class="dossier-cover" src="/${String(dossier.coverImage).replace(/^\/+/, '')}" alt="${escapeHtml(dossier.title)}" loading="eager" decoding="async">` : '',
+    `      <p class="intro"><strong>Questão central:</strong> ${escapeHtml(dossier.keyQuestion)}</p>`,
     `      <p class="intro">${escapeHtml(dossier.editorialIntroduction)}</p>`,
     `      <p class="intro"><strong>Objetivo intelectual:</strong> ${escapeHtml(dossier.intellectualObjective)}</p>`,
     '    </header>',
+    renderDossierChapters(dossier),
     mainArticleBlock,
     renderArticleSection('Artigos relacionados', dossier.relatedArticles),
     renderArticleSection('Artigos recomendados', dossier.recommendedArticles),
     renderArticleSection('Continuar estudando', dossier.continueStudying),
+    renderValueList('Conceitos relacionados', dossier.concepts),
+    renderValueList('Recursos especiais', dossier.specialResources),
     renderValueList('Filósofos relacionados', dossier.relatedPhilosophers),
     renderValueList('Autores relacionados', dossier.relatedAuthors),
     renderValueList('Livros relacionados', dossier.relatedBooks),
@@ -893,30 +942,63 @@ for (const { slug, dossier, loc } of dossierUrls) {
     renderValueList('Períodos históricos', dossier.historicalPeriods),
     renderValueList('Civilizações relacionadas', dossier.civilizations),
     renderTimeline(dossier.timeline),
+    renderGlossary(dossier.glossary),
     renderValueList('Bibliografia', dossier.bibliography),
     renderValueList('Leituras futuras', dossier.futureReadings)
   ].filter(Boolean).join('\n');
   const targetDir = path.join(DOSSIERS_ROOT, slug);
   fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(path.join(targetDir, 'index.html'), renderShellPage(hubTemplate
-    .replace('  <!-- PROCEDER:HUB_SEO -->', seo)
-    .replace('  <!-- PROCEDER:HUB_GENERATED -->', `  <!-- PROCEDER:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
-    .replace('    <!-- PROCEDER:HUB_CONTENT -->', content), 'dossies', `dossies-${slug}`));
+    .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_SEO -->', seo)
+    .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->', `  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
+    .replace('    <!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->', content), 'dossies', `dossies-${slug}`));
+
+  for (const chapter of dossier.chapters || []) {
+    const chapterPosts = (chapter.relatedArticles || []).map((articleSlug) => postsBySlug.get(articleSlug)).filter(Boolean);
+    const chapterSeo = renderCollectionSeo({
+      title: `${chapter.title} | ${dossier.title}`,
+      description: chapter.summary,
+      loc: `${SITE_URL}/dossies/${encodeURIComponent(dossier.slug)}/${encodeURIComponent(chapter.slug)}/`,
+      image: absoluteImage(dossier.coverImage),
+      collectionItems: chapterPosts
+    });
+    const chapterContent = [
+      `    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Início</a><span>›</span><a href="/dossies/">Dossiês</a><span>›</span><a href="/dossies/${encodeURIComponent(dossier.slug)}/">${escapeHtml(dossier.title)}</a><span>›</span><strong>${escapeHtml(chapter.title)}</strong></nav>`,
+      '    <header class="hero">',
+      '      <span class="label">Capítulo de dossiê</span>',
+      `      <h1>${escapeHtml(chapter.title)}</h1>`,
+      `      <p class="description">${escapeHtml(dossier.title)}</p>`,
+      dossier.coverImage ? `      <img class="dossier-cover" src="/${String(dossier.coverImage).replace(/^\/+/, '')}" alt="${escapeHtml(dossier.title)}" loading="eager" decoding="async">` : '',
+      `      <p class="intro">${escapeHtml(chapter.summary)}</p>`,
+      '    </header>',
+      renderArticleSection('Artigos para este capítulo', chapter.relatedArticles),
+      renderValueList('Conceitos do dossiê', dossier.concepts),
+      renderValueList('Bibliografia do percurso', dossier.bibliography),
+      `    <section><p class="intro"><a class="button" href="/dossies/${encodeURIComponent(dossier.slug)}/">Voltar ao dossiê</a></p></section>`
+    ].filter(Boolean).join('\n');
+    const chapterDir = path.join(targetDir, chapter.slug);
+    fs.mkdirSync(chapterDir, { recursive: true });
+    fs.writeFileSync(path.join(chapterDir, 'index.html'), renderShellPage(hubTemplate
+      .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_SEO -->', chapterSeo)
+      .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->', `  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
+      .replace('    <!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->', chapterContent), 'dossies', `dossies-${slug}-${chapter.slug}`));
+  }
 }
 const dossierItems = dossiers.length
   ? dossiers.map((dossier) => [
     `      <a class="card" href="/dossies/${encodeURIComponent(dossier.slug)}/">`,
+    dossier.coverImage ? `        <img src="/${String(dossier.coverImage).replace(/^\/+/, '')}" alt="${escapeHtml(dossier.title)}" loading="lazy" decoding="async">` : '',
     '        <div class="card-body">',
     `          <div class="card-tag">${escapeHtml(dossier.isCanonicalModel ? 'modelo canônico' : dossier.status || 'planejado')}</div>`,
     `          <h3>${escapeHtml(dossier.title)}</h3>`,
     `          <p>${escapeHtml(dossier.subtitle || 'Dossiê editorial em preparação.')}</p>`,
     '        </div>',
     '      </a>'
-  ].join('\n')).join('\n')
+  ].filter(Boolean).join('\n')).join('\n')
   : '      <p class="intro">Os dossiês editoriais ainda estão em preparação.</p>';
 const dossiersSeo = renderCollectionSeo({
   title: 'Dossiês',
-  description: 'Estrutura de dossiês editoriais do Proceder Filosófico.',
+  description: 'Estrutura de dossiês editoriais do Mundo das Ideias.',
   loc: dossierIndexUrl.loc,
   collectionItems: []
 });
@@ -933,11 +1015,11 @@ const dossiersContent = [
   '    </section>'
 ].join('\n');
 fs.writeFileSync(path.join(DOSSIERS_ROOT, 'index.html'), renderShellPage(hubTemplate
-  .replace('  <!-- PROCEDER:HUB_SEO -->', dossiersSeo)
-  .replace('  <!-- PROCEDER:HUB_GENERATED -->', `  <!-- PROCEDER:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
-  .replace('    <!-- PROCEDER:HUB_CONTENT -->', dossiersContent), 'dossies', 'dossies-index'));
+  .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_SEO -->', dossiersSeo)
+  .replace('  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->', `  <!-- MUNDO_DAS_IDEIAS:HUB_GENERATED -->\n  <!-- ${generatedMarker} -->`)
+  .replace('    <!-- MUNDO_DAS_IDEIAS:HUB_CONTENT -->', dossiersContent), 'dossies', 'dossies-index'));
 
-const contentHubPattern = /    <!-- PROCEDER:HUB_LIST_START -->[\s\S]*?    <!-- PROCEDER:HUB_LIST_END -->/;
+const contentHubPattern = /    <!-- MUNDO_DAS_IDEIAS:HUB_LIST_START -->[\s\S]*?    <!-- MUNDO_DAS_IDEIAS:HUB_LIST_END -->/;
 const contentIndex = fs.readFileSync(CONTENT_INDEX, 'utf8');
 if (!contentHubPattern.test(contentIndex)) throw new Error('Marcadores de HUB ausentes em SITE/conteudo/index.html.');
 const contentHubCards = hubUrls.map(({ hub, posts: hubPosts }) => [
@@ -949,22 +1031,22 @@ const contentHubCards = hubUrls.map(({ hub, posts: hubPosts }) => [
   '      </a>'
 ].join('\n')).join('\n');
 fs.writeFileSync(CONTENT_INDEX, contentIndex.replace(contentHubPattern, [
-  '    <!-- PROCEDER:HUB_LIST_START -->',
+  '    <!-- MUNDO_DAS_IDEIAS:HUB_LIST_START -->',
   '    <section class="area" aria-labelledby="hub-list-title">',
   '      <div class="area-head"><h2 id="hub-list-title">Percursos editoriais</h2><span class="count">HUBs</span></div>',
   `      <div class="category-grid">\n${contentHubCards}\n      </div>`,
   '    </section>',
-  '    <!-- PROCEDER:HUB_LIST_END -->'
+  '    <!-- MUNDO_DAS_IDEIAS:HUB_LIST_END -->'
 ].join('\n')));
 
-const homeEditorialPattern = /    <!-- PROCEDER:HOME_(?:HUB|V2)_START -->[\s\S]*?    <!-- PROCEDER:HOME_(?:HUB|V2)_END -->/;
+const homeEditorialPattern = /    <!-- MUNDO_DAS_IDEIAS:HOME_(?:HUB|V2)_START -->[\s\S]*?    <!-- MUNDO_DAS_IDEIAS:HOME_(?:HUB|V2)_END -->/;
 const homeIndex = fs.readFileSync(HOME_INDEX, 'utf8');
 if (!homeEditorialPattern.test(homeIndex)) throw new Error('Marcadores HOME V2 ausentes em SITE/index.html.');
 const homeV2Content = homeRails.map((rail, index) => renderHomeRail(rail, index)).filter(Boolean).join('\n');
 fs.writeFileSync(HOME_INDEX, homeIndex.replace(homeEditorialPattern, [
-  '    <!-- PROCEDER:HOME_HUB_START -->',
+  '    <!-- MUNDO_DAS_IDEIAS:HOME_HUB_START -->',
   homeV2Content,
-  '    <!-- PROCEDER:HOME_HUB_END -->'
+  '    <!-- MUNDO_DAS_IDEIAS:HOME_HUB_END -->'
 ].join('\n')));
 
 fs.writeFileSync(path.join(SITE, 'sitemap.xml'), sitemap);
