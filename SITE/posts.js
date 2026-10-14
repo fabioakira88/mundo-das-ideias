@@ -5775,8 +5775,7 @@ A meta alcançada se torna rotina.</p>
     metaTitle: "Walter Benjamin e a obra de arte na era da reprodutibilidade técnica",
     metaDescription: "Entenda o conceito de aura em Walter Benjamin e como fotografia e cinema mudaram para sempre a relação entre arte, autenticidade e experiência estética.",
     keywords: ["Walter Benjamin","aura na arte","reprodutibilidade técnica","estética da fotografia","cinema e filosofia"],
-    content: `
-<p><strong>Uma pintura original e sua reprodução perfeita em um cartão-postal contêm, pixel a pixel, a mesma imagem. E ainda assim, algo entre elas é irredutivelmente diferente.</strong> Walter Benjamin chamou essa diferença de "aura" — e argumentou que a técnica moderna de reprodução estava fazendo essa aura desaparecer para sempre.</p>
+    content: `<p>Uma pintura original e sua reprodução fotográfica podem compartilhar uma composição, mas chegam ao observador em condições diferentes. Walter Benjamin investiga como a reprodução técnica transforma a presença da obra, sua autenticidade e sua circulação. A discussão sobre aura pertence a essa mudança histórica na experiência da arte.</p>
 
 <h2>O que é a aura de uma obra</h2>
 <p>Para Benjamin, a aura de uma obra de arte é sua presença única num tempo e num lugar específicos: sua história material, sua autenticidade como objeto singular que existiu num contexto irrepetível, sua distância — mesmo quando fisicamente próxima — que impõe um tipo particular de reverência e contemplação. Estar diante do original de uma pintura numa galeria não é logicamente diferente de ver uma reprodução perfeita dela num livro, mas é experiencialmente diferente: há uma presença que a cópia, por mais fiel que seja tecnicamente, não consegue replicar.</p>
