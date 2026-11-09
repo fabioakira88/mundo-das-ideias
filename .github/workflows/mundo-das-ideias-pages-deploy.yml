@@ -10,6 +10,8 @@ on:
     branches:
       - main
       - production
+  pull_request:
+    branches: [main, production]
   workflow_dispatch:
 
 concurrency:
@@ -58,6 +60,7 @@ jobs:
           node VALIDATION/validate_deploy_manifest.mjs
           node VALIDATION/validate_assets.mjs
           node VALIDATION/validate_sitemap_robots.mjs
+          node VALIDATION/validate_runtime_contracts.mjs
 
       - name: Block unexpected generated drift
         run: |
@@ -74,17 +77,20 @@ jobs:
         # passar a ser publicados agora so porque o Pages publica a pasta inteira.
         run: |
           mkdir -p PAGES_BUILD
-          rsync -a --exclude='docs' --exclude='wp-content' --exclude='wp-includes' SITE/ PAGES_BUILD/
+          rsync -a --exclude='docs' --exclude='wp-content' --exclude='wp-includes' --exclude='assets/social' SITE/ PAGES_BUILD/
 
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: PAGES_BUILD
 
   deploy:
+    if: github.event_name != 'pull_request'
     name: Publish to GitHub Pages
     needs: build
     runs-on: ubuntu-latest

@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="/assets/css-shared/brand-current.css">
 </head>
 <body>
+  <a class="mi-skip" href="#conteudo-principal">Pular para o conteúdo</a>
   <header class="mi-header" role="banner">
     <div class="mi-header__top">
       <a class="mi-brand" href="/" aria-label="Mundo das Ideias - Início">
@@ -67,18 +68,19 @@
       <a class="mi-nav__link" href="/#newsletter">Newsletter</a>
     </nav>
   </header>
-  <header class="hero" id="inicio">
+  <h1 class="mi-visually-hidden">Mundo das Ideias — filosofia, cultura e pensamento</h1>
+  <header class="hero" id="inicio" aria-label="Pensadores em destaque" aria-roledescription="carrossel">
       <div class="hero-slide active">
         <div class="hero-bg" role="img" aria-label="Busto de Sócrates preservado no Museu do Louvre" style="background-image:url('assets/hero/socrates-louvre-bust.webp')"></div>
         <div class="hero-content">
           <div class="hero-label">Mundo das Ideias</div>
-          <h1>Sócrates</h1>
+          <h2>Sócrates</h2>
           <div class="hero-dates">469 - 399 a.C.</div>
           <p class="hero-quote">&quot;Uma vida sem reflexão não vale a pena ser vivida.&quot;</p>
           <a class="button" href="/artigos/socrates-metodo-maieutico/" aria-label="Ler artigo sobre Sócrates e o método maiêutico">Ler artigos</a>
         </div>
       </div>
-      <div class="hero-slide">
+      <div class="hero-slide" inert aria-hidden="true">
         <div class="hero-bg" role="img" aria-label="Busto romano de Platão preservado na Glyptothek de Munique" style="background-image:url('assets/hero/plato-glyptothek-bust.webp')"></div>
         <div class="hero-content">
           <div class="hero-label">Mundo das Ideias</div>
@@ -88,7 +90,7 @@
           <a class="button" href="/artigos/platao-mundo-das-ideias/" aria-label="Ler artigo sobre Platão e o mundo das ideias">Ler artigos</a>
         </div>
       </div>
-      <div class="hero-slide">
+      <div class="hero-slide" inert aria-hidden="true">
         <div class="hero-bg" role="img" aria-label="Busto de Aristóteles preservado no Palazzo Altemps" style="background-image:url('assets/hero/aristotle-altemps-bust.webp')"></div>
         <div class="hero-content">
           <div class="hero-label">Mundo das Ideias</div>
@@ -98,7 +100,7 @@
           <a class="button" href="/artigos/aristoteles-eudaimonia-vida-boa/" aria-label="Ler artigo sobre Aristóteles e a eudaimonia">Ler artigos</a>
         </div>
       </div>
-      <div class="hero-slide">
+      <div class="hero-slide" inert aria-hidden="true">
         <div class="hero-bg" role="img" aria-label="São Tomás de Aquino em pintura de Carlo Crivelli" style="background-image:url('assets/hero/thomas-aquinas-crivelli.webp')"></div>
         <div class="hero-content">
           <div class="hero-label">Mundo das Ideias</div>
@@ -108,7 +110,7 @@
           <a class="button" href="/artigos/sao-tomas-fe-razao-explicacao/" aria-label="Ler artigo sobre São Tomás de Aquino, fé e razão">Ler artigos</a>
         </div>
       </div>
-      <div class="hero-slide">
+      <div class="hero-slide" inert aria-hidden="true">
         <div class="hero-bg" role="img" aria-label="Fotografia de Friedrich Nietzsche realizada em 1882" style="background-image:url('assets/hero/nietzsche-1882-photograph.webp')"></div>
         <div class="hero-content">
           <div class="hero-label">Mundo das Ideias</div>
@@ -120,6 +122,7 @@
       </div>
     <div class="hero-controls" aria-label="Controle do destaque">
       <button type="button" id="prevHero" aria-label="Destaque anterior">‹</button>
+      <button id="pauseHero" type="button">Pausar destaques</button>
       <button type="button" id="nextHero" aria-label="Próximo destaque">›</button>
     </div>
     <div class="hero-editoriais" aria-label="Manchetes editoriais">
@@ -140,7 +143,7 @@
       </a>
     </div>
   </header>
-  <main class="mi-main">
+  <main id="conteudo-principal" tabindex="-1" class="mi-main">
     <!-- MUNDO_DAS_IDEIAS:HOME_HUB_START -->
     <section class="section" id="destaques">
       <div class="container">
@@ -417,35 +420,7 @@
       </nav>
     </div>
   </footer>
-  <script>
-    (function(){
-      var slides = Array.prototype.slice.call(document.querySelectorAll('.hero-slide'));
-      var index = 0;
-      function show(next){ slides[index].classList.remove('active'); index = (next + slides.length) % slides.length; slides[index].classList.add('active'); }
-      document.getElementById('prevHero').addEventListener('click', function(){ show(index - 1); });
-      document.getElementById('nextHero').addEventListener('click', function(){ show(index + 1); });
-      window.setInterval(function(){ show(index + 1); }, 7000);
-
-      var form = document.getElementById('newsletterForm');
-      if (form) {
-        form.addEventListener('submit', function(e){
-          e.preventDefault();
-          var email = document.getElementById('newsletterEmail').value.trim();
-
-          var link = document.createElement('a');
-          link.href = '/Relacoes-Leves-Mundo-das-Ideias.pdf';
-          link.download = 'Relacoes-Leves-Mundo-das-Ideias.pdf';
-          link.style.display = 'none';
-          document.body.appendChild(link);
-          link.click();
-          setTimeout(function(){ document.body.removeChild(link); }, 100);
-
-          var subject = encodeURIComponent('Newsletter Mundo das Ideias');
-          var body = encodeURIComponent('Quero receber a newsletter no e-mail: ' + email);
-          window.location.href = 'mailto:procederfilosofico@gmail.com?subject=' + subject + '&body=' + body;
-        });
-      }
-    })();
-  </script>
+  <script src="/assets/js/home.js" defer></script>
+  <script src="/assets/js/hero-carousel.js" defer></script>
 </body>
 </html>

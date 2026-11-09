@@ -17,6 +17,7 @@ Regra de deploy:
 
 import ftplib
 import os
+import ssl
 import subprocess
 import sys
 from pathlib import Path
@@ -81,8 +82,13 @@ def ftp_mkdirs(ftp, remote_path):
 
 def collect_files():
     files = []
+    tracked = None
+    if os.getenv("DEPLOY_TRACKED_ONLY", "1") == "1":
+        tracked = set(subprocess.check_output(["git", "-C", str(ROOT), "ls-files", "-z", "SITE"], text=True).split("\0"))
     for path in SITE.rglob("*"):
         relative = path.relative_to(SITE)
+        if tracked is not None and path.relative_to(ROOT).as_posix() not in tracked:
+            continue
         if any(part in EXCLUDE_DIRS or part.startswith(".") for part in relative.parts[:-1]):
             continue
         if not path.is_file():
@@ -102,14 +108,18 @@ def upload(ftp, local_path, remote_path):
         ftp.storbinary(f"STOR {remote_path}", f)
 
 def connect():
-    ftp = ftplib.FTP(HOST, timeout=FTP_TIMEOUT)
+    # Fail closed: certificate and hostname verification are mandatory.
+    ftp = ftplib.FTP_TLS(context=ssl.create_default_context(), timeout=FTP_TIMEOUT)
+    ftp.connect(HOST)
     ftp.login(USER, PASS)
+    ftp.prot_p()
     ftp.set_pasv(True)
     return ftp
 
 def main():
-    print("Gerando sitemap.xml e robots.txt a partir de SITE/posts.js …", flush=True)
-    subprocess.run(["node", str(ROOT / "AUTOMATION" / "generate_seo.mjs")], check=True)
+    if os.getenv("DEPLOY_GENERATE_SEO", "1") != "0":
+        print("Gerando sitemap.xml e robots.txt a partir de SITE/posts.js …", flush=True)
+        subprocess.run(["node", str(ROOT / "AUTOMATION" / "generate_seo.mjs")], check=True)
 
     check_env()
 
