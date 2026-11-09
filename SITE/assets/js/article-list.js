@@ -5,7 +5,7 @@
 
   function image(post) {
     var value = String(post.thumb || 'assets/default-article.jpg');
-    return /^https?:\/\//.test(value) ? value : '/' + value.replace(/^\/+/, '');
+    return /^https?:\/\//.test(value) ? value : '/' + value.replace(/^\/+/, '').replace(/^(\.\.\/)+/, '');
   }
 
   function tagAnchor(tag) {

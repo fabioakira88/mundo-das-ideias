@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- MUNDO_DAS_IDEIAS:GENERATED_ARTICLE -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -445,6 +446,7 @@
   <link rel="stylesheet" href="/assets/css-shared/brand-current.css">
 </head>
 <body class="reading">
+  <a class="mi-skip" href="#conteudo-principal">Pular para o conteúdo</a>
   <header class="mi-header" role="banner">
     <div class="mi-header__top">
       <a class="mi-brand" href="/" aria-label="Mundo das Ideias - Início">
@@ -477,12 +479,12 @@
       <a class="mi-nav__link" href="/#newsletter">Newsletter</a>
     </nav>
   </header>
-  <main class="mi-main">
+  <main id="conteudo-principal" tabindex="-1" class="mi-main">
     <div class="search-wrap"><input class="search" id="articleSearch" type="search" placeholder="Buscar por título, tema ou tag..." aria-label="Buscar artigos"></div>
     <section class="articles-grid" id="articlesGrid"></section>
     <!-- MUNDO_DAS_IDEIAS:ARTICLE_START -->
     <article class="reader open" id="reader">
-      <button class="back" id="backButton">Voltar aos artigos</button>
+      <a class="back" id="backButton" href="/artigos/">Voltar aos artigos</a>
       <div class="reader-tag" id="readerTag">Ciência</div>
       <h1 id="readerTitle">E se fôssemos apenas formigas diante do universo?</h1>
       <div class="reader-date" id="readerDate">30 de Maio de 2026</div>
@@ -614,157 +616,6 @@
   <script src="/posts.js?v=20260611-architecture-seo"></script>
   <script src="/assets/site-seo.js?v=20260611-architecture-seo"></script>
   <script src="/assets/js/reader.js"></script>
-  <script>
-    var ASSET_VERSION = '20260610-single-source';
-    var DEFAULT_THUMB = '/assets/default-article.jpg';
-    var MONTHS_PT = {
-      janeiro: 0, fevereiro: 1, marco: 2, 'março': 2, abril: 3,
-      maio: 4, junho: 5, julho: 6, agosto: 7, setembro: 8,
-      outubro: 9, novembro: 10, dezembro: 11
-    };
-
-    function text(value) {
-      return String(value || '').replace(/[&<>"']/g, function(ch) {
-        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];
-      });
-    }
-
-    function assetUrl(value, index) {
-      var raw = value || DEFAULT_THUMB;
-      if (/^https?:\/\//.test(raw)) return raw;
-      return '/' + raw.replace(/^\/+/, '').replace(/^(\.\.\/)+/, '');
-    }
-
-    function versionedAsset(value) {
-      var url = assetUrl(value);
-      if (/^https?:\/\//.test(url)) return url;
-      return url + '?v=' + ASSET_VERSION;
-    }
-
-    function postTimestamp(post) {
-      if (post.dateISO) {
-        var iso = Date.parse(post.dateISO);
-        if (!Number.isNaN(iso)) return iso;
-      }
-      var match = String(post.date || '').toLowerCase().match(/(\d{1,2})\s+de\s+([a-zç]+)\s+de\s+(\d{4})/);
-      if (!match || MONTHS_PT[match[2]] === undefined) return 0;
-      return new Date(Number(match[3]), MONTHS_PT[match[2]], Number(match[1])).getTime();
-    }
-
-    function sortedPosts() {
-      return (Array.isArray(POSTS) ? POSTS : []).slice().sort(function(a, b) {
-        var diff = postTimestamp(b) - postTimestamp(a);
-        if (diff !== 0) return diff;
-        return String(a.title || '').localeCompare(String(b.title || ''), 'pt-BR');
-      });
-    }
-
-    function normalizeSearch(value) {
-      return String(value || '')
-        .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
-        .toLowerCase();
-    }
-
-    function matchesSearch(post, term) {
-      if (!term) return true;
-      var haystack = normalizeSearch(post.title) + ' ' + normalizeSearch(post.excerpt) + ' ' + normalizeSearch(post.tag);
-      return haystack.indexOf(term) !== -1;
-    }
-
-    function rewriteContent(content) {
-      return window.MundoDasIdeiasReader.rewriteArticleContent(content);
-    }
-
-    function renderGrid() {
-      var grid = document.getElementById('articlesGrid');
-      var searchInput = document.getElementById('articleSearch');
-      var term = normalizeSearch(searchInput ? searchInput.value.trim() : '');
-      grid.innerHTML = '';
-      sortedPosts().filter(function(post){ return matchesSearch(post, term); }).forEach(function(post, index) {
-        var slug = post.slug || post.id;
-        var thumb = versionedAsset(post.thumb);
-        var fallback = DEFAULT_THUMB + '?v=' + ASSET_VERSION;
-        var card = document.createElement('article');
-        card.className = 'article-card';
-        card.setAttribute('tabindex', '0');
-        card.setAttribute('role', 'button');
-        card.setAttribute('aria-label', 'Ler matéria: ' + post.title);
-        card.innerHTML =
-          '<div class="article-image"><img src="' + text(thumb) + '" alt="' + text(post.title) + '" loading="' + (index < 6 ? 'eager' : 'lazy') + '" decoding="async" onerror="this.onerror=null;this.src=&quot;' + text(fallback) + '&quot;;"></div>' +
-          '<div class="article-body">' +
-            '<div class="article-tag">' + text(post.tag) + '</div>' +
-            '<h2 class="article-title">' + text(post.title) + '</h2>' +
-            '<p class="article-excerpt">' + text(post.excerpt) + '</p>' +
-            '<div class="article-meta">' +
-              '<span class="article-date">' + text(post.date) + '</span>' +
-              '<span class="article-read">Ler matéria</span>' +
-            '</div>' +
-          '</div>';
-        card.addEventListener('click', function(){ openPost(slug); });
-        card.addEventListener('keydown', function(event){
-          if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openPost(slug); }
-        });
-        grid.appendChild(card);
-      });
-    }
-
-    function findPost(slug) {
-      for (var i = 0; i < POSTS.length; i++) {
-        if ((POSTS[i].slug || POSTS[i].id) === slug) return POSTS[i];
-      }
-      return null;
-    }
-
-    function openPost(slug, updateUrl) {
-      var post = findPost(slug);
-      if (!post) return;
-      if (window.MundoDasIdeiasSEO) window.MundoDasIdeiasSEO.update(slug);
-      document.body.classList.add('reading');
-      document.getElementById('reader').classList.add('open');
-      document.getElementById('readerTag').textContent = post.tag;
-      document.getElementById('readerTitle').textContent = post.title;
-      document.getElementById('readerDate').textContent = post.date;
-      document.getElementById('readerContent').innerHTML = rewriteContent(post.content);
-      if (updateUrl !== false) {
-        history.pushState({ post: slug }, post.title, '/artigos/' + encodeURIComponent(slug) + '/');
-      }
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function closePost() {
-      document.body.classList.remove('reading');
-      document.getElementById('reader').classList.remove('open');
-      history.pushState({}, 'Artigos | Mundo das Ideias', '/artigos/');
-      if (window.MundoDasIdeiasSEO) window.MundoDasIdeiasSEO.reset();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    document.getElementById('backButton').addEventListener('click', closePost);
-    function routeSlug() {
-      var querySlug = new URLSearchParams(location.search).get('post');
-      if (querySlug) return querySlug;
-      var match = location.pathname.match(/^\/artigos\/([^/]+)\/?$/);
-      return match ? decodeURIComponent(match[1]) : null;
-    }
-
-    window.addEventListener('popstate', function(){
-      var slug = routeSlug();
-      if (slug) openPost(slug, false);
-      else {
-        document.body.classList.remove('reading');
-        document.getElementById('reader').classList.remove('open');
-        if (window.MundoDasIdeiasSEO) window.MundoDasIdeiasSEO.reset();
-      }
-    });
-
-    renderGrid();
-    var articleSearchInput = document.getElementById('articleSearch');
-    if (articleSearchInput) {
-      articleSearchInput.addEventListener('input', function(){ renderGrid(); });
-    }
-    var initialSlug = routeSlug();
-    if (initialSlug) openPost(initialSlug, false);
-  </script>
+  <script src="/assets/js/article-index.js" defer></script>
 </body>
 </html>

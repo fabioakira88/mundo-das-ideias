@@ -695,7 +695,9 @@ fs.writeFileSync(ARTICLES_TEMPLATE, template);
 const articlePageTemplate = removeArticleIndexHeadStyles(template).replace(articlesListPattern, renderArticlePageListShell());
 
 for (const entry of fs.readdirSync(path.dirname(ARTICLES_TEMPLATE), { withFileTypes: true })) {
-  if (entry.isDirectory()) fs.rmSync(path.join(path.dirname(ARTICLES_TEMPLATE), entry.name), { recursive: true });
+  if (!entry.isDirectory()) continue;
+  const generated = path.join(path.dirname(ARTICLES_TEMPLATE), entry.name, 'index.html');
+  if (fs.existsSync(generated) && fs.readFileSync(generated, 'utf8').includes('MUNDO_DAS_IDEIAS:GENERATED_ARTICLE')) fs.rmSync(path.dirname(generated), { recursive: true });
 }
 
 for (const { slug, post, loc } of urls) {
@@ -750,7 +752,7 @@ for (const { slug, post, loc } of urls) {
   const article = [
     '    <!-- MUNDO_DAS_IDEIAS:ARTICLE_START -->',
     '    <article class="reader open" id="reader">',
-    '      <button class="back" id="backButton">Voltar aos artigos</button>',
+    '      <a class="back" id="backButton" href="/artigos/">Voltar aos artigos</a>',
     `      <div class="reader-tag" id="readerTag">${escapeHtml(post.category || post.tag || '')}</div>`,
     `      <h1 id="readerTitle">${escapeHtml(post.title || '')}</h1>`,
     `      <div class="reader-date" id="readerDate">${escapeHtml(post.date || '')}</div>`,
@@ -762,6 +764,7 @@ for (const { slug, post, loc } of urls) {
   const page = articlePageTemplate
     .replace(seoPattern, seo)
     .replace(articlePattern, article)
+    .replace('<!DOCTYPE html>', '<!DOCTYPE html>\n<!-- MUNDO_DAS_IDEIAS:GENERATED_ARTICLE -->')
     .replace('<body>', '<body class="reading">');
   fs.writeFileSync(path.join(targetDir, 'index.html'), page);
 }
